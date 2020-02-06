@@ -1,0 +1,26 @@
+{
+    "Weapons":
+    [
+        "Back",
+        "Blades",
+        "Clubs",
+        "Exotic Melee",
+        "Bows",
+        "Crossbows",
+        "Thworing Weapons",
+        "Tasers",
+        "Hold-Outs",
+        "Light Pistols",
+        "Heavy Pistols",
+        "Machine Pistols",
+        "Submachine Guns",
+        "Assault Rifles",
+        "Sniper Rifles",
+        "Shotguns",
+        "Special Weapons",
+        "Machine Guns",
+        "Cannons",
+        "Firearm Accessories",
+        "Ammunition"
+    ]
+}

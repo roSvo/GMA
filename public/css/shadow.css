@@ -2,5 +2,36 @@
 
 body
 {
-    background-color: darkblue;
+    background-image: url(ShadowBackground.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+li
+{
+    list-style-type: none;
+}
+
+
+button
+{
+    color: black;
+    background-color :whitesmoke;
+    
+    padding: 1%;
+    width: 12%;
+
+    margin-left: 0.25%;
+    margin-bottom: 0.5%;
+
+    border: none;
+    border-radius: 12px;
+}
+
+button:hover
+{
+    background-color: #37d2e4;
+    transition-duration: 0.6s;
 }

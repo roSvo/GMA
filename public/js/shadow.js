@@ -9,10 +9,8 @@ function ShowList(tag, prevTag)
 
     if(prevTag == null && HistoryArray.length > 0)
     {
-        HistoryArray.pop();
+        HistoryArray.splice(HistoryArray.length - 1, 1);
     }
-
-    console.log("Tag :", tag, " Prev Tag : ", prevTag);
 
     fetch("Shadow" + tag + ".json").then(response => {
         return response.json();
@@ -29,9 +27,12 @@ function ShowList(tag, prevTag)
 
             if(id == "Back")
             {
-                console.log("Previous was set", prevTag);
-                HistoryArray.push(prevTag);
-                btn.addEventListener("click", function() { ShowList(prevTag, null)});
+                if(prevTag != null)
+                {
+                    HistoryArray.push(prevTag);
+                }
+
+                btn.addEventListener("click", function() { ShowList(HistoryArray[(HistoryArray.length - 1)], null)});
             }
             else
             {

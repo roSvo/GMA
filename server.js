@@ -53,11 +53,6 @@ function requestResponseHandler(request, response)
       sendResponse('public/js/shadow.js', 'text/javascript', response);
       break;
     }
-    case '/Armory.json':
-    {
-      sendResponse('public/data/shadow/Armory.json', 'application/json', response);
-      break;
-    }
     case '/ShadowMain.json':
     {
       sendResponse('public/data/shadow/Main.json', 'application/json', response);
@@ -78,9 +73,9 @@ function requestResponseHandler(request, response)
       sendResponse('public/data/shadow/Stats.json', 'application/json', response);
       break;
     }
-    case '/ShadowArmory.json':
+    case '/ShadowEquipment.json':
     {
-      sendResponse('public/data/shadow/Armory.json', 'application/json', response);
+      sendResponse('public/data/shadow/Equipment.json', 'application/json', response);
       break;
     } 
     case '/ShadowWeapons.json':

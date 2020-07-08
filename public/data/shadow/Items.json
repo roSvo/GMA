@@ -1,0 +1,25 @@
+{
+    "Armory" : 
+    [ 
+        {"Weapons" : [ 
+            {"Pistols" : 
+                [{ "Ares Predator" : 
+                    {
+                        "Damage" : 12,
+                        "Price" : 500
+                    }
+                }, 
+                {"Another Pistol" :
+                    {
+                        "Damage" : 11,
+                        "Price" : 450
+                    }
+                }]
+            }]
+        },
+        {"Cyberware" : [] }, 
+        {"Magic Wares" : []}
+    ],
+    "Guide" : [1, 2, 3],
+    "About" : [1, 2, 3]
+}

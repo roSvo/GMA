@@ -1,0 +1,15 @@
+{   
+    "Equipment": 
+    [{
+        "Back"              : [],
+        "Armor"             : [],
+        "Weapons"           : [],  
+        "Electronics"       : [],
+        "B&E Gear"          : [],
+        "Biotech"           : [],
+        "Bioware"           : [],
+        "Magical Equipment" : [],
+        "Vehicles"          : [],
+        "Dones"             : []
+    }]
+}

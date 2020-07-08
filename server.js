@@ -3,28 +3,24 @@ const fs = require('fs');
 const path = require('path');
 
 
-const httpServer = http.createServer(requestResponseHandler);
-console.log("Server running on port 3000");
-httpServer.listen(3000);
 
-
-function requestResponseHandler(request, response)
+const requestResponseHandler = (IncomingMessage, ServerResponse) =>
 {
-  console.log(`Request came: ${request.url}`);
-  
-  switch(request.url)
+  console.dir(IncomingMessage.url);
+
+  switch(IncomingMessage.url)
   {
     //Home page:
     case '/':
     {
       //Send html
-      sendResponse('public/html/home.html', 'text/html', response);
+      sendResponse('public/html/home.html', 'text/html', ServerResponse);
       break;
     }
     case '/home.css':
     {
       //Send css
-      sendResponse('public/css/home.css', 'text/css', response);
+      sendResponse('public/css/home.css', 'text/css', ServerResponse);
       break;
     }
 
@@ -32,81 +28,47 @@ function requestResponseHandler(request, response)
     case '/shadowrun':
     {
       //Send html
-      sendResponse('public/html/shadow.html', 'text/html', response);
+      sendResponse('public/html/shadow.html', 'text/html', ServerResponse);
       break;
     }
     case '/shadowrun.css':
     {
       //Send css
-      sendResponse('public/css/shadow.css', 'text/css', response);
+      sendResponse('public/css/shadow.css', 'text/css', ServerResponse);
       break;
     }
     case '/ShadowBackground.jpg':
     {
       //Send background image
-      sendResponse('public/images/ShadowBackground.jpg', 'text/jpg', response);
+      sendResponse('public/images/ShadowBackground3.jpg', 'text/jpg', ServerResponse);
       break;
     }
     case '/shadow.js':
     {
       //Send public javaScript file
-      sendResponse('public/js/shadow.js', 'text/javascript', response);
-      break;
-    }
-    case '/Armory.json':
-    {
-      sendResponse('public/data/shadow/Armory.json', 'application/json', response);
-      break;
-    }
-    case '/ShadowMain.json':
-    {
-      sendResponse('public/data/shadow/Main.json', 'application/json', response);
-      break;
-    }
-    case '/ShadowGuide.json':
-    {
-      sendResponse('public/data/shadow/Guide.json', 'application/json', response);
-      break;
-    }
-    case '/ShadowSkills.json':
-    {
-      sendResponse('public/data/shadow/Skills.json', 'application/json', response);
-      break;
-    } 
-    case '/ShadowStats.json':
-    {
-      sendResponse('public/data/shadow/Stats.json', 'application/json', response);
-      break;
-    }
-    case '/ShadowArmory.json':
-    {
-      sendResponse('public/data/shadow/Armory.json', 'application/json', response);
-      break;
-    } 
-    case '/ShadowWeapons.json':
-    {
-      sendResponse('public/data/shadow/Weapons.json', 'application/json', response); 
+      sendResponse('public/js/shadow.js', 'text/javascript', ServerResponse);
       break;
     }
 
+    
     //Dungeons and dragon page
     case '/dungeon':
     {
       //Send html
-      sendResponse('public/html/dungeon.html', 'text/html', response);
+      sendResponse('public/html/dungeon.html', 'text/html', ServerResponse);
       break;
     }
     case '/dungeon.css':
     {
       //Send css
-      sendResponse('public/css/dungeon.css', 'text/css', response);
+      sendResponse('public/css/dungeon.css', 'text/css', ServerResponse);
       break;
     }
 
     default:
     {
       console.log("default was called..")
-      sendResponse(request.url, getContentType(request.url), response);
+      sendResponse(IncomingMessage.url, getContentType(IncomingMessage.url), ServerResponse);
       break;
     }
     
@@ -150,3 +112,10 @@ function getContentType(url)
       return 'application/octate-stream';
   }
 }
+
+const httpServer = http.createServer();
+
+console.log("Server running on port 3000");
+httpServer.listen(3000);
+
+httpServer.on('request', requestResponseHandler);

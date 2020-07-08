@@ -1,9 +1,27 @@
+const { ftruncateSync } = require("fs");
+const { errorMonitor } = require("stream");
 
 var HistoryArray = [];
 
+
+
 function ShowList(tag, prevTag)
-{
-   
+{    
+    console.log("Tag: ", tag);
+
+    let xhr = new XMLHttpRequest();
+    
+    var UnorderedList = document.getElementById(ItemList);
+    
+    if(prevTag == null && HistoryArray.length > 0)
+    {
+        HistoryArray.splice(HistoryArray.length - 1, 1);
+    }
+    
+    xhr.open('GET', 'ShadowMain.json');
+
+    /*
+
     var UnorderedList = document.getElementById("ItemList");
     UnorderedList.innerHTML = "";
 
@@ -16,8 +34,11 @@ function ShowList(tag, prevTag)
         return response.json();
     }).then(data => {
         
+        console.log("Is this still possible? ", data[tag.toString()]);
+
         for (var i = 0; i < data[tag.toString()].length; i++)
         {
+            console.log("Test element ", data[tag.toString()][i]);
             var item = document.createElement('li');
             var btn = document.createElement('button');
 
@@ -46,7 +67,7 @@ function ShowList(tag, prevTag)
     }).catch(err => {
         alert("Error has occured");
     }) 
-
+    */
     
  
 }

@@ -1,12 +1,66 @@
-const { ftruncateSync } = require("fs");
-const { errorMonitor } = require("stream");
 
-var HistoryArray = [];
+//const { ftruncateSync } = require("fs");
+//const { errorMonitor } = require("stream");
+
+var JSONObject = null;
+
+const EQUIPMENT     = 0;
+const STATS         = 1;
+const GUIDE         = 2;
+const SKILLS        = 3;
 
 
+function LoadJSON()
+{
+    console.log("I'm about to fetch json file");
+    
+    fetch("Items.json").then(data => 
+    {
+        return data.json();
+    }).then(JSONdata => {
+        JSONObject = JSONdata;
+        //console.log("This is my json data : ", JSONObject.Equipment[0]);
+    });    
+}
+
+function ShowElements()
+{
+
+    if (Array.isArray(JSONObject.Equipment))
+    {
+        console.log("This was an array!");
+    }
+    
+
+
+    keys = Object.keys(JSONObject);
+    keys.forEach(element => 
+    {
+        console.log("About to check if this element is an array", element);
+        if(Array.isArray(JSONObject[element.toString()]))
+        {
+            JSONObject[element.toString()].forEach(SubElement =>
+            {
+                console.log(element, " in ", SubElement);
+            })
+
+            console.log("Found out that : ", element, " was an array");
+        }
+        else
+        {
+            console.log("This one tried to trick me : ", element, " was not an array!");
+        }
+
+            
+    });
+
+
+}
+
+/*
 
 function ShowList(tag, prevTag)
-<<<<<<< HEAD
+
 {    
     console.log("Tag: ", tag);
 
@@ -21,14 +75,10 @@ function ShowList(tag, prevTag)
     
     xhr.open('GET', 'ShadowMain.json');
 
-    /*
-
     var UnorderedList = document.getElementById("ItemList");
     UnorderedList.innerHTML = "";
-=======
 {
     console.log("Tag : ", tag);
->>>>>>> 6299fb1a4e2a231c11d60bcc118e9906359ba457
 
     if(prevTag == null && HistoryArray.length > 0)
     {
@@ -39,7 +89,7 @@ function ShowList(tag, prevTag)
         return response.json();
     }).then(data => {
         
-<<<<<<< HEAD
+
         console.log("Is this still possible? ", data[tag.toString()]);
 
         for (var i = 0; i < data[tag.toString()].length; i++)
@@ -49,10 +99,8 @@ function ShowList(tag, prevTag)
             var btn = document.createElement('button');
 
             btn.appendChild(document.createTextNode(data[tag.toString()][i]));
-=======
         var UnorderedList = document.getElementById("ItemList");
         UnorderedList.innerHTML = "";
->>>>>>> 6299fb1a4e2a231c11d60bcc118e9906359ba457
 
         for (var i = 0; i < data[tag.toString()].length; i++)
         {  
@@ -90,13 +138,7 @@ function ShowList(tag, prevTag)
         }
     }).catch(err => {
         alert("Error has occured");
-    }) 
-    */
+    })
     
- 
 }
-
-function ShowElements(tag)
-{
-    console.log("Now we are suposed to show you : ", tag);
-}
+    */

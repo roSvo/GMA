@@ -1,12 +1,16 @@
 {
-    "Armory" : 
+    "Equipment" : 
     [ 
-        {"Weapons" : [ 
+        {"Weapons" : 
+        [ 
             {"Pistols" : 
-                [{ "Ares Predator" : 
+            [
+                    {"Ares Predator" : 
                     {
                         "Damage" : 12,
-                        "Price" : 500
+                        "Price" : 500,
+                        "Armor piercing" : 5,
+                        "info" : "This weapon is designed to kill."
                     }
                 }, 
                 {"Another Pistol" :
@@ -14,12 +18,35 @@
                         "Damage" : 11,
                         "Price" : 450
                     }
-                }]
-            }]
+                }
+            ]
+            }
+        ]
         },
         {"Cyberware" : [] }, 
         {"Magic Wares" : []}
     ],
-    "Guide" : [1, 2, 3],
-    "About" : [1, 2, 3]
+    "Guide" : 
+    [
+        1, 
+        2, 
+        3
+    ],
+    "Skills" : 
+    [
+        1, 
+        2, 
+        3
+    ],
+    "Stats" : 
+    [
+        1, 
+        2, 
+        3
+    ],
+    "JustAPlainObject":
+    {
+
+    }
+
 }

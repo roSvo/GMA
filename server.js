@@ -24,7 +24,8 @@ const requestResponseHandler = (IncomingMessage, ServerResponse) =>
       break;
     }
 
-    //Shadowrun page:
+    //SHADOWRUN PAGE:
+    //------------------------------------------------------------------------------------
     case '/shadowrun':
     {
       //Send html
@@ -40,52 +41,25 @@ const requestResponseHandler = (IncomingMessage, ServerResponse) =>
     case '/ShadowBackground.jpg':
     {
       //Send background image
-      sendResponse('public/images/ShadowBackground3.jpg', 'text/jpg', ServerResponse);
+      sendResponse('public/images/ShadowsBackground.jpg', 'text/jpg', ServerResponse);
       break;
     }
     case '/shadow.js':
     {
       //Send public javaScript file
-<<<<<<< HEAD
       sendResponse('public/js/shadow.js', 'text/javascript', ServerResponse);
-=======
-      sendResponse('public/js/shadow.js', 'text/javascript', response);
       break;
     }
-    case '/ShadowMain.json':
+    case '/Items.json':
     {
-      sendResponse('public/data/shadow/Main.json', 'application/json', response);
+      sendResponse('public/data/Shadow/Items.json', 'application/json', ServerResponse);
       break;
     }
-    case '/ShadowGuide.json':
-    {
-      sendResponse('public/data/shadow/Guide.json', 'application/json', response);
-      break;
-    }
-    case '/ShadowSkills.json':
-    {
-      sendResponse('public/data/shadow/Skills.json', 'application/json', response);
-      break;
-    } 
-    case '/ShadowStats.json':
-    {
-      sendResponse('public/data/shadow/Stats.json', 'application/json', response);
-      break;
-    }
-    case '/ShadowEquipment.json':
-    {
-      sendResponse('public/data/shadow/Equipment.json', 'application/json', response);
-      break;
-    } 
-    case '/ShadowWeapons.json':
-    {
-      sendResponse('public/data/shadow/Weapons.json', 'application/json', response); 
->>>>>>> 6299fb1a4e2a231c11d60bcc118e9906359ba457
-      break;
-    }
-
+    //------------------------------------------------------------------------------------
     
-    //Dungeons and dragon page
+    
+    //DUNGEON AND DRAGONS PAGE
+    //------------------------------------------------------------------------------------
     case '/dungeon':
     {
       //Send html
@@ -105,7 +79,9 @@ const requestResponseHandler = (IncomingMessage, ServerResponse) =>
       sendResponse(IncomingMessage.url, getContentType(IncomingMessage.url), ServerResponse);
       break;
     }
-    
+    //------------------------------------------------------------------------------------
+
+
   }
 }
 

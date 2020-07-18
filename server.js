@@ -50,11 +50,42 @@ const requestResponseHandler = (IncomingMessage, ServerResponse) =>
       sendResponse('public/js/shadow.js', 'text/javascript', ServerResponse);
       break;
     }
-    case '/Items.json':
+    case '/ShadowRunMain.json':
     {
-      sendResponse('public/data/Shadow/Items.json', 'application/json', ServerResponse);
+      sendResponse('public/data/Shadow/Main.json', 'application/json', ServerResponse);
       break;
     }
+    case '/ShadowRunSkills.json':
+    {
+      sendResponse('public/data/Shadow/Main/Skills.json', 'application/json', ServerResponse);
+      break;
+    }
+    case '/ShadowRunGuide.json':
+    {
+      sendResponse('/public/data/Shadow/Main/Guide.json', 'application/json', ServerResponse);
+      break;
+    }
+    case '/ShadowRunStats.json':
+    {
+      sendResponse('/public/data/Shadow/Main/Stats.json', 'application/json', ServerResponse);
+      break;
+    }
+    case '/ShadowRunEquipment.json':
+    {
+      sendResponse('/public/data/Shadow/Main/Equipment.json', 'application/json', ServerResponse);
+      break;
+    }
+    case '/ShadowRunArmor.json':
+    {
+      sendResponse('/public/data/Shadow/Equipment/Armor.json', 'application/json', ServerResponse);
+      break;
+    }
+    case '/ShadowRunWeapons.json':
+    {
+      sendResponse('/public/data/Shadow/Equipment/Weapons.json', 'application/json', ServerResponse);
+      break;
+    }
+
     //------------------------------------------------------------------------------------
     
     

@@ -1,9 +1,9 @@
 {
-    "Main": 
-    [{
-        "Guide"     : ["Created so that you don't have to scroll throuh every page of the rule book, which this doen't replace."],
-        "Stats"     : [],
-        "Skills"    : [],
-        "Equipment" : []
-    }]
+    "Main" :
+    [
+        "Guide",
+        "Stats",
+        "Skills",
+        "Equipment"
+    ]
 }

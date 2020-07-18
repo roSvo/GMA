@@ -1,0 +1,26 @@
+{
+    "Weapons":
+    [
+        "Back",
+        "Blades",
+        "Clubs",
+        "Tasers",
+        "Hold-Out Pistols",
+        "Light Pistols",
+        "Heavy Pistols",
+        "Machine Pistols",
+        "Submachine Guns",
+        "Assault Rifles",
+        "Sniper Rifles",
+        "Shotguns",
+        "LMG",
+        "HMG",
+        "Assault Cannons",
+        "Granade Launchers",
+        "Implant Melee",
+        "Implant Firearms",
+        "Ammunitiona",
+        "Grenades",
+        "Accessories"
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "Equipment" :
+    [
+        "Back",
+        "Armor",
+        "Cyberware",
+        "Magical",
+        "Vehicles",
+        "Drones",
+        "Vehicle Mods",
+        "Weapons",
+        "Electronics",
+        "Security",
+        "Medical",
+        "Other"
+    ]
+}

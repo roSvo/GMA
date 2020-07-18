@@ -2,53 +2,103 @@
 //const { ftruncateSync } = require("fs");
 //const { errorMonitor } = require("stream");
 
-var JSONObject = null;
+const { isArray } = require("util");
 
-const EQUIPMENT     = 0;
-const STATS         = 1;
-const GUIDE         = 2;
-const SKILLS        = 3;
-
-
-function LoadJSON()
+function LoadJSON(Tag, PreviousTag)
 {
-    console.log("I'm about to fetch json file");
+    console.log("I'm about to fetch json file : ", Tag + ".json");
     
-    fetch("Items.json").then(data => 
+    if(Tag == 'Back')
+    {
+        console.log("Tag : ", Tag);
+        console.log("Previous Tag : ", PreviousTag);
+
+        Tag = PreviousTag;
+    }
+
+    fetch("ShadowRun" + Tag + ".json").then(data => 
     {
         return data.json();
-    }).then(JSONdata => {
-        JSONObject = JSONdata;
-        //console.log("This is my json data : ", JSONObject.Equipment[0]);
-    });    
-}
+    }).then(JSONdata => 
+    {    
+        //console.log("Tag : ", Tag.toString());
+        //console.log("Previous Tag : ", PreviousTag.toString());
+            
+        if(Array.isArray(JSONdata[Tag.toString()]))
+        {
+            CreateListElements(JSONdata[Tag.toString()], PreviousTag);
+        }
+        else
+        {
+            CreateTableElements(JSONdata, Tag);
+        }
 
-function ShowElements()
+    });
+}    
+
+
+function CreateListElements(JSONArray, Tag)
 {
+    var UnorderedList = document.getElementById("ItemList");
+    UnorderedList.innerHTML = "";
 
-    if (Array.isArray(JSONObject.Equipment))
-    {
-        console.log("This was an array!");
-    }
+    console.log("Tag : ", Tag)
     
 
+    JSONArray.forEach(element =>
+    {
+        console.log("Element : ", element);
+        let NewListItem = document.createElement('li');
+        let NewButton = document.createElement('button');
+                
+        NewButton.setAttribute('id', element);
+        
+        NewButton.addEventListener("click", function() { LoadJSON(element, Tag) } );
 
+        NewButton.innerHTML = NewButton.getAttribute("id");
+        NewListItem.appendChild(NewButton);
+        UnorderedList.appendChild(NewListItem);
+    
+    })    
+
+}
+
+function CreateTableElements(JSONData, Tag)
+{
+    console.log("Create Table Elements was called..." );
+}
+
+
+//DEPRICATED FUNCTION!!
+function ShowElements(Tag, PreviousTag)
+{
     keys = Object.keys(JSONObject);
     keys.forEach(element => 
     {
-        console.log("About to check if this element is an array", element);
+        JSONObject[element.toString()].forEach(Layer1 =>
+        {
+            console.log(JSONObject[element][Layer1]);
+        });
+        
         if(Array.isArray(JSONObject[element.toString()]))
         {
+            
+
+            //If it is an array, create list element to the left side of the screen
+            CreateListElements();
+            /*
             JSONObject[element.toString()].forEach(SubElement =>
             {
                 console.log(element, " in ", SubElement);
             })
-
             console.log("Found out that : ", element, " was an array");
+            */
         }
         else
         {
-            console.log("This one tried to trick me : ", element, " was not an array!");
+            //If not, create table element
+            CreateTableElements();
+            //console.log("This one tried to trick me : ", element, " was not an array!");
         }
 
             
@@ -129,7 +179,7 @@ function ShowList(tag, prevTag)
                     btn.addEventListener("click", function() { ShowList(btn.getAttribute("id"), tag)});  
                 }
 
-                //TODO CREATE ANOTHE FUNCTION WHICH OUTPUTS THE ACTUAL DATA!
+                //TODO CREATE ANOTHER FUNCTION WHICH OUTPUTS THE ACTUAL DATA!
 
                 btn.innerHTML = btn.getAttribute("id");
                 item.appendChild(btn);

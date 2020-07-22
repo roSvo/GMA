@@ -1,0 +1,29 @@
+{
+    "Blades":
+    {
+        "Combat Axe":
+        {
+            "Name"  : "Combat Axe",
+            "Acc"   : "4",
+            "Reach" : "2",
+            "DV"    : "(STR+5)P",
+            "AP"    : "-4",
+            "Avail" : "12R",
+            "Cost"  : "4.000¥",
+            "S"     : "Core",
+            "Info"  : "A two-handed tungsten-alloy monster, available single- or double-bladed. A hardened thrusting point can be concealed, spring-loaded, in the handle. While it may seem barbaric or primitive, the physical augmentations of 2075 can make an old-school weapon like a combat axe even deadlier than a firearm in the right hands. So go ahead, go medieval."
+        },
+        "Combat Knife" :
+        {
+            "Name"  : "Combat Knife",
+            "Acc"   : "6",
+            "Reach" : "-",
+            "DV"    : "(STR+2)P",
+            "AP"    : "-3",
+            "Avail" : "4",
+            "Copst" : "300¥",
+            "S"     : "Core",
+            "Info"  : "A long, KA-BAR-style fighting knife with a blacked-out blade and a chisel point for punching through armor."
+        }     
+    }
+}

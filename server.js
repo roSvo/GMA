@@ -29,13 +29,13 @@ const requestResponseHandler = (IncomingMessage, ServerResponse) =>
     case '/shadowrun':
     {
       //Send html
-      sendResponse('public/html/shadow.html', 'text/html', ServerResponse);
+      sendResponse('public/html/shadowrun.html', 'text/html', ServerResponse);
       break;
     }
     case '/shadowrun.css':
     {
       //Send css
-      sendResponse('public/css/shadow.css', 'text/css', ServerResponse);
+      sendResponse('public/css/shadowrun.css', 'text/css', ServerResponse);
       break;
     }
     case '/ShadowBackground.jpg':
@@ -44,45 +44,50 @@ const requestResponseHandler = (IncomingMessage, ServerResponse) =>
       sendResponse('public/images/ShadowsBackground.jpg', 'text/jpg', ServerResponse);
       break;
     }
-    case '/shadow.js':
+    case '/shadowrun.js':
     {
       //Send public javaScript file
-      sendResponse('public/js/shadow.js', 'text/javascript', ServerResponse);
+      sendResponse('public/js/shadowrun.js', 'text/javascript', ServerResponse);
       break;
     }
     case '/ShadowRunMain.json':
     {
-      sendResponse('public/data/Shadow/Main.json', 'application/json', ServerResponse);
+      sendResponse('public/data/Shadowrun/Main.json', 'application/json', ServerResponse);
       break;
     }
     case '/ShadowRunSkills.json':
     {
-      sendResponse('public/data/Shadow/Main/Skills.json', 'application/json', ServerResponse);
+      sendResponse('public/data/Shadowrun/Main/Skills.json', 'application/json', ServerResponse);
       break;
     }
     case '/ShadowRunGuide.json':
     {
-      sendResponse('/public/data/Shadow/Main/Guide.json', 'application/json', ServerResponse);
+      sendResponse('/public/data/Shadowrun/Main/Guide.json', 'application/json', ServerResponse);
       break;
     }
     case '/ShadowRunStats.json':
     {
-      sendResponse('/public/data/Shadow/Main/Stats.json', 'application/json', ServerResponse);
+      sendResponse('/public/data/Shadowrun/Main/Stats.json', 'application/json', ServerResponse);
       break;
     }
     case '/ShadowRunEquipment.json':
     {
-      sendResponse('/public/data/Shadow/Main/Equipment.json', 'application/json', ServerResponse);
+      sendResponse('/public/data/Shadowrun/Main/Equipment.json', 'application/json', ServerResponse);
       break;
     }
     case '/ShadowRunArmor.json':
     {
-      sendResponse('/public/data/Shadow/Equipment/Armor.json', 'application/json', ServerResponse);
+      sendResponse('/public/data/Shadowrun/Equipment/Armor.json', 'application/json', ServerResponse);
       break;
     }
     case '/ShadowRunWeapons.json':
     {
-      sendResponse('/public/data/Shadow/Equipment/Weapons.json', 'application/json', ServerResponse);
+      sendResponse('/public/data/Shadowrun/Equipment/Weapons.json', 'application/json', ServerResponse);
+      break;
+    }
+    case '/ShadowRunBlades.json' :
+    {
+      sendResponse('/public/data/Shadowrun/Weapons/Blades.json', 'application/json',  ServerResponse);
       break;
     }
 

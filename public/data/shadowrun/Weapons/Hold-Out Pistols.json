@@ -1,0 +1,70 @@
+{
+
+    "Hold-Out Pistols": {
+        "Colt New Model Revolver": {
+            "Name": "Colt New Model Revolver",
+            "Acc": "6",
+            "DV": "5P",
+            "AP": "-",
+            "Mode": "SA",
+            "RC": "-",
+            "Ammo": "5(cy)",
+            "Avail": "4R",
+            "Cost": "180¥",
+            "S": "SR5:GH3",
+            "Info": "The New Model Revolver is Colt’s return to the small-revolver market, launched with a marketing campaign aimed at young homeowners and small security firms. The New Model is manufactured in a variety of small caliber and is largely of conventional design. The cylinder uses a simple left-side drop to allow rapid reloading with the appropriate manufacturer-approved speed loader. This model is only produced at Colt’s Connecticut facility and has largely remained rare outside of northeastern UCAS. Inside the UCAS, citizens can be proud to purchase from one of their homegrown success stories. Trust the quality of a proven manufacturer. Trust the Legend™."
+        },
+        "Fichetti Tiffani Needler": {
+            "Name": "Fichetti Tiffani Needler",
+            "Acc": "5",
+            "DV": "8P(f)",
+            "AP": "+5",
+            "Mode": "SA",
+            "RC": "-",
+            "Ammo": "4(c)",
+            "Avail": "5R",
+            "Cost": "1.000¥",
+            "S": "Core",
+            "Info": "Designed to appeal to social climbers and debutantes, the Tiffani Needler is available in a wide variety of colors and styles. It also has a special color-changing coating that can be manipulated via wireless signal. This is useful to make sure your gun matches with your shoes or your handbag. The Needler can only fire flechette rounds (already factored into its damage code).<br><br><b>Wireless:</b><li>You can change the color of the Tiffani Needler with a Simple Action.</li>"
+        },
+        "Fichetti-Tiffani Self-Defender 2075": {
+            "Name": "Fichetti-Tiffani Self-Defender 2075",
+            "Acc": "4",
+            "DV": "6P",
+            "AP": "-",
+            "Mode": "SS",
+            "RC": "-",
+            "Ammo": "4(c)",
+            "Avail": "3R",
+            "Cost": "350¥",
+            "S": "SR5:R&G",
+            "Info": "A purse pistol that has been updated to include the latest in fashion programming for its color-change coating, allowing it to be an excellent accessory for any outfit. Updates are available for a modest annual fee. This is for blending in with the fashionable crowd, not for actual shooting. If your plan calls on using this as a primary or secondary weapon, re-plan."
+        },
+        "Streetline Special": {
+            "Name": "Streetline Special",
+            "Acc": "4",
+            "DV": "6P",
+            "AP": "-",
+            "Mode": "SA",
+            "RC": "-",
+            "Ammo": "6(c)",
+            "Avail": "4R",
+            "Cost": "120¥",
+            "S": "Core",
+            "Info": "Popular among society’s dregs, the Streetline Special is a small, lightweight weapon made of composite materials.<br><br><b>MAD Scanner</b><li>-2 DP tp detect Streetline Special</li>"
+        },
+        "Walther Palm Pistol": {
+            "Name": "Walther Palm Pistol",
+            "Acc": "4",
+            "DV": "7P",
+            "AP": "-",
+            "Mode": "SS/BF",
+            "RC": "-",
+            "Ammo": "2(b)",
+            "Avail": "4R",
+            "Cost": "180¥",
+            "S": "Core",
+            "Info": "This is a classic double-barreled derringer in an over-under barrel combination. It packs a punch for its size, but on the downside it has one of the most diminutive “magazine” capacities on the marketjust one bullet per barrel. Both barrels can be fired at once as a short burst (see Not Enough Bullets, p. 180)."
+        }
+    }
+}

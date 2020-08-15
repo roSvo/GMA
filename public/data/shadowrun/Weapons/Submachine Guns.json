@@ -1,0 +1,148 @@
+{
+
+    "Submachine Guns": {
+        "Ares Executioner": {
+            "Name": "Ares Executioner",
+            "Acc": "4(6)",
+            "DV": "7P",
+            "AP": "-",
+            "Mode": "SA/BF/FA",
+            "RC": "(1)",
+            "Ammo": "30(c)",
+            "Avail": "14F",
+            "Cost": "1.000¥",
+            "S": "SR5:R&G",
+            "Info": "The Executioner is still the ultimate in concealable firepower for the executive protection professional. The weapon neatly fits down into a specially designed small briefcase, available in a number of different styles and colors (+400¥ per extra case). The weapon can be fired from the briefcase by pushing a concealed stud, or through the user’s PAN with smartlinked versions (+500¥). Recoil penalties are doubled when fired from the briefcase, but the surprise the Executioner provides may be enough to ensure survival. The Executioner also features an integral sound suppressor and an extendable stock for occasions when it is removed from its case.<br><br><b>Standard upgrades</b><li>Folding stock, sound suppressor</li><b>Remove Case</b><li>The Executioner takes a Simple Action to remove from the case for conventional usage and removal is required to reload its caseless ammunition.</li>"
+        },
+        "Ares Sigma-3": {
+            "Name": "Ares Sigma-3",
+            "Acc": "4(6)",
+            "DV": "8P",
+            "AP": "-",
+            "Mode": "SA/BF/FA",
+            "RC": "(2)",
+            "Ammo": "50(d)",
+            "Avail": "7R",
+            "Cost": "1.000¥",
+            "S": "SR5:GH3",
+            "Info": "Ares has released their latest submachine gun design for law enforcement personnel worldwide. The Sigma-3’s unique drum magazine ensures operators have the ability to conduct a forced entry without having to worry about their ammunition supply at critical moments. The integral carrying handle/powered slide mount allows operators options beyond the internal smartlink, allowing optimization to meet tactical necessities. When using the collapsible stock, shooters have consistently exceeded organizational marksmanship standards, proving the quality design and manufacturing techniques.<br><br><b>Standard Upgrades/Accessories</b><li>Collapsible Stock, Foregrip, Powered Slide Mount (Rating 2), Smartlink</li>"
+        },
+        "Cavalier Arms Gladius": {
+            "Name": "Cavalier Arms Gladius",
+            "Acc": "3(4)",
+            "DV": "7P",
+            "AP": "-",
+            "Mode": "BF/FA",
+            "RC": "1(2)",
+            "Ammo": "32(c)",
+            "Avail": "6R",
+            "Cost": "400¥",
+            "S": "SR5:GH3",
+            "Info": "A simple design intended for street officers requiring temporary increases in firepower, the Gladius combines modern electronics with an easy-to-maintain design. The weapon can also be used to equip a hastily raised militia; its simple operation and maintenance requirements make it ideal for citizen-soldiers. The stamped metal receiver is key to the weapon’s strength, while proprietary recoil absorbers ensure accuracy and the electronics package retains calibration.<br><br><b>Standard Upgrades/Accessories</b><li>Collapsible Stock, Laser Sight</li>"
+        },
+        "Colt Cobra TZ-120": {
+            "Name": "Colt Cobra TZ-120",
+            "Acc": "4(5)",
+            "DV": "7P",
+            "AP": "-",
+            "Mode": "SA/BF/FA",
+            "RC": "2(3)",
+            "Ammo": "32(c)",
+            "Avail": "5R",
+            "Cost": "660¥",
+            "S": "Core",
+            "Info": "With its unique design and wide range of accessories, the Colt Cobra series is quite popular both among security forces the world over and on the trids. The TZ–120 comes with a folding stock, top-mounted laser sight, and a barrel-mounted gas-vent 2 system.<br><br><b>Modifiers</b><li>Folding Stock<br>Top: Laser Sight<br>Barrel: Gas Vent(2)</li>"
+        },
+        "FN P93 Praetor": {
+            "Name": "FN P93 Praetor",
+            "Acc": "6",
+            "DV": "8P",
+            "AP": "-",
+            "Mode": "SA/BF/FA",
+            "RC": "1(2)",
+            "Ammo": "50(c)",
+            "Avail": "11F",
+            "Cost": "900¥",
+            "S": "Core",
+            "Info": "This bullpup submachine gun was purpose-built for Corporate Court-controlled Interpol fast-response teams. Its special chamber system provides 1 point of Recoil Compensation, it has an integrated rigid stock, and a flashlight that can be used to reduce darkness penalties by one step (Environmental Modifiers, p. 173). Possession of the FN P93 while not a legitimate member of a Corporate Court force is a crime in most jurisdictions.<br><br><b>Modifiers</b><li>Flashlight (one-step)<br>Rigid Stock</li>"
+        },
+        "HK-227": {
+            "Name": "HK-227",
+            "Acc": "5(7)",
+            "DV": "7P",
+            "AP": "-",
+            "Mode": "SA/BF/FA",
+            "RC": "(1)",
+            "Ammo": "28(c)",
+            "Avail": "8R",
+            "Cost": "730¥",
+            "S": "Core",
+            "Info": "The SMG of choice for many corporate and military security forces, the HK–227 boasts a retractable stock, smartgun system, and integral sound suppressor.<br><br><b>Modifiers</b><li>Smart Gun<br>Retractable Stock<br>Sound Suppressor</li>"
+        },
+        "HK Urban Combat": {
+            "Name": "HK Urban Combat",
+            "Acc": "7(9)",
+            "DV": "8P",
+            "AP": "-",
+            "Mode": "SA/BF/FA",
+            "RC": "2",
+            "Ammo": "36(c)",
+            "Avail": "16F",
+            "Cost": "2.300¥",
+            "S": "SR5:R&G",
+            "Info": "HK continues to offer the Urban Combat as its high-end entry into the submachine gun market. The weapon is entirely constructed with non-metallic components and is not detectable with traditional MAD sensors. H&K has spared no expense in the weapon’s construction with an internal smartlink, a fixed sound suppressor, and a customized hydraulic recoil compensation system. The price of these bonuses is that the weapon is unable to accept further modifications."
+        },
+        "Ingram Smartgun X": {
+            "Name": "Ingram Smartgun X",
+            "Acc": "4(6)",
+            "DV": "8P",
+            "AP": "-",
+            "Mode": "BF/FA",
+            "RC": "2",
+            "Ammo": "32(c)",
+            "Avail": "6R",
+            "Cost": "800¥",
+            "S": "Core",
+            "Info": "Ingram Smartgun X: Grade-A bang bang. Famous as the weapon of choice for many legendary street samurai since the 2050s, the Ingram Smartgun comes tricked out with a gas-vent 2 system, a smartgun system, and an integral sound suppressor.<br><br><b>Modifiers</b><li>Gas-Vent (2)<br>Smart Gun<br>Sound Supressor</li>"
+        },
+        "Krime Spree": {
+            "Name": "Krime Spree",
+            "Acc": "4",
+            "DV": "7P",
+            "AP": "-",
+            "Mode": "FA",
+            "RC": "1",
+            "Ammo": "30(c)",
+            "Avail": "6R",
+            "Cost": "425¥",
+            "S": "SR5:GH3",
+            "Info": "A new telescoping bolt design intended for those needing alternative ergonomics, the Spree is an economic choice for the discriminating shooter. The design is intended to allow for the easy mounting of a wide array of external aiming and tactical aids. While Krime does not currently manufacture such devices, a call to our friendly Customer Service department will provide a number of helpful suggestions based on the caller’s location.<br><br><b>Standard Upgrades/Accessories</b><li>Metahuman Adaptation</li>"
+        },
+        "SCK Model 100": {
+            "Name": "SCK Model 100",
+            "Acc": "5(7)",
+            "DV": "8P",
+            "AP": "-",
+            "Mode": "SA/BF",
+            "RC": "(1)",
+            "Ammo": "30(c)",
+            "Avail": "6R",
+            "Cost": "875¥",
+            "S": "Core",
+            "Info": "Shin Chou Kyogo is synonymous with Japanese corporate security. Nearly every Japana-corp’s security forces are issued the SCK 100, including Renraku’s infamous Red Samurai. The SCK 100 features an internal smartgun system and a folding stock.<br><br><b>Modifiers</b><li>Smart Gun<br>Folding Stock</li>"
+        },
+        "Uzi IV": {
+            "Name": "Uzi IV",
+            "Acc": "4(5)",
+            "DV": "7P",
+            "AP": "-",
+            "Mode": "BF",
+            "RC": "(1)",
+            "Ammo": "24(c)",
+            "Avail": "4R",
+            "Cost": "450¥",
+            "S": "Core",
+            "Info": "This aging submachine gun is a worthy descendant of the famous Israeli weapon. The SMG features an integral folding stock and built-in top-mounted laser sight.<br><br><b>Modifiers</b><li>Folding Stock<br>Top:Laser Sight</li>"
+        }   
+    }
+}

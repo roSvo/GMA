@@ -1,0 +1,70 @@
+{
+
+    "Assault Rifles": {
+        "AK-97": {
+            "Name": "AK-97",
+            "Acc": "5",
+            "DV": "10P",
+            "AP": "-2",
+            "Mode": "SA/BF/FA",
+            "RC": "-",
+            "Ammo": "38(c)",
+            "Avail": "4R",
+            "Cost": "950¥",
+            "S": "Core",
+            "Info": "The AK-97 is a legendary weapon with storied reliability—you can bury it for ten years, dig it up, and fire it immediately without a single problem. When all of the nano-fabricated AK–174s melted to slag, the AK-97s kept functioning just fine."
+        },
+        "Ares Alpha": {
+            "Name": "Ares Alpha",
+            "Acc": "5(7)",
+            "DV": "11P",
+            "AP": "-2",
+            "Mode": "SA/BF/FA",
+            "RC": "2",
+            "Ammo": "42(c)",
+            "Avail": "11F",
+            "Cost": "2.650¥",
+            "S": "Core",
+            "Info": "Specially designed for Ares Firewatch special forces, the Alpha has since become a multi-platinum best-selling success the world over, seeing use with UCAS Special Forces. In part, this is due to its exceptional brand awareness, and also because of its underbarrel grenade launcher, smartgun system, and an expensive chamber design that provides 2 points of Recoil Compensation.<br><br><b>Modifiers</b><li>Underbarrel: Grenade Launcher<br>Smart Gun</li><b>Grenade Launcher</b><li>DV 4(6), Mode SS, Ammo 6(c)</li>"
+        },
+        "Colt M23": {
+            "Name": "Colt M23",
+            "Acc": "4",
+            "DV": "9P",
+            "AP": "-2",
+            "Mode": "SA/BF/FA",
+            "RC": "-",
+            "Ammo": "40(c)",
+            "Avail": "4R",
+            "Cost": "550¥",
+            "S": "Core",
+            "Info": "This cheap, mass-produced, no-frills assault rifle is loved both by the gangbangers and pirates who can manage to get their hands on one and by the pros who are looking for something to modify from the ground up."
+        },
+        "FN HAR": {
+            "Name": "FN HAR",
+            "Acc": "5(6)",
+            "DV": "10P",
+            "AP": "-2",
+            "Mode": "SA/BF/FA",
+            "RC": "2",
+            "Ammo": "35(c)",
+            "Avail": "8R",
+            "Cost": "1.500¥",
+            "S": "Core",
+            "Info": "This assault rifle is supremely popular with private security forces and corporate threat-response teams. It features a laser sight and a gas-vent 2 system.<br><br><b>Modifiers</b><li>Laser Sight<br>Gas-Vent (2)</li>"
+        },
+        "Yamaha Raiden": {
+            "Name": "Yamaha Raiden",
+            "Acc": "6(8)",
+            "DV": "11P",
+            "AP": "-2",
+            "Mode": "BF/FA",
+            "RC": "1",
+            "Ammo": "60(c)",
+            "Avail": "14F",
+            "Cost": "2.600¥",
+            "S": "Core",
+            "Info": "This electronic-firing assault rifle is state-of-the-art. The Raiden is very accurate and is quickly being adopted by japanacorp security forces and the Japanese Imperial Marines. It features an integral sound suppressor and smartgun system, and the electronic firing mechanism and design provides 1 point of Recoil Compensation.<br><br><b>Modifiers</b><li>Sound Suppressor<br>Smart Gun</li>"
+        }   
+    }
+}

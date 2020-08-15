@@ -1,0 +1,57 @@
+{
+
+    "Shotguns": {
+        "Defiance T-250": {
+            "Name": "Defiance T-250",
+            "Acc": "4",
+            "DV": "10P",
+            "AP": "-1",
+            "Mode": "SS/SA",
+            "RC": "-",
+            "Ammo": "5(m)",
+            "Avail": "4R",
+            "Cost": "450¥",
+            "S": "Core",
+            "Info": "A common sight on the mean streets when things escalate beyond pistols and knives, this semi-automatic shotgun is available in either a normal-length or short-barreled version. It is gas operated, but also features a secondary pump action for situations where preventing jams is more important than quickly firing a second shot. The short-barreled version has the Concealability of +4, the range of a heavy pistol, and a damage code of 9P.<br><br><b>Modifiers</b><li>Gas Operated<br>Pump Operated</li><b>Short Barreled Version</b><li>Concealability +4<br>Heavy Pistol Range<br>DV 4</li>"
+        },
+        "Enfield AS-7": {
+            "Name": "Enfield AS-7",
+            "Acc": "4(5)",
+            "DV": "13P",
+            "AP": "-1",
+            "Mode": "SA/BF",
+            "RC": "-",
+            "Ammo": "10(c)/24(d)",
+            "Avail": "12F",
+            "Cost": "1.100¥",
+            "S": "Core",
+            "Info": "This military assault shotgun provides its user with massive firepower. As a close-quarters weapon and general combat gun, it is universally feared. It can either be loaded with ten-round ammo clips or a special twenty-four-round drum. The Enfield AS-7 comes equipped with a built-in, top-mounted laser sight.<br><br><b>Modifiers</b><li>Top:Laser Sight</li>"
+        },
+        "Krime Boss": {
+            "Name": "Krime Boss",
+            "Acc": "3",
+            "DV": "13P",
+            "AP": "-1",
+            "Mode": "SA",
+            "RC": "1",
+            "Ammo": "15(d)",
+            "Avail": "11R",
+            "Cost": "600¥",
+            "S": "SR5:GH3",
+            "Info": "This drum-fed instrument of death is the latest manufacturing marvel released by Krime for the civilian arms enthusiast. The large frame design absorbs the recoil produced by the shotgun’s rapid-fire capability, allowing the shooter to keep the barrel aimed at their target, whether it’s a paper silhouette, clay pigeon, or an Awakened critter. The Krime Boss makes sure you come out on top of the heap.<br><br><b>Standard Upgrades/Accessories<li>Metahuman Customization</li>"
+        },
+        "PJSS Model 55": {
+            "Name": "PJSS Model 55",
+            "Acc": "6",
+            "DV": "11P",
+            "AP": "-1",
+            "Mode": "SS",
+            "RC": "(1)",
+            "Ammo": "2(b)",
+            "Avail": "9R",
+            "Cost": "1.000¥",
+            "S": "Core",
+            "Info": "This is a weapon of classic style for a classic sport. Produced only in small numbers, it’s renowned among European hunters and trap shooters as a precise and prestigious weapon. The weapon’s rigid stock comes equipped with an integrated shock pad. Both barrels can be shot at once as a short burst (see Not Enough Bullets, p. 180).<br><br><b>Modifiers</b><li>Rigid Stock with Shock Pad</li>"
+        }
+    }
+}

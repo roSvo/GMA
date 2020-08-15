@@ -1,0 +1,83 @@
+{
+
+    "Machine Pistols": {
+        "Ares Crusader II": {
+            "Name": "Ares Crusader II",
+            "Acc": "5(7)",
+            "DV": "7P",
+            "AP": "-",
+            "Mode": "SA/BF",
+            "RC": "2",
+            "Ammo": "40(c)",
+            "Avail": "9R",
+            "Cost": "830¥",
+            "S": "Core",
+            "Info": "A large magazine and easy handling make the Ares Crusader II one of the most popular weapons of its class. It features an integral barrel-mounted gas-vent 2 recoil compensation system and comes with an integral smartgun system.<br><br><b>Modifiers</b><li>SmartGun<br>Barrel: Integral Gas-Vent(-2 RC)</li>"
+        },
+        "Cavalier Evanator": {
+            "Name": "Cavalier Evanator",
+            "Acc": "5(6)",
+            "DV": "6P",
+            "AP": "-",
+            "Mode": "BF/FA",
+            "RC": "1(2)",
+            "Ammo": "20(c)",
+            "Avail": "8R",
+            "Cost": "775¥",
+            "S": "Core",
+            "Info": "Utilizing the latest in projectile development, this surprisingly controllable lightweight automatic is capable of providing suppressive fire under nearly any circumstances. The slanted magazine reduces the number of jams due to magazine spring malfunction, while the integrated laser sight ensures the user sees exactly where they are aiming. The electronic firing mechanism ensures the complete combustion of the caseless propellant while reducing the perceived recoil to the firer. When fitted with its standard folding stock, the Evanator can serve as the primary weapon in a close-quarter engagement.<br><br><b>Standard Upgrades/Accessories</b><li>Electronic Firing, Laser Sight, Folding Stock</li>"
+        },
+        "Ceska Black Scorpion": {
+            "Name": "Ceska Black Scorpion",
+            "Acc": "5",
+            "DV": "6P",
+            "AP": "-",
+            "Mode": "SA/BF",
+            "RC": "(1)",
+            "Ammo": "35(c)",
+            "Avail": "6R",
+            "Cost": "270¥",
+            "S": "Core",
+            "Info": "This classic machine pistol provides concealable burst-fire capability. It comes equipped with an integral folding stock.<br><br><b>Modifiers</b><li>Integral Folding Stock</li>"
+        },
+        "Fianchetti Military 100": {
+            "Name": "Fianchetti Military 100",
+            "Acc": "5(7)",
+            "DV": "6P",
+            "AP": "-",
+            "Mode": "SA/BF/FA",
+            "RC": "-",
+            "Ammo": "20(c)",
+            "Avail": "8R",
+            "Cost": "850¥",
+            "S": "SR5:GH3",
+            "Info": "The Military 100 offers accurate automatic fire on a large-pistol frame. Fianchetti’s engineers have integrated a full spectrum smartlink sensor into the weapon’s frame, increasing accuracy in semi-automatic and fully automatic operation. The model features a rigid, reinforced polymer frame with fully integrated diagnostic sensors linked to the smartlink’s data transfer protocols, ensuring the operator full access to their weapon’s status at all times.<br><br><b>Standard Upgrades/Accessories</b><li>Smartlink</li>"
+        },
+        "Remington Suppressor": {
+            "Name": "Remington Suppressor",
+            "Acc": "6",
+            "DV": "7P",
+            "AP": "-1",
+            "Mode": "SA/BF",
+            "RC": "-",
+            "Ammo": "15(c)",
+            "Avail": "6R",
+            "Cost": "700¥",
+            "S": "SR5:GH3",
+            "Info": "The first modern automatic pistol design offered by Remington, the Suppressor is intended for paramilitary organizations and government agencies requiring compact automatic weapons. The design integrates a number of European stylistic elements with modern automated manufacturing quality control methods, resulting in finely tuned tolerances intended to allow the user to accurately engage any target. The weapon is shipped with a detachable sound suppressor, allowing the user to reduce their audio signature at the expense of concealment.<br><br><b>Standard Upgrades/Accessories</b><li>Sound Suppressor</li>"
+        },
+        "Steyr TMP": {
+            "Name": "Steyr TMP",
+            "Acc": "4",
+            "DV": "7P",
+            "AP": "-",
+            "Mode": "SA/BF/FA",
+            "RC": "-",
+            "Ammo": "30(c)",
+            "Avail": "8R",
+            "Cost": "350¥",
+            "S": "Core",
+            "Info": "This lightweight polymer-frame pistol is capable of full autofire, but its light weight makes it hard to control when firing on full auto. It comes equipped with a built-in top-mounted laser sight.<br><br><b>Modifiers</b><li>TOP:Laser Sight</li>"
+        }
+    }
+}

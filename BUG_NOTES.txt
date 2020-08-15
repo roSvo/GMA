@@ -1,0 +1,1 @@
+Navigating to Main -> Equipment -> Weapons -> Blades and clicking "back" will result the same window!

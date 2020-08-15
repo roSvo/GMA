@@ -1,0 +1,83 @@
+{
+
+    "Light Pistols": {
+        "Ares Light Fire 70": {
+            "Name": "Ares Light Fire 70",
+            "Acc": "7",
+            "DV": "6P",
+            "AP": "-",
+            "Mode": "SA",
+            "RC": "-",
+            "Ammo": "16(c)",
+            "Avail": "3R",
+            "Cost": "200¥",
+            "S": "Core",
+            "Info": "The Ares Light Fire 70 is one of the most common pistols on the market. A special barrel-mounted silencer developed exclusively for the Light Fire 70 is available that gives you an additional –1 dice pool modifier to the usual –4 (for a total of –5); this silencer costs 750¥.<br><br><b>Special Barrel-Mounted Silencer</b><li>Costs 750¥<br>Additional -1 DP Modifier to usual -4 (Total -5)</li>"
+        },
+        "Ares Light Fire 75": {
+            "Name": "Ares Light Fire 75",
+            "Acc": "6(8)",
+            "DV": "6P",
+            "AP": "-",
+            "Mode": "SA",
+            "RC": "-",
+            "Ammo": "16(c)",
+            "Avail": "6F",
+            "Cost": "1.250¥",
+            "S": "Core",
+            "Info": "Designed based on one of the most common pistols on the market, the Light Fire is a weapon for special operators, not commonly available through legal channels. A special barrel-mounted silencer developed exclusively for the Light Fire comes attached, applying an additional –1 dice pool modifier to the modifier usually provided by silencers. In addition to its integral silencer, the Ares Light Fire 75 includes a smartgun system.<br><br><b>Modifiers</b><li>Smartgun System<br>Special Silencer</li><b>Special Silencer</b><li>Comes Attached<br>Additional -1 DP Modifiers to usual .5 (Total -5)</li>"
+        },
+        "Beretta 201T": {
+            "Name": "Beretta 201T",
+            "Acc": "6",
+            "DV": "6P",
+            "AP": "-",
+            "Mode": "SA/BF",
+            "RC": "(1)",
+            "Ammo": "21(c)",
+            "Avail": "7R",
+            "Cost": "210¥",
+            "S": "Core",
+            "Info": "This light sidearm is used by many security professionals. It is capable of burst fire. Since the 201T is classified as a light pistol without further limitations, it is quite popular with security agencies in countries where heavy pistols and machine pistols are hard to come by legally. Semi-automatic bursts using the Beretta 201T require a Simple Action. The weapon includes a detachable shoulder stock.<br><br><b>Simple Action</b><li>Semi-Auto Bursts</li><b>Modifier</b><li>Detachable Shoulder Stock</li>"
+        },
+        "Colt America L36": {
+            "Name": "Colt America L36",
+            "Acc": "7",
+            "DV": "7P",
+            "AP": "-",
+            "Mode": "SA",
+            "RC": "-",
+            "Ammo": "11(c)",
+            "Avail": "4R",
+            "Cost": "320¥",
+            "S": "Core",
+            "Info": "A venerable pistol with a great reputation. This basic firearm is cheap, easily concealed, and nearly ubiquitous. A perfect throwaway weapon."
+        },
+        "Fichetti Security 600": {
+            "Name": "Fichetti Security 600",
+            "Acc": "6(7)",
+            "DV": "7P",
+            "AP": "-",
+            "Mode": "SA",
+            "RC": "(1)",
+            "Ammo": "30(c)",
+            "Avail": "6R",
+            "Cost": "350¥",
+            "S": "Core",
+            "Info": "A light sidearm for security forces, this weapon’s highly efficient feeding mechanism allows it a thirty-round magazine. The Fichetti Security 600 comes with a detachable folding stock and laser sight.<br><br><b>Modifiers</b><li>Laser Sight<br>Detachable Folding Stock</li>"
+        },
+        "Taurus Omni-6": {
+            "Name": "Taurus Omni-6",
+            "Acc": "5(6)",
+            "DV": "6P/7P",
+            "AP": "0/-1",
+            "Mode": "SA/SS",
+            "RC": "-",
+            "Ammo": "6(cy)",
+            "Avail": "3R",
+            "Cost": "300¥",
+            "S": "Core",
+            "Info": "This reliable, rugged revolver is specially designed to handle a wide variety of ammunition. Popular with hobbyists and hand-loaders, the Omni-6 comes with some interchangeable cylinders so it can take either cased or caseless, light pistol or heavy pistol ammo. When firing light pistol rounds, the Omni-6 is semi-automatic (SA) and has a base DV of 6P, and when it fires heavy pistol ammo it has only single shot mode (SS), and a base DV of 7P and –1 AP. The Omni-6 includes an integral laser sight.<br><br><b>Modifiers</b><li>Laser Sight</li><b>Interchangeable Cylinders</b><li>Light Pistol Ammo (Mode SA, DV 6P, AP 0)<br>Heavy Pistol Amomo (Mode SS, DV 7P, AP -1)</li>"
+        }
+    }
+}

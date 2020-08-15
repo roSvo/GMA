@@ -2,8 +2,10 @@
     "Weapons":
     [
         "Back",
+        "Bows",
         "Blades",
         "Clubs",
+        "Crossbows",
         "Tasers",
         "Hold-Out Pistols",
         "Light Pistols",
@@ -13,8 +15,7 @@
         "Assault Rifles",
         "Sniper Rifles",
         "Shotguns",
-        "LMG",
-        "HMG",
+        "Machine Guns",
         "Assault Cannons",
         "Granade Launchers",
         "Implant Melee",

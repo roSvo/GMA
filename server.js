@@ -3,6 +3,8 @@ const fs = require('fs');
 const path = require('path');
 
 
+var Postfix = "";
+const DataPath = "public/data/";
 
 const requestResponseHandler = (IncomingMessage, ServerResponse) =>
 {
@@ -47,17 +49,18 @@ const requestResponseHandler = (IncomingMessage, ServerResponse) =>
     case '/shadowrun.js':
     {
       //Send public javaScript file
+      Postfix = "Shadowrun/";
       sendResponse('public/js/shadowrun.js', 'text/javascript', ServerResponse);
       break;
     }
-    case '/ShadowRunMain.json':
+    case '/Main.json':
     {
-      sendResponse('public/data/Shadowrun/Main.json', 'application/json', ServerResponse);
+      sendResponse('/public/data/Shadowrun/Main.json', 'application/json', ServerResponse);
       break;
     }
     case '/ShadowRunSkills.json':
     {
-      sendResponse('public/data/Shadowrun/Main/Skills.json', 'application/json', ServerResponse);
+      sendResponse('/public/data/Shadowrun/Main/Skills.json', 'application/json', ServerResponse);
       break;
     }
     case '/ShadowRunGuide.json':
@@ -70,7 +73,7 @@ const requestResponseHandler = (IncomingMessage, ServerResponse) =>
       sendResponse('/public/data/Shadowrun/Main/Stats.json', 'application/json', ServerResponse);
       break;
     }
-    case '/ShadowRunEquipment.json':
+    case '/Equipment.json':
     {
       sendResponse('/public/data/Shadowrun/Main/Equipment.json', 'application/json', ServerResponse);
       break;
@@ -85,12 +88,77 @@ const requestResponseHandler = (IncomingMessage, ServerResponse) =>
       sendResponse('/public/data/Shadowrun/Equipment/Weapons.json', 'application/json', ServerResponse);
       break;
     }
+    // --------
     case '/ShadowRunBlades.json' :
     {
       sendResponse('/public/data/Shadowrun/Weapons/Blades.json', 'application/json',  ServerResponse);
       break;
     }
-
+    case '/ShadowRunBows.json' :
+    {
+      sendResponse('/public/data/Shadowrun/Weapons/Bows.json', 'application/json',  ServerResponse);
+      break;
+    }
+    case '/ShadowRunClubs.json':
+    {
+      sendResponse('/public/data/Shadowrun/Weapons/Clubs.json', 'application/json', ServerResponse);
+      break;
+    }
+    case '/ShadowRunCrossbows.json':
+    {
+      sendResponse('/public/data/Shadowrun/Weapons/Crossbows.json', 'application/json', ServerResponse);
+      break;
+    }    
+    case '/ShadowRunTasers.json':
+    {
+      sendResponse('/public/data/Shadowrun/Weapons/Tasers.json', 'applicaton/json', ServerResponse);
+      break;
+    } 
+    case '/ShadowRunHold-Out%20Pistols.json':
+    {
+      sendResponse('/public/data/Shadowrun/Weapons/Hold-Out Pistols.json', 'applicaton/json', ServerResponse);
+      break;
+    }
+    case '/ShadowRunLight%20Pistols.json':
+    {
+      sendResponse('/public/data/Shadowrun/Weapons/Light Pistols.json', 'applicaton/json', ServerResponse);
+      break;
+    }
+    case '/ShadowRunHeavy%20Pistols.json':
+    {
+      sendResponse('/public/data/Shadowrun/Weapons/Heavy Pistols.json', 'applicaton/json', ServerResponse);
+      break;
+    }
+    case '/ShadowRunMachine%20Pistols.json':
+    {
+      sendResponse('/public/data/Shadowrun/Weapons/Machine Pistols.json', 'applicaton/json', ServerResponse);
+      break;
+    }
+    case '/ShadowRunSubmachine%20Guns.json':
+    {
+      sendResponse('/public/data/Shadowrun/Weapons/Submachine Guns.json', 'applicaton/json', ServerResponse);
+      break;
+    }
+    case '/ShadowRunAssault%20Rifles.json':
+    {
+      sendResponse('/public/data/Shadowrun/Weapons/Assault Rifles.json', 'applicaton/json', ServerResponse);
+      break;
+    }
+    case '/ShadowRunSniper%20Rifles.json':
+    {
+      sendResponse('/public/data/Shadowrun/Weapons/Sniper Rifles.json', 'applicaton/json', ServerResponse);
+      break; 
+    }
+    case '/ShadowRunShotguns.json':
+    {
+      sendResponse('/public/data/Shadowrun/Weapons/Shotguns.json', 'applicaton/json', ServerResponse);
+      break; 
+    }
+    case '/ShadowRunMachine%20Guns.json':
+    {
+      sendResponse('/public/data/Shadowrun/Weapons/Machine Guns.json', 'applicaton/json', ServerResponse);
+      break; 
+    }
     //------------------------------------------------------------------------------------
     
     
@@ -111,8 +179,8 @@ const requestResponseHandler = (IncomingMessage, ServerResponse) =>
 
     default:
     {
-      console.log("default was called..")
-      sendResponse(IncomingMessage.url, getContentType(IncomingMessage.url), ServerResponse);
+      console.log("default was called, not ready yet..");
+      //sendResponse(IncomingMessage.url, getContentType(IncomingMessage.url), ServerResponse);
       break;
     }
     //------------------------------------------------------------------------------------

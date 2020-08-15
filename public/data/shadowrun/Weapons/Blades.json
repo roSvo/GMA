@@ -1,29 +1,93 @@
 {
-    "Blades":
-    {
-        "Combat Axe":
-        {
-            "Name"  : "Combat Axe",
-            "Acc"   : "4",
-            "Reach" : "2",
-            "DV"    : "(STR+5)P",
-            "AP"    : "-4",
-            "Avail" : "12R",
-            "Cost"  : "4.000¥",
-            "S"     : "Core",
-            "Info"  : "A two-handed tungsten-alloy monster, available single- or double-bladed. A hardened thrusting point can be concealed, spring-loaded, in the handle. While it may seem barbaric or primitive, the physical augmentations of 2075 can make an old-school weapon like a combat axe even deadlier than a firearm in the right hands. So go ahead, go medieval."
+    
+    "Blades": {
+        "Combat Axe": {
+            "Name": "Combat Axe",
+            "Acc": "4",
+            "Reach": "2",
+            "DV": "(STR+5)P",
+            "AP": "-4",
+            "Avail": "12R",
+            "Cost": "4.000¥",
+            "S": "Core",
+            "Info": "A two-handed tungsten-alloy monster, available single- or double-bladed. A hardened thrusting point can be concealed, spring-loaded, in the handle. While it may seem barbaric or primitive, the physical augmentations of 2075 can make an old-school weapon like a combat axe even deadlier than a firearm in the right hands. So go ahead, go medieval."
         },
-        "Combat Knife" :
-        {
-            "Name"  : "Combat Knife",
-            "Acc"   : "6",
-            "Reach" : "-",
-            "DV"    : "(STR+2)P",
-            "AP"    : "-3",
-            "Avail" : "4",
-            "Copst" : "300¥",
-            "S"     : "Core",
-            "Info"  : "A long, KA-BAR-style fighting knife with a blacked-out blade and a chisel point for punching through armor."
-        }     
+        "Combat Knife": {
+            "Name": "Combat Knife",
+            "Acc": "6",
+            "Reach": "-",
+            "DV": "(STR+2)P",
+            "AP": "-3",
+            "Avail": "4",
+            "Copst": "300¥",
+            "S": "Core",
+            "Info": "A long, KA-BAR-style fighting knife with a blacked-out blade and a chisel point for punching through armor."
+        },
+        "Forearm Snap-Blades": {
+            "Name": "Forearm Snap-Blades",
+            "Acc": "4",
+            "Reach": "-",
+            "DV": "(STR+2)P",
+            "AP": "-2",
+            "Avail": "7R",
+            "Copst": "200¥",
+            "S": "Core",
+            "Info": "These are essentially like spurs, only they’re external, painless to install or remove. A forearm sheath conceals three blades that can be extended or retracted via wireless link or muscle movement commands.<br><br><b>Wireless:</b><li><i>Readying the forearm snap blades is a Free Action instead of a Simple Action.</i></li>" 
+        },
+        "Katana": {
+            "Name": "Katana",
+            "Acc": "7",
+            "Reach": "1",
+            "DV": "(STR+3)P",
+            "AP": "-3",
+            "Avail": "9R",
+            "Copst": "1.000¥",
+            "S": "Core",
+            "Info": "The legendary two-handed sword of the samurai. The katana has become synonymous not just with street samurai, but with shadowrunners in general, at least in the trids; they’ve got everyone packing a katana, from the decker to the mage. But being a silly cliché doesn’t make this blade any less dangerous, or less helpful in a fight." 
+        },
+        "Knife": {
+            "Name": "Knife",
+            "Acc": "5",
+            "Reach": "-",
+            "DV": "(STR+1)P",
+            "AP": "-1",
+            "Avail": "-",
+            "Copst": "10¥",
+            "S": "Core",
+            "Info": "Your basic, all-purpose street cutter. It comes in a bewildering array of styles, colors, and flavors, but the statistics don’t vary from one to the next. Ordinary knives are used by the poor, the desperate, or the cautious as backup weapons." 
+        },
+        "Pole Arm": {
+            "Name": "Pole Arm",
+            "Acc": "5",
+            "Reach": "3",
+            "DV": "(STR+3)P",
+            "AP": "-2",
+            "Avail": "6R",
+            "Copst": "1.000¥",
+            "S": "Core",
+            "Info": "This is, at its very essence, a blade on the end of a very long stick. It usually features an axe-head, glaive, spear point, or similar maiming implement. It’s not easy to handle and it’s just about impossible to conceal, but it’s popular both with trolls and with melee combatants looking to safely keep said large trolls at more than arm’s length." 
+        },
+        "Survival Knife": {
+            "Name": "Survival Knife",
+            "Acc": "5",
+            "Reach": "-",
+            "DV": "(STR+2)P",
+            "AP": "-1",
+            "Avail": "-",
+            "Copst": "100¥",
+            "S": "Core",
+            "Info": "A fine quality blade—smooth on one edge, serrated on the other—with several accessories, including a GPS monitor, mini-multitool, micro-lighter, and a hidden compartment in the handle. The sides of the steel are coated with a non-toxic chemical that blacks out the blade when inert to prevent unwanted reflection, but can be activated to provide two hours of phosphorescent light. All knives can cut flesh, but a survival knife is better at cutting rope and wood, or otherwise being used as a tool. The survival knife is the kind of gadget that no professional should be without.<br><br><b>Wireless:</b><li><i>The knife displays an ARO of local maps, your GPS position, and can be used to make commcalls.</i></li>" 
+        },
+        "Sword": {
+            "Name": "Sword",
+            "Acc": "6",
+            "Reach": "1",
+            "DV": "(STR+3)P",
+            "AP": "-2",
+            "Avail": "5R",
+            "Copst": "500¥",
+            "S": "Core",
+            "Info": "It’s sharp, it’s heavy, and it will fragging cut you wide open. Available in a wide variety of styles (wakizashi, seax, scimitar, jian, machete, and so on and so forth), this one-handed blade is not as formidable as a katana but is substantially easier to hide." 
+        }
     }
 }

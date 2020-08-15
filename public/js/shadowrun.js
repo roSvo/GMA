@@ -22,29 +22,32 @@ function LoadJSON(Tag)
     if(Tag == "Back" && HistoryArray.length > 1)
     {   
         HistoryArray.splice(HistoryArray.length - 1, 1);
-        GetJsonData(HistoryArray[HistoryArray.length - 1]);
+        GetJsonData(HistoryArray[HistoryArray.length - 1], false);
     }
     else
     {
-        HistoryArray.push(Tag.toString());
-        GetJsonData(Tag)
+        GetJsonData(Tag, true);
     }
 }  
 
-function GetJsonData(Tag)
+function GetJsonData(Tag, ToBeAdded)
 {
-
-    fetch("ShadowRun" + Tag + ".json").then(data => 
+    fetch(Tag.toString() + ".json").then(data => 
         {
             return data.json();
         }).then(JSONdata => 
         {
             if(Array.isArray(JSONdata[Tag.toString()]))
             {
+                if(ToBeAdded == true)
+                {
+                    HistoryArray.push(Tag.toString());
+                }
                 CreateListElements(JSONdata[Tag.toString()]);
             }
             else
             {
+                console.log("JSON Data : ", JSONdata);
                 CreateTableElements(JSONdata[Tag.toString()]);
             }
         });
@@ -76,14 +79,17 @@ function CreateTableElements(JSONArray)
 
     let ItemKey = Object.keys(JSONArray);
 
-
     //This can be chewd to be lot simpler. For example make these in 2 separate functions
     //but this will do for now.
+
+    let DataLength = 0;
+
     if(ItemKey.length > 0)
     {
         let TableRow = document.createElement("tr");
 
         ValueKey = Object.keys(JSONArray[ItemKey[0]]);
+        
         ValueKey.forEach(ValueElement =>
         {   
             if(ValueElement == "Info")
@@ -93,11 +99,10 @@ function CreateTableElements(JSONArray)
             let TableHeader = document.createElement("th");
             TableHeader.innerHTML = ValueElement;
             TableRow.appendChild(TableHeader);
-
+            DataLength++;
         });
         Table.appendChild(TableRow);
     }
-    
     ItemKey.forEach(ItemElement =>
     {
         let TableRow = document.createElement("tr")
@@ -112,24 +117,29 @@ function CreateTableElements(JSONArray)
                 Info = JSONArray[ItemElement][ValueElement];
                 return false;
             }            
-            
+            ////<span style='color: #ff0000;'>-3</span>
             let TableData = document.createElement("td");
             TableData.innerHTML = JSONArray[ItemElement][ValueElement];
+            TableData.setAttribute("width", (100 / DataLength).toString() + "%");
             TableRow.appendChild(TableData);
         });
-        
+
         TableRow.addEventListener("click", function() { ShowInfo(ItemElement) } );
         Table.appendChild(TableRow);
 
         TableInfo = document.createElement("td");
         TableInfo.setAttribute("id", ItemElement);
-        TableInfo.setAttribute("colspan", "8");
+        TableInfo.setAttribute("class", "info");
+
         TableInfo.innerHTML = Info;
-        TableInfo.setAttribute("style","display:none;");        
-        Table.appendChild(TableInfo);     
+        TableInfo.setAttribute("style","display:none;");
+        //TableInfo.setAttribute("colspan", 7);
+        Table.appendChild(TableInfo);
+        
+
 
     });
-
+    Table.setAttribute("style", "display:block");
 }
 
 /* DEPRECATED CODE 

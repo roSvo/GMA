@@ -1,0 +1,96 @@
+{
+
+    "Sniper Rifles": {
+        "Ares Desert Strike": {
+            "Name": "Ares Desert Strike",
+            "Acc": "7",
+            "DV": "13P",
+            "AP": "-4",
+            "Mode": "SA",
+            "RC": "(1)",
+            "Ammo": "14(c)",
+            "Avail": "10F",
+            "Cost": "17.500¥",
+            "S": "Core",
+            "Info": "This combat-hardened sniper rifle is intended for long-range shooting in harsh environments. That means it was built without materials or technologies prone to failure. It comes equipped with a rigid stock with shock pad and a detachable imaging scope.<br><br><b>Modifiers</b><li>Rigid Stock with Shock Pad<br>TOP:Detachable Imaging Scope</li>"
+        },
+        "Barret Model 122": {
+            "Name": "Barret Model 122",
+            "Acc": "7(9)",
+            "DV": "14P",
+            "AP": "-6",
+            "Mode": "SA",
+            "RC": "(2)",
+            "Ammo": "14(c)",
+            "Avail": "20F",
+            "Cost": "38.500¥",
+            "S": "SR5:R&G",
+            "Info": "The definitive anti-material rifle, Barret has been producing world-class firearms for decades, the Model 122 replaces the Model 121 as the company’s top-line offering. The rifle continues to be fitted with a sound suppressor, smartgun system and a folding bipod to help enhance long-range accuracy.<br><br><b>Standard upgrades</b><li>Bipod<br>Smart Gun<br>Sound Suppressor</li>"
+        },
+        "Cavalier Arms Crockett EBR": {
+            "Name": "Cavalier Arms Crockett EBR",
+            "Acc": "6",
+            "DV": "12P",
+            "AP": "-3",
+            "Mode": "SA/BF",
+            "RC": "(1)",
+            "Ammo": "20(c)",
+            "Avail": "12F",
+            "Cost": "10.300¥",
+            "S": "Core",
+            "Info": "Straddling the line between assault rifle and sniper rifle, the Crockett EBR features a burst fire mode. While it lacks the magazine capacity of a true assault rifle, and lacks the precision of a true marksman’s weapon, it makes up for this in versatility, being able to switch fluidly between a sniping role and a combat role as easy as flipping a switch. It comes equipped with a rigid stock with shock pad and a detachable imaging scope.<br><br><b>Modifiers</b><li>Rigid Stock with Shock Pad<br>TOP:Detachable Imaging Scope</li>"
+        },
+        "Ranger Arms SM-5": {
+            "Name": "Ranger Arms SM-5",
+            "Acc": "8",
+            "DV": "14P",
+            "AP": "-5",
+            "Mode": "SA",
+            "RC": "(1)",
+            "Ammo": "15(c)",
+            "Avail": "16F",
+            "Cost": "28.000¥",
+            "S": "Core",
+            "Info": "A legendary assassin’s weapon, this sniper rifle features a silencer, an imaging scope, and a rigid stock with shock pad. The SM–5 disassembles completely in order to fit into a standard briefcase; setting it up or breaking it down takes an Extended Firearms + Logic [Mental] (6, Complex Action) Test. While deadly, the SM–5 is fragile. At the end of every Combat Turn in which the weapon is used in a running firefight, reduce its Accuracy by 1 (to a minimum of 3). If the weapon is used in combat as a melee weapon or to defend from a melee attack, reduce its Accuracy by 2 (again to a minimum of 3). Recalibrating the weapon (a one-hour job) returns its Accuracy to normal.<br><br><b>Modifiers</b><li>Silencer<br>Imaging Scope<br>Rigid Stock with Shock Pad</li><b>Extended Setup Test</b><li>Extended Firearms + Logic [Mental] (6, Complex Action) Test</li><b>Combat Turn</b><li>-1 Accuracy (Minimum 3) every Combat Turn used</li><b>Melee Combat</b><li>-2 Accuracy (Minimum 3) after being used for Melee Attack or Melee Depend</li><b>Recalibrate Weapon</b><li>1 Hour, No test</li>"
+        },
+        "Remington 950": {
+            "Name": "Remington 950",
+            "Acc": "7",
+            "DV": "12P",
+            "AP": "-4",
+            "Mode": "SS",
+            "RC": "-",
+            "Ammo": "5(m)",
+            "Avail": "4R",
+            "Cost": "2.100¥",
+            "S": "Core",
+            "Info": "This high-powered bolt-action hunting rifle features classic wooden furniture and a top-mounted imaging scope that have kept it popular with hunters for several decades. It cannot mount underbarrel accessories.<br><br><b>Modifiers</b><li>Top:Imaging Scope<br>Underbarrel:No Accessories Possible</li>"
+        },
+        "Ruger 100": {
+            "Name": "Ruger 100",
+            "Acc": "6",
+            "DV": "11P",
+            "AP": "-3",
+            "Mode": "SA",
+            "RC": "(1)",
+            "Ammo": "8(m)",
+            "Avail": "4R",
+            "Cost": "1.300¥",
+            "S": "Core",
+            "Info": "This futuristic-looking gas-operated sporting rifle is the favorite weapon for many professional hunters and hobbyists. It features a built-in imaging scope and a rigid stock with shock pad.<br><br>Modifiers</b><li>Integrated Imaging Scope<br>Rigid Stock with Shock Pad</li>"
+        },
+        "Terracotta ARMS AM-47": {
+            "Name": "Terracotta ARMS AM-47",
+            "Acc": "7(9)",
+            "DV": "15P",
+            "AP": "-4",
+            "Mode": "SA",
+            "RC": "1(3)",
+            "Ammo": "18(c)",
+            "Avail": "14F",
+            "Cost": "35.000¥",
+            "S": "SR5:R&G",
+            "Info": "The AM-47 is a large sniper rifle, primarily intended for the larger metahuman species. The rifle features a number of advanced electronics to assist the shooter in destroying their target. The AM-47 is provided with an imaging scope, smartgun system, underbarrel weight, bipod, and a safe target system with an extended barrel for increased range over the competition.<br><br><b>Standard upgrades</b><li>Bipod<br>Commlink (Device Rating 5)<br>Imaging scope (low-light vision, image link, vision magnification)<br>Smartgun</li>"
+        }
+    }
+}

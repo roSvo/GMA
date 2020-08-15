@@ -1,0 +1,82 @@
+{
+    
+    "Clubs": {
+        "Club": {
+            "Name": "Club",
+            "Acc": "4",
+            "Reach": "1",
+            "DV": "(STR+3)P",
+            "AP": "-",
+            "Avail": "-",
+            "Cost": "30¥",
+            "S": "Core",
+            "Info": "The weapon they named the skill after. The stats represent a range of objects, including an axe handle, baseball bat, wrench, crowbar, a tire iron, and a two-by-four with a rusty nail in it. There is a price listed, but it's not overly difficult to find one for free if you know where to look."
+        },
+        "Extendable Baton": {
+            "Name": "Extendable Baton",
+            "Acc": "5",
+            "Reach": "1",
+            "DV": "(STR+2)P",
+            "AP": "-",
+            "Avail": "4",
+            "Copst": "100¥",
+            "S": "Core",
+            "Info": "The telescoping club can be collapsed, and it can be extended with a sharp flick of the wrist or a wireless signal. When retracted, it's more easily concealed.<br><br><b>Simple Action</b><li>Collapse & Extend</li><b>Collapsed</b><li>Concealability Modifier 0</li><b>Extended</b><li>Concealability Modifier +2</li><b>Wireless:</b><li>Readying the extendable baton is a Free Action instead of a Simple Action.</li>"
+        },
+        "Sap": {
+            "Name": "Sap",
+            "Acc": "5",
+            "Reach": "-",
+            "DV": "(STR+2)P",
+            "AP": "-",
+            "Avail": "2",
+            "Copst": "30¥",
+            "S": "Core",
+            "Info": "Also called a blackjack, this is a small, springy club, or a flat piece of iron in a flexible leather covering. It’s specially designed for concealment." 
+        },
+        "Staff": {
+            "Name": "Staff",
+            "Acc": "6",
+            "Reach": "2",
+            "DV": "(STR+3)P",
+            "AP": "-",
+            "Avail": "3",
+            "Copst": "100¥",
+            "S": "Core",
+            "Info": "This large, heavy stick is popular with magicians going for that traditional look. Available in composite, hardwood, high-carbon steel, and other materials." 
+        },
+        "Stun Baton": {
+            "Name": "Stun Baton",
+            "Acc": "4",
+            "Reach": "1",
+            "DV": "9S(e)",
+            "AP": "-5",
+            "Avail": "6E",
+            "Copst": "750¥",
+            "S": "Core",
+            "Info": "A standard riot-control weapon, viewed as a tool and symbol of corporate-government oppressors but pragmatically useful to runners. It has ten charges and regains one charge per ten seconds when plugged in.<br><br><b>Wireless:</b><li>The stun baton recharges by induction, regaining one charge per full hour of wireless-enabled time.</li>" 
+        },
+        "Telescoping Staff": {
+            "Name": "Telescoping Staff",
+            "Acc": "4",
+            "Reach": "2",
+            "DV": "(STR+2)P",
+            "AP": "-",
+            "Avail": "4",
+            "Copst": "350¥",
+            "S": "Core",
+            "Info": "This is a metal and composite staff that can telescope down to a reasonable size, one that can be concealed about as easily as a stun baton or a sword. It can be extended and locked in place by whirling it at the correct speed and angle and twisting the grip, or via a wireless signal.<br><br><b>Simple Action</b><li>Extend & Collapse</li><b>Wireless:</b><li>Extending the telescoping staff is a Free Actions instead of a Simple Action.</li>" 
+        },
+        "Nemesis Arms Maul Stun Staff": {
+            "Name": "N.A.M.S.S",
+            "Acc": "6",
+            "Reach": "2",
+            "DV": "9S(e)",
+            "AP": "-5",
+            "Avail": "8R",
+            "Copst": "1.000¥",
+            "S": "SR5:R&G",
+            "Info": "Double-sided zapping power! The Nemesis Arms Maul Stun Staff is basically a staff with stun batons on each end. They’re rather large and a bit ugly but they look quite intimidating in the hands of the guards at Shiawase HQ." 
+        }
+    }
+}

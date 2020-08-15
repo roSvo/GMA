@@ -13,31 +13,79 @@ li
 {
     list-style-type: none;
     padding: 2%;
-    
+    height: 100%;
 }
 
-ul{
+ul
+{
     position: absolute;
+    width: 10%;
+    height: 4%;
 }
 
 table
 {
     text-align: left;
     color: black; 
-    border: 2px solid black;
+    border: 1px solid black;
     background-color: cornsilk;
+    table-layout: fixed;
+    
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 5%;
+    
     object-position: center top;
 
-    
+    height: 100%;
+    width: 50%;
+
 }
 
-td, tr, th
+/*
+Color palette : 
+
+Dark Blue   : #031520
+Steel Blue  : #39546B
+Light Blue  : #3F6DA8
+White       : #A6A5B6
+Steel       : #807B89
+
+*/
+tr, th
 {
     border: 1px solid black;
+    margin-left: inherit;
+    margin-right: inherit;
+    margin-top: inherit;
 }
+
+td  
+{
+    border: 1px solid black;
+
+}
+
+.info
+{
+    border: none;
+}
+
+/*
+th 
+{
+    table-layout: fixed;
+    width: 100%;
+    width: fit-content;
+    border: 1px solid black;
+}
+
+tr, td
+{
+    table-layout: inherit;
+}
+*/
+
 
 button
 {
@@ -47,8 +95,8 @@ button
     border: none;
     border-radius: 12px;
     
-    width: 120%;
-
+    height: 100%;
+    width: 100%;
     /*
     padding: 1%;
     width: 12%;

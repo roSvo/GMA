@@ -1,0 +1,53 @@
+{
+    
+    "Formula": {
+        "Focus Formula": {
+            "Name": "Focus Formula",
+            "Karma": "-",
+            "Avail": "as Focus",
+            "Cost": "Focus x 0.25¥",
+            "S": "Core",
+            "Info": ""
+        },
+        "Combat Spell Formula": {
+            "Name": "Combat Spell Formula",
+            "Karma": "-",
+            "Avail": "8R",
+            "Cost": "2.000¥",
+            "S": "Core",
+            "Info": ""
+        },
+        "Detection Spell Formula": {
+            "Name": "Detection Spell Formula",
+            "Karma": "-",
+            "Avail": "4R",
+            "Cost": "500¥",
+            "S": "Core",
+            "Info": ""
+        },
+        "Health Spell Formula": {
+            "Name": "Health Spell Formula",
+            "Karma": "-",
+            "Avail": "4R",
+            "Cost": "500¥",
+            "S": "Core",
+            "Info": ""
+        },
+        "Illusion Spell Formula": {
+            "Name": "Illusion Spell Formula",
+            "Karma": "-",
+            "Avail": "8R",
+            "Cost": "1.000¥",
+            "S": "Core",
+            "Info": ""
+        },
+        "Manipulation Spell Formula": {
+            "Name": "Manipulation Spell Formula",
+            "Karma": "-",
+            "Avail": "8R",
+            "Cost": "1.500¥",
+            "S": "Core",
+            "Info": ""
+        }
+    }
+}

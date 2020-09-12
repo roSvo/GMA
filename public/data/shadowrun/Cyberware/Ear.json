@@ -1,0 +1,95 @@
+{
+    
+    "Ear": {
+        "Cyberears R1": {
+            "Name": "Cyberears R1",
+            "Essence": "0.2",
+            "Capacity": "(<span style='color: #00ff00;'>4</span>)",
+            "Avail": "3",
+            "Cost": "3.000¥",
+            "S": "Core",
+            "Info": "Ordinarily, cyberears replace only the inner ear, although the whole thing can be replaced as well if you like. Cyberears offer hearing with normal ranges (like an omni-directional microphone), a sound link, and Capacity for modifications and enhancements."
+        },
+        "Cyberears R2": {
+            "Name": "Cyberears R2",
+            "Essence": "0.3",
+            "Capacity": "(<span style='color: #00ff00;'>8</span>)",
+            "Avail": "6",
+            "Cost": "4.500¥",
+            "S": "Core",
+            "Info": "Ordinarily, cyberears replace only the inner ear, although the whole thing can be replaced as well if you like. Cyberears offer hearing with normal ranges (like an omni-directional microphone), a sound link, and Capacity for modifications and enhancements."
+        },
+        "Cyberears R3": {
+            "Name": "Cyberears R3",
+            "Essence": "0.4",
+            "Capacity": "(<span style='color: #00ff00;'>12</span>)",
+            "Avail": "9",
+            "Cost": "7.500¥",
+            "S": "Core",
+            "Info": "Ordinarily, cyberears replace only the inner ear, although the whole thing can be replaced as well if you like. Cyberears offer hearing with normal ranges (like an omni-directional microphone), a sound link, and Capacity for modifications and enhancements."
+        },
+        "Cyberears R4": {
+            "Name": "Cyberears R4",
+            "Essence": "0.5",
+            "Capacity": "(<span style='color: #00ff00;'>16</span>)",
+            "Avail": "12",
+            "Cost": "11.000¥",
+            "S": "Core",
+            "Info": "Ordinarily, cyberears replace only the inner ear, although the whole thing can be replaced as well if you like. Cyberears offer hearing with normal ranges (like an omni-directional microphone), a sound link, and Capacity for modifications and enhancements."
+        },
+        "Audio Enhancement": {
+            "Name": "Audio Enhancement (R 1-3)",
+            "Essence": "0.1",
+            "Capacity": "[<span style='color: #ff0000;'>Rating</span>]",
+            "Avail": "Rating x 3",
+            "Cost": "4.000¥ x Rating",
+            "S": "Core",
+            "Info": "An implanted version of audio enhancement (p. 445)."
+        },
+        "Balance Augmenter": {
+            "Name": "Balance Augmenter",
+            "Essence": "0.1",
+            "Capacity": "[<span style='color: #ff0000;'>4</span>]",
+            "Avail": "8",
+            "Cost": "8.000¥",
+            "S": "Core",
+            "Info": "The balance augmenter enhances the inner ear’s natural balance mechanism. You receive one bonus die on all tests involving balance, such as climbing, walking across a narrow platform, landing after a jump, and so on.<br><br><b>Balance Tests</b><li>+1 dice pool when Climbing, Crossing Narrow Platorms, Landing after a Jump, and so on</li>"
+        },
+        "Damper": {
+            "Name": "Damper",
+            "Essence": "0.1",
+            "Capacity": "[<span style='color: #ff0000;'>1</span>]",
+            "Avail": "6",
+            "Cost": "2.250¥",
+            "S": "Core",
+            "Info": "This implant protects the user from sudden increases in sound as well as damaging sound levels. The damper adds a +2 dice pool bonus to resisting sonic attacks, including flashbangs.<br><br><b>Sonic Attacks</b><li>+2 dice pool to resists<br>Includes Flashbangs</li>"
+        },
+        "Select Sound Filter": {
+            "Name": "Select Sound Filter (R 1-6)",
+            "Essence": "0.1",
+            "Capacity": "[<span style='color: #ff0000;'>Rating</span>]",
+            "Avail": "Rating x 3",
+            "Cost": "3.500¥ x Rating",
+            "S": "Core",
+            "Info": "An implanted version of the select sound filter audio enhancement, with the difference that the maximum available Rating is 6 instead of 3."
+        },
+        "Sound Link": {
+            "Name": "Sound Link",
+            "Essence": "0.1",
+            "Capacity": "[<span style='color: #ff0000;'>-</span>]",
+            "Avail": "4",
+            "Cost": "1.000¥",
+            "S": "Core",
+            "Info": "The audio equivalent of image link, sound link can play audio (recordings, movie soundtracks, music, etc.) from linked sources within the user’s PAN (or headware memory, or datajack) directly into the user’s cyberears. A sound link is a common component of immersive AR environments, adding a sonic component.<br><br><b>Included in the basic cyberears system.</b>"
+        },
+        "Spatial Recognizer": {
+            "Name": "Spatial Recognizer",
+            "Essence": "0.1",
+            "Capacity": "[<span style='color: #ff0000;'>2</span>]",
+            "Avail": "8",
+            "Cost": "4.000¥",
+            "S": "Core",
+            "Info": "An implanted version of the spatial recognizer enhancement."
+        }
+    }
+}

@@ -1,0 +1,122 @@
+{
+    
+    "Eye": {
+        "Cybereye R1": {
+            "Name": "Cybereyes R1",
+            "Essence": "0.2",
+            "Capacity": "(<span style='color: #00ff00;'>4</span>)",
+            "Avail": "3",
+            "Cost": "4.000¥",
+            "S": "Core",
+            "Info": "The basic cybereyes system features 20/20 vision for both eyes, an image link, and a built-in camera at no extra cost, as well as capacity for vision enhancements."
+        },
+        "Cybereye R2": {
+            "Name": "Cybereyes R2",
+            "Essence": "0.3",
+            "Capacity": "(<span style='color: #00ff00;'>8</span>)",
+            "Avail": "6",
+            "Cost": "6.000¥",
+            "S": "Core",
+            "Info": "The basic cybereyes system features 20/20 vision for both eyes, an image link, and a built-in camera at no extra cost, as well as capacity for vision enhancements."
+        },
+        "Cybereye R3": {
+            "Name": "Cybereyes R3",
+            "Essence": "0.4",
+            "Capacity": "(<span style='color: #00ff00;'>12</span>)",
+            "Avail": "9",
+            "Cost": "10.000¥",
+            "S": "Core",
+            "Info": "The basic cybereyes system features 20/20 vision for both eyes, an image link, and a built-in camera at no extra cost, as well as capacity for vision enhancements."
+        },
+        "Cybereye R4": {
+            "Name": "Cybereyes R4",
+            "Essence": "0.5",
+            "Capacity": "(<span style='color: #00ff00;'>16</span>)",
+            "Avail": "12",
+            "Cost": "14.000¥",
+            "S": "Core",
+            "Info": "The basic cybereyes system features 20/20 vision for both eyes, an image link, and a built-in camera at no extra cost, as well as capacity for vision enhancements."
+        },
+        "Flare Compensation": {
+            "Name": "Flare Compensation",
+            "Essence": "0.1",
+            "Capacity": "[<span style='color: #ff0000;'>1</span>]",
+            "Avail": "4",
+            "Cost": "1.000¥ x Rating",
+            "S": "Core",
+            "Info": "An implanted version of the flare compensation enhancement. This protects you from blinding flashes of light as well as simple glare. It mitigates the vision modifiers for glare and reduces the penalty from flashing lights, like from a flash-pak."
+        },
+        "Image Link": {
+            "Name": "Image Link",
+            "Essence": "0.1",
+            "Capacity": "[<span style='color: #ff0000;'>-</span>]",
+            "Avail": "4",
+            "Cost": "1.000¥",
+            "S": "Core",
+            "Info": "An implanted version of the image link enhancement. A standard upgrade, this lets you display visual information (text, pictures, movies, the current time, etc.) in your field of vision. This is usually AROs, but you can display pretty much whatever you want on it. You and your team can use it to share tactical and situational info in real time. An image link is what you need to truly “see” AR and participate in the modern world.<br><br><b>Included in the basic cybereyes system.</b>"
+        },
+        "Low-Light Vision": {
+            "Name": "Low-Light Vision",
+            "Essence": "0.1",
+            "Capacity": "[<span style='color: #ff0000;'>2</span>]",
+            "Avail": "4",
+            "Cost": "1.500¥",
+            "S": "Core",
+            "Info": "An implanted version of the low-light vision enhancement. This accessory allows you to see normally in light levels as low as starlight. It doesn’t help in total darkness, though."
+        },
+        "Ocular Drone": {
+            "Name": "Ocular Drone",
+            "Essence": "-",
+            "Capacity": "[<span style='color: #ff0000;'>6</span>]",
+            "Avail": "6",
+            "Cost": "6.000¥ x Rating",
+            "S": "Core",
+            "Info": "This enhancement only affects one eyeball per purchase. A small spyball drone is placed in your ocular cavity. The spyball functions as a normal cybereye (with all the relevant enhancements) until you remove it and control it as though it were a Horizon Flying Eye. When it’s out and you have only one eye, you suffer a –3 dice pool penalty to all tasks. If you replace both eyes with drones, you’re effectively blind while those drones are operating apart from you. An ocular drone is obviously not available as a retinal modification.<br><br><b>Remove Drone</b><li>-3 Dice Pool to All Tasks</li>"
+        },
+        "Retinal Duplication": {
+            "Name": "Retinal Duplication (R 1–6)",
+            "Essence": "0.1",
+            "Capacity": "[<span style='color: #ff0000;'>1</span>]",
+            "Avail": "16F",
+            "Cost": "20.000¥ x Rating",
+            "S": "Core",
+            "Info": "This highly illegal modification can be loaded with a recording of someone else’s retina to create an almost perfect reproduction. Make an Opposed Test between the retinal duplication Rating and the retinal scanner Rating (Security Devices, p. 362)."
+        },
+        "Smartlink": {
+            "Name": "Smartlink",
+            "Essence": "0.2",
+            "Capacity": "[<span style='color: #ff0000;'>3</span>]",
+            "Avail": "8R",
+            "Cost": "4.000¥",
+            "S": "Core",
+            "Info": "An implanted version of the smartlink vision enhancement (p. 444). Note that a smartlink installed in a natural eye or in a pair of cybereyes is more effective than a smartlink installed in an external device: see Smartgun System, p. 444."
+        },
+        "Thermographic Vision": {
+            "Name": "Thermographic Vision",
+            "Essence": "0.1",
+            "Capacity": "[<span style='color: #ff0000;'>2</span>]",
+            "Avail": "4",
+            "Cost": "1.500¥",
+            "S": "Core",
+            "Info": "An implanted version of the thermographic vision enhancement (p. 444)."
+        },
+        "Vision Enhancement": {
+            "Name": "Vision Enhancement (R 1–3)",
+            "Essence": "0.1",
+            "Capacity": "[<span style='color: #ff0000;'>Rating</span>]",
+            "Avail": "3 x Rating",
+            "Cost": "4.000¥ x Rating",
+            "S": "Core",
+            "Info": "An implanted version of vision enhancement (p. 444)."
+        },
+        "Vision Magnification": {
+            "Name": "Vision Magnification",
+            "Essence": "0.1",
+            "Capacity": "[<span style='color: #ff0000;'>2</span>]",
+            "Avail": "4",
+            "Cost": "2.000¥",
+            "S": "Core",
+            "Info": "An implanted version of the vision magnification enhancement (p. 444)."
+        }
+    }
+}

@@ -1,6 +1,9 @@
 {
     "Armor":
     [
-        
+        "Back",
+        "Clothing",
+        "Environmental",
+        "Modifications"
     ]
 }

@@ -1,1 +1,3 @@
-Navigating to Main -> Equipment -> Weapons -> Blades and clicking "back" will result the same window!
+
+Navigating to Main -> Equipment -> Weapons -> Blades and clicking "back" will result the same window! - Fixed
+Navigating from /shadowrun -> /(home) wont clear "prefix" and home page load doesn't work.

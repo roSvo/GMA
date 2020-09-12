@@ -1,0 +1,194 @@
+{
+    
+    "Limb": {
+        "Customization": {
+            "Name": "Bone Lacing (Plastic)",
+            "Essence": "-",
+            "Capacity": "-",
+            "Avail": "Cyberlimb +1",
+            "Cost": "+5.000¥",
+            "S": "Core",
+            "Info": "All standard cyberlimbs come with Strength and Agility attributes of 3. These values can only be augmented by cyberlimb enhancements, not other augmentations.<br>You can have your cyberlimb tailored and customized to your frame and musculature. Customization lets you add to your limb’s base Strength and/or Agility ratings. Each increase of either attribute increases the limb’s Availability and cost. If either of your limb’s attributes are increased beyond your natural maximum for that attribute, you can’t use the cyberlimb (so don’t overdo it), but you can still add cyberlimb enhancements. You customize your cyberlimb when you buy it; you can’t customize it after purchase, but you can add enhancements.Cyberlimbs may be either obvious or synthetic.<br><br><b>Cost and Availability</b><li>Multiply by each STR and AGI point above 3</li>"
+        },
+        "Obvious Full Arm": {
+            "Name": "Obvious Full Arm",
+            "Essence": "1",
+            "Capacity": "(<span style='color: #00ff00;'>15</span>)",
+            "Avail": "4",
+            "Cost": "15.000¥",
+            "S": "Core",
+            "Info": "These implants are immediately recognizable as artificial limbs unless you cover them with clothing. They are often chromed or matte colors but visibly mechanical in nature. Some folks like them glaringly obvious and outlandish, some find the artificiality repellant and disturbing. This can affect your social dealings in some circles, especially upper-crust society and the purist crowd."
+        },
+        "Obvious Full Leg": {
+            "Name": "Obvious Full Leg",
+            "Essence": "1",
+            "Capacity": "(<span style='color: #00ff00;'>20</span>)",
+            "Avail": "4",
+            "Cost": "15.000¥",
+            "S": "Core",
+            "Info": "These implants are immediately recognizable as artificial limbs unless you cover them with clothing. They are often chromed or matte colors but visibly mechanical in nature. Some folks like them glaringly obvious and outlandish, some find the artificiality repellant and disturbing. This can affect your social dealings in some circles, especially upper-crust society and the purist crowd."
+        },
+        "Obvious Hand/Foot": {
+            "Name": "Obvious Hand/Foot",
+            "Essence": "0.25",
+            "Capacity": "(<span style='color: #00ff00;'>4</span>)",
+            "Avail": "2",
+            "Cost": "5.000¥",
+            "S": "Core",
+            "Info": "These implants are immediately recognizable as artificial limbs unless you cover them with clothing. They are often chromed or matte colors but visibly mechanical in nature. Some folks like them glaringly obvious and outlandish, some find the artificiality repellant and disturbing. This can affect your social dealings in some circles, especially upper-crust society and the purist crowd."
+        },
+        "Obvious Lower Arm": {
+            "Name": "Obvious Lower Arm",
+            "Essence": "0.45",
+            "Capacity": "(<span style='color: #00ff00;'>10</span>)",
+            "Avail": "4",
+            "Cost": "10.000¥",
+            "S": "Core",
+            "Info": "These implants are immediately recognizable as artificial limbs unless you cover them with clothing. They are often chromed or matte colors but visibly mechanical in nature. Some folks like them glaringly obvious and outlandish, some find the artificiality repellant and disturbing. This can affect your social dealings in some circles, especially upper-crust society and the purist crowd."
+        },
+        "Obvious Lower Leg": {
+            "Name": "Obvious Lower Leg",
+            "Essence": "0.45",
+            "Capacity": "(<span style='color: #00ff00;'>12</span>)",
+            "Avail": "4",
+            "Cost": "10.000¥",
+            "S": "Core",
+            "Info": "These implants are immediately recognizable as artificial limbs unless you cover them with clothing. They are often chromed or matte colors but visibly mechanical in nature. Some folks like them glaringly obvious and outlandish, some find the artificiality repellant and disturbing. This can affect your social dealings in some circles, especially upper-crust society and the purist crowd."
+        },
+        "Obvious Torso": {
+            "Name": "Obvious Torso",
+            "Essence": "1.5",
+            "Capacity": "(<span style='color: #00ff00;'>10</span>)",
+            "Avail": "12",
+            "Cost": "20.000¥",
+            "S": "Core",
+            "Info": "These implants are immediately recognizable as artificial limbs unless you cover them with clothing. They are often chromed or matte colors but visibly mechanical in nature. Some folks like them glaringly obvious and outlandish, some find the artificiality repellant and disturbing. This can affect your social dealings in some circles, especially upper-crust society and the purist crowd."
+        },
+        "Obvious Skull": {
+            "Name": "Obvious Skull",
+            "Essence": "0.75",
+            "Capacity": "(<span style='color: #00ff00;'>4</span>)",
+            "Avail": "16",
+            "Cost": "10.000¥",
+            "S": "Core",
+            "Info": "These implants are immediately recognizable as artificial limbs unless you cover them with clothing. They are often chromed or matte colors but visibly mechanical in nature. Some folks like them glaringly obvious and outlandish, some find the artificiality repellant and disturbing. This can affect your social dealings in some circles, especially upper-crust society and the purist crowd."
+        },
+        "Synthetic Full Arm": {
+            "Name": "Synthetic Full Arm",
+            "Essence": "1",
+            "Capacity": "(<span style='color: #00ff00;'>8</span>)",
+            "Avail": "4",
+            "Cost": "20.000¥",
+            "S": "Core",
+            "Info": "Synthetic limbs are disguised as natural limbs. The fact that they’re cybernetic gives them a –8 Concealability (the Cybertechnology skill may replace Perception for this test) when someone’s just looking, but synthetic limbs are obviously artificial to the touch."
+        },
+        "Synthetic Full Leg": {
+            "Name": "Synthetic Full Leg",
+            "Essence": "1",
+            "Capacity": "(<span style='color: #00ff00;'>10</span>)",
+            "Avail": "4",
+            "Cost": "20.000¥",
+            "S": "Core",
+            "Info": "Synthetic limbs are disguised as natural limbs. The fact that they’re cybernetic gives them a –8 Concealability (the Cybertechnology skill may replace Perception for this test) when someone’s just looking, but synthetic limbs are obviously artificial to the touch."
+        },
+        "Synthetic Hand/Foot": {
+            "Name": "Synthetic Full Arm",
+            "Essence": "0.25",
+            "Capacity": "(<span style='color: #00ff00;'>2</span>)",
+            "Avail": "2",
+            "Cost": "6.000¥",
+            "S": "Core",
+            "Info": "Synthetic limbs are disguised as natural limbs. The fact that they’re cybernetic gives them a –8 Concealability (the Cybertechnology skill may replace Perception for this test) when someone’s just looking, but synthetic limbs are obviously artificial to the touch."
+        },
+        "Synthetic Lower Arm": {
+            "Name": "Synthetic Lower Arm",
+            "Essence": "0.45",
+            "Capacity": "(<span style='color: #00ff00;'>5</span>)",
+            "Avail": "4",
+            "Cost": "12.000¥",
+            "S": "Core",
+            "Info": "Synthetic limbs are disguised as natural limbs. The fact that they’re cybernetic gives them a –8 Concealability (the Cybertechnology skill may replace Perception for this test) when someone’s just looking, but synthetic limbs are obviously artificial to the touch."
+        },
+        "Synthetic Lower Leg": {
+            "Name": "Synthetic Lower Leg",
+            "Essence": "0.45",
+            "Capacity": "(<span style='color: #00ff00;'>6</span>)",
+            "Avail": "4",
+            "Cost": "12.000¥",
+            "S": "Core",
+            "Info": "Synthetic limbs are disguised as natural limbs. The fact that they’re cybernetic gives them a –8 Concealability (the Cybertechnology skill may replace Perception for this test) when someone’s just looking, but synthetic limbs are obviously artificial to the touch."
+        },
+        "Synthetic Torso": {
+            "Name": "Synthetic Torso",
+            "Essence": "1.5",
+            "Capacity": "(<span style='color: #00ff00;'>5</span>)",
+            "Avail": "12",
+            "Cost": "25.000¥",
+            "S": "Core",
+            "Info": "Synthetic limbs are disguised as natural limbs. The fact that they’re cybernetic gives them a –8 Concealability (the Cybertechnology skill may replace Perception for this test) when someone’s just looking, but synthetic limbs are obviously artificial to the touch."
+        },
+        "Synthetic Skull": {
+            "Name": "Synthetic Skull",
+            "Essence": "0.75",
+            "Capacity": "(<span style='color: #00ff00;'>2</span>)",
+            "Avail": "16",
+            "Cost": "15.000¥",
+            "S": "Core",
+            "Info": "Synthetic limbs are disguised as natural limbs. The fact that they’re cybernetic gives them a –8 Concealability (the Cybertechnology skill may replace Perception for this test) when someone’s just looking, but synthetic limbs are obviously artificial to the touch."
+        },
+        "Primitive Hand/Foot": {
+            "Name": "Primitive Hand/Foot",
+            "Essence": "-",
+            "Capacity": "-",
+            "Avail": "-",
+            "Cost": "20¥",
+            "S": "SR5:CF",
+            "Info": "Prostheses are intended to restore the normal functions of the missing body part."
+        },
+        "Primitive Partial Arm/Leg": {
+            "Name": "Primitive Partial Arm/Leg",
+            "Essence": "-",
+            "Capacity": "-",
+            "Avail": "-",
+            "Cost": "100¥",
+            "S": "SR5:CF",
+            "Info": "Prostheses are intended to restore the normal functions of the missing body part."
+        },
+        "Primitive Full Arm/Leg": {
+            "Name": "Primitive Hand/Foot",
+            "Essence": "-",
+            "Capacity": "-",
+            "Avail": "-",
+            "Cost": "250¥",
+            "S": "SR5:CF",
+            "Info": "Prostheses are intended to restore the normal functions of the missing body part."
+        },
+        "Cyberlimb Enhancements Agility": {
+            "Name": "Cyberlimb Enhancements Agility (R 1-3)",
+            "Essence": "-",
+            "Capacity": "[<span style='color: #ff0000;'>Rating</span>]",
+            "Avail": "(Rating x 3)R",
+            "Cost": "6.500¥ x Rating",
+            "S": "Core",
+            "Info": "Cyberlimb enhancements use up to the Capacity of the cyberlimb they enhance. There are three types of enhancement: Agility, Armor, and Strength. Physical attribute enhancements add their Rating to the appropriate attribute of the limb. Armor enhancements provide an Armor bonus equal to their rating, cumulative with other armor, without adding to Encumbrance. Each limb can have only one enhancement of each type (you can’t stack two Strength 3 enhancements in the same cyberarm), but you can replace one you have with one you want."
+        },
+        "Cyberlimb Enhancements Armor": {
+            "Name": "Cyberlimb Enhancements Armor (R 1-3)",
+            "Essence": "-",
+            "Capacity": "[<span style='color: #ff0000;'>Rating</span>]",
+            "Avail": "Rating x 5",
+            "Cost": "3.000¥ x Rating",
+            "S": "Core",
+            "Info": "Cyberlimb enhancements use up to the Capacity of the cyberlimb they enhance. There are three types of enhancement: Agility, Armor, and Strength. Physical attribute enhancements add their Rating to the appropriate attribute of the limb. Armor enhancements provide an Armor bonus equal to their rating, cumulative with other armor, without adding to Encumbrance. Each limb can have only one enhancement of each type (you can’t stack two Strength 3 enhancements in the same cyberarm), but you can replace one you have with one you want."
+        },
+        "Cyberlimb Enhancements Strength": {
+            "Name": "Cyberlimb Enhancements Strength (R 1-3)",
+            "Essence": "-",
+            "Capacity": "[<span style='color: #ff0000;'>Rating</span>]",
+            "Avail": "(Rating x 3)R",
+            "Cost": "6.500¥ x Rating",
+            "S": "Core",
+            "Info": "Cyberlimb enhancements use up to the Capacity of the cyberlimb they enhance. There are three types of enhancement: Agility, Armor, and Strength. Physical attribute enhancements add their Rating to the appropriate attribute of the limb. Armor enhancements provide an Armor bonus equal to their rating, cumulative with other armor, without adding to Encumbrance. Each limb can have only one enhancement of each type (you can’t stack two Strength 3 enhancements in the same cyberarm), but you can replace one you have with one you want."
+        }
+    }
+}

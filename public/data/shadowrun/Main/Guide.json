@@ -1,7 +1,21 @@
 {
-    "Guide":
+    "Guide" :
     [
-        
+        "Back",
+        "Guiding",
+        "Athletics",
+        "Biotech",
+        "Close Combat",
+        "Conjuring",
+        "Cracking",
+        "Electronics",
+        "Enchanting",
+        "Engineering",
+        "Firearms",
+        "Influence",
+        "Outdoors",
+        "Sorcery",
+        "Stealth",
+        "Tasking"
     ]
-
 }

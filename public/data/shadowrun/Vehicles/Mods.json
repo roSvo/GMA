@@ -1,0 +1,82 @@
+{
+    
+    "Mods": {
+        "Rigger interface": {
+            "Name": "Rigger interface",
+            "Avail": "4",
+            "Cost": "1.000¥",
+            "S": "Core",
+            "Info": "When added to a vehicle, this lets you use a control rig to jump in and control it directly through immersive virtual reality. The standard rigger interface allows the vehicle to be controlled with either a direct fiber-optic cable or wireless link. See Being the Machine, p. 265."
+        },
+        "Standard weapon mount": {
+            "Name": "Standard weapon mount",
+            "Avail": "8F",
+            "Cost": "2.500¥",
+            "S": "Core",
+            "Info": "Vehicles may be equipped with a number of weapon mounts equal to their unaugmented Body ÷ 3 (round down). Standard weapon mounts may hold any assault rifle or smaller-sized weapon and 250 rounds of ammo.<br><br><b>Manual operation</b><br>Avail +1<br>Cost +500¥</b><li>Manual operation can be added, but only for vehicles, not drones, and at extra cost.</li>"
+        },
+        "Heavy weapon mount": {
+            "Name": "Heavy weapon mount",
+            "Avail": "14F",
+            "Cost": "5.000¥",
+            "S": "Core",
+            "Info": "Heavy weapon mounts count as two weapon mounts and can hold any weapon and up to 500 rounds of belted ammo or up to Body rockets/missiles. All weapon mounts are operated remotely and can target a ninety-degree arc of fire (horizontal and vertical).<br><br><b>Manual operation</b><br>Avail +1<br>Cost +500¥</b><li>Manual operation can be added, but only for vehicles, not drones, and at extra cost.</li>"
+        },
+        "Morphing License Plate": {
+            "Name": "Morphing License Plate",
+            "Avail": "8F",
+            "Cost": "1.000¥",
+            "S": "SR5:R5.0",
+            "Info": "While most modern governments primarily use electronic identification for vehicles, they still require some sort of physical identification plate to uniquely identify a vehicle. Since being positively identified is something that an average shadowrunner wants to avoid, most install a special morphing license plate. Made from smart materials, a morphing license plate can reshape itself with a Complex Action and mimic any of the forms used in governments around the world today. Runners will typically also purchase a spoof chip keep their vehicle from being identified."
+        },        
+        "Spoof Chip": {
+            "Name": "Spoof Chip",
+            "Avail": "8F",
+            "Cost": "500¥",
+            "S": "SR5:R5.0",
+            "Info": "All governments in the civilized world require that a vehicle be uniquely tagged and broadcast that identification on demand. This allows law enforcement and any authorized government agency (and some unauthorized) to quickly identify and track a vehicle. All of that may sound great to the common wageslave, but those are all things that a shadowrunner wants to avoid like a VITAS plague. Consequently, installing a spoof chip has become a common practice for anyone wanted to use a vehicle for their shadow activities. The spoof chip mimics a standard vehicle identifier chip but can be command with a Complex Action to change its identifier to a different random value that is arithmetically generated to appear authentic. Installing a spoof chip requires a Hardware + Logic [Logic] (2) Test."
+        },
+        "Spike Strip": {
+            "Name": "Spike Strip",
+            "Avail": "8R",
+            "Cost": "200¥",
+            "S": "SR5:R5.0",
+            "Info": "This strip consists of sharp, penetrating spikes that damage the tires of any vehicle that drives over it. The vehicle’s tires immediately blow out unless they are run flat tires (see below), forcing the driver to make an immediate Vehicle Test to avoid crashing. Even if the crash is avoided, flat tires give a –2 dice pool penalty on Vehicle Tests."
+        },
+        "Zapper Strip": {
+            "Name": "Zapper Strip",
+            "Avail": "12R",
+            "Cost": "2.500¥",
+            "S": "SR5:R5.0",
+            "Info": "The zapper strip is equipped with hundreds of tiny “feelers” that extend upward to brush against the chassis of a vehicle that passes over. When a vehicle drives over it, the strip sounds a powerful electromagnetic pulse into the chassis of the vehicle, attempting to damage its electronics. A vehicle that drives over a zapper strip suffers 10 DV(e) damage. A zapper strip has enough power for 10 discharges before needing to be recharged."
+        },
+        "Tracking Strip": {
+            "Name": "Tracking Strip",
+            "Avail": "8R",
+            "Cost": "600¥",
+            "S": "SR5:R5.0",
+            "Info": "The tracking strip is a subtle way to gather information about vehicles that pass by. Once deployed, whenever a vehicle passes over a tracking strip, it “fires” a stealth tag that attaches itself to the vehicle. A tracking strip contains fifty stealth tags."
+        },
+        "Off-road Tires": {
+            "Name": "Off-road Tires",
+            "Avail": "6",
+            "Cost": "400¥ /Tier",
+            "S": "SR5:R5.0",
+            "Info": "Designed specifically for rough terrain, these tires are not as effective as standard tires on standard roads. When equipped, the vehicle’s off-road Handling is increased by +1, and on-road Handling is reduce by –1. Off-road tires are also considered Run Flat Tires."
+        },
+        "Racing Tires": {
+            "Name": "Racing Tires",
+            "Avail": "6",
+            "Cost": "250¥ /Tier",
+            "S": "SR5:R5.0",
+            "Info": "The flip-side of off-road tires, racing tires are designed to maximize vehicle performance in urban conditions. When equipped, the vehicle’s on-road Handling is increased by +1 and off-road Handling is reduced by –1."
+        },
+        "Run Flat Tires": {
+            "Name": "Run Flat Tires",
+            "Avail": "4",
+            "Cost": "250¥ /Tier",
+            "S": "SR5:R5.0",
+            "Info": "A common upgrade for shadowrunners, run flat tires are filled with a dense but flexible foam instead of air. They continue to operate even when the tire has been punctured but will quickly deteriorate if the tire suffers significant structure damage."
+        }
+    }
+}

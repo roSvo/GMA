@@ -5,7 +5,6 @@
         "Bows",
         "Blades",
         "Clubs",
-        "Crossbows",
         "Tasers",
         "Hold-Out Pistols",
         "Light Pistols",
@@ -17,11 +16,13 @@
         "Shotguns",
         "Machine Guns",
         "Assault Cannons",
-        "Granade Launchers",
+        "Launchers",
         "Implant Melee",
         "Implant Firearms",
-        "Ammunitiona",
+        "Ammunitions",
+        "Arrows",
         "Grenades",
+        "Missiles",
         "Accessories"
     ]
 }

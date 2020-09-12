@@ -1,25 +1,47 @@
 const http  = require('http');
 const fs = require('fs');
 const path = require('path');
+const { parse } = require('path');
 
 
-var Postfix = "";
+var prefix = "";
 const DataPath = "public/data/";
 
 const requestResponseHandler = (IncomingMessage, ServerResponse) =>
 {
-  console.dir(IncomingMessage.url);
+  let MessageRequest = IncomingMessage.url.split("/");
+  
+  let RequestDirectory = parseSpace(MessageRequest[1]);
+  let RequestFile = parseSpace(MessageRequest[2]);
+  
+  //There might be a way to do it with this.. 
+  //Just case inside Request Directory.
 
-  switch(IncomingMessage.url)
+  console.log("REQUEST DIRECTORY : ", RequestDirectory);
+  console.log("REQUEST FILE : ", RequestFile);
+
+  console.log("COMBINATION : ", prefix + RequestDirectory);
+
+  //TODO : FIX prefix to work even if home page is loaded from shadowrun (or any other) page,
+  //atm it requires F5 to refresh home..
+  let URL = RequestDirectory
+  
+  if(prefix != null)
+  {
+    URL = prefix + RequestDirectory;
+  }
+   
+  switch(URL)
   {
     //Home page:
-    case '/':
+    case '':
     {
       //Send html
+      prefix = "";
       sendResponse('public/html/home.html', 'text/html', ServerResponse);
       break;
     }
-    case '/home.css':
+    case 'home.css':
     {
       //Send css
       sendResponse('public/css/home.css', 'text/css', ServerResponse);
@@ -28,137 +50,109 @@ const requestResponseHandler = (IncomingMessage, ServerResponse) =>
 
     //SHADOWRUN PAGE:
     //------------------------------------------------------------------------------------
-    case '/shadowrun':
+    case 'shadowrun':
     {
       //Send html
+      prefix = "Shadowrun";
       sendResponse('public/html/shadowrun.html', 'text/html', ServerResponse);
       break;
     }
-    case '/shadowrun.css':
+    case 'Shadowrunshadowrun.css':
     {
       //Send css
       sendResponse('public/css/shadowrun.css', 'text/css', ServerResponse);
       break;
     }
-    case '/ShadowBackground.jpg':
+    case 'ShadowrunShadowBackground.jpg':
     {
       //Send background image
       sendResponse('public/images/ShadowsBackground.jpg', 'text/jpg', ServerResponse);
       break;
     }
-    case '/shadowrun.js':
+    case 'Shadowrunshadowrun.js':
     {
       //Send public javaScript file
-      Postfix = "Shadowrun/";
       sendResponse('public/js/shadowrun.js', 'text/javascript', ServerResponse);
       break;
     }
-    case '/Main.json':
+    case 'ShadowrunMain':
     {
-      sendResponse('/public/data/Shadowrun/Main.json', 'application/json', ServerResponse);
-      break;
+      //'Back' case
+      if(RequestFile == null || RequestFile == 'Main')
+      {
+        sendResponse('/public/data/Shadowrun/Main.json', 'application/json', ServerResponse);
+        break;
+      }
+      else
+      {
+        sendResponse('/public/data/' + prefix + '/' + RequestDirectory + "/" + RequestFile + '.json', 'application/json', ServerResponse);
+        break;
+      }
     }
-    case '/ShadowRunSkills.json':
+    case 'ShadowrunGuide':
     {
-      sendResponse('/public/data/Shadowrun/Main/Skills.json', 'application/json', ServerResponse);
-      break;
+
+      //TODO, NOT RequestDirectory + RequestFile should work dynamically
+      //'Back' case
+      if(RequestFile == 'Guide')
+      {
+        sendResponse('/public/data/Shadowrun/Main/Guide.json', 'application/json', ServerResponse)
+        break;
+      } 
+      else
+      {
+        sendResponse('/public/data/' + prefix + '/' + RequestDirectory + "/"  + RequestFile + '.json', 'application/json', ServerResponse);
+        break;
+      }
     }
-    case '/ShadowRunGuide.json':
-    {
-      sendResponse('/public/data/Shadowrun/Main/Guide.json', 'application/json', ServerResponse);
-      break;
-    }
-    case '/ShadowRunStats.json':
-    {
-      sendResponse('/public/data/Shadowrun/Main/Stats.json', 'application/json', ServerResponse);
-      break;
-    }
-    case '/Equipment.json':
-    {
-      sendResponse('/public/data/Shadowrun/Main/Equipment.json', 'application/json', ServerResponse);
-      break;
-    }
-    case '/ShadowRunArmor.json':
-    {
-      sendResponse('/public/data/Shadowrun/Equipment/Armor.json', 'application/json', ServerResponse);
-      break;
-    }
-    case '/ShadowRunWeapons.json':
-    {
-      sendResponse('/public/data/Shadowrun/Equipment/Weapons.json', 'application/json', ServerResponse);
-      break;
-    }
-    // --------
-    case '/ShadowRunBlades.json' :
-    {
-      sendResponse('/public/data/Shadowrun/Weapons/Blades.json', 'application/json',  ServerResponse);
-      break;
-    }
-    case '/ShadowRunBows.json' :
-    {
-      sendResponse('/public/data/Shadowrun/Weapons/Bows.json', 'application/json',  ServerResponse);
-      break;
-    }
-    case '/ShadowRunClubs.json':
-    {
-      sendResponse('/public/data/Shadowrun/Weapons/Clubs.json', 'application/json', ServerResponse);
-      break;
-    }
-    case '/ShadowRunCrossbows.json':
-    {
-      sendResponse('/public/data/Shadowrun/Weapons/Crossbows.json', 'application/json', ServerResponse);
-      break;
-    }    
-    case '/ShadowRunTasers.json':
-    {
-      sendResponse('/public/data/Shadowrun/Weapons/Tasers.json', 'applicaton/json', ServerResponse);
-      break;
-    } 
-    case '/ShadowRunHold-Out%20Pistols.json':
-    {
-      sendResponse('/public/data/Shadowrun/Weapons/Hold-Out Pistols.json', 'applicaton/json', ServerResponse);
-      break;
-    }
-    case '/ShadowRunLight%20Pistols.json':
-    {
-      sendResponse('/public/data/Shadowrun/Weapons/Light Pistols.json', 'applicaton/json', ServerResponse);
-      break;
-    }
-    case '/ShadowRunHeavy%20Pistols.json':
-    {
-      sendResponse('/public/data/Shadowrun/Weapons/Heavy Pistols.json', 'applicaton/json', ServerResponse);
-      break;
-    }
-    case '/ShadowRunMachine%20Pistols.json':
-    {
-      sendResponse('/public/data/Shadowrun/Weapons/Machine Pistols.json', 'applicaton/json', ServerResponse);
-      break;
-    }
-    case '/ShadowRunSubmachine%20Guns.json':
-    {
-      sendResponse('/public/data/Shadowrun/Weapons/Submachine Guns.json', 'applicaton/json', ServerResponse);
-      break;
-    }
-    case '/ShadowRunAssault%20Rifles.json':
-    {
-      sendResponse('/public/data/Shadowrun/Weapons/Assault Rifles.json', 'applicaton/json', ServerResponse);
-      break;
-    }
-    case '/ShadowRunSniper%20Rifles.json':
-    {
-      sendResponse('/public/data/Shadowrun/Weapons/Sniper Rifles.json', 'applicaton/json', ServerResponse);
-      break; 
-    }
-    case '/ShadowRunShotguns.json':
-    {
-      sendResponse('/public/data/Shadowrun/Weapons/Shotguns.json', 'applicaton/json', ServerResponse);
-      break; 
-    }
-    case '/ShadowRunMachine%20Guns.json':
-    {
-      sendResponse('/public/data/Shadowrun/Weapons/Machine Guns.json', 'applicaton/json', ServerResponse);
-      break; 
-    }
+    case 'ShadowrunStats':
+      {
+  
+        //TODO, NOT RequestDirectory + RequestFile should work dynamically
+        //'Back' case
+        if(RequestFile == 'Stats')
+        {
+          sendResponse('/public/data/Shadowrun/Main/Stats.json', 'application/json', ServerResponse)
+          break;
+        } 
+        else
+        {
+          sendResponse('/public/data/' + prefix + '/' + RequestDirectory + "/"  + RequestFile + '.json', 'application/json', ServerResponse);
+          break;
+        }
+      }
+      case 'ShadowrunSkills':
+        {
+    
+          //TODO, NOT RequestDirectory + RequestFile should work dynamically
+          //'Back' case
+          if(RequestFile == 'Skills')
+          {
+            sendResponse('/public/data/Shadowrun/Main/Skills.json', 'application/json', ServerResponse)
+            break;
+          } 
+          else
+          {
+            sendResponse('/public/data/' + prefix + '/' + RequestDirectory + "/"  + RequestFile + '.json', 'application/json', ServerResponse);
+            break;
+          }
+        }
+        case 'ShadowrunEquipment':
+          {
+      
+            //TODO, NOT RequestDirectory + RequestFile should work dynamically
+            //'Back' case
+            if(RequestFile == 'Equipment')
+            {
+              sendResponse('/public/data/Shadowrun/Main/Equipment.json', 'application/json', ServerResponse)
+              break;
+            } 
+            else
+            {
+              sendResponse('/public/data/' + prefix + '/' + RequestDirectory + "/"  + RequestFile + '.json', 'application/json', ServerResponse);
+              break;
+            }
+          }
     //------------------------------------------------------------------------------------
     
     
@@ -179,14 +173,38 @@ const requestResponseHandler = (IncomingMessage, ServerResponse) =>
 
     default:
     {
-      console.log("default was called, not ready yet..");
-      //sendResponse(IncomingMessage.url, getContentType(IncomingMessage.url), ServerResponse);
+      console.log("MACIG DEFAULT");
+      sendResponse('public/data/' + prefix + '/' + RequestDirectory + '/' + RequestFile + '.json', 'application/json', ServerResponse);
       break;
+
+      //prefix = "";
+      //console.log("default was called, not ready yet..");
+      //sendResponse(IncomingMessage.url, getContentType(IncomingMessage.url), ServerResponse);
+      //break;
     }
     //------------------------------------------------------------------------------------
 
 
   }
+}
+
+function parseSpace(stringMessage)
+{
+  if(stringMessage != null)
+  {
+    let returnMessage = "";
+    let temp = stringMessage.split("%20");
+    
+    returnMessage = temp[0];
+    for(let index = 1; index < temp.length; index++)
+    {
+      returnMessage += " " + temp[index];  
+    }
+    
+    return returnMessage;
+  }
+
+  return stringMessage;
 }
 
 function sendResponse(url, contentType, res)

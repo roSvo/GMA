@@ -1,0 +1,35 @@
+{
+    
+    "Submarines": {
+        "Proteus Lamprey": {
+            "Name": "Proteus Lamprey",
+            "Handl": "3",
+            "Speed": "2",
+            "Accel": "1",
+            "Bod": "6",
+            "Armor": "6",
+            "Pilot": "1",
+            "Sensor": "3",
+            "Seats": "4",
+            "Avail": "-",
+            "Cost": "14.000¥",
+            "S": "Core",
+            "Info": "This underwater sea-sled is used for underwater inspection and transportation. with riding positions for up to four scuba-equipped passengers (while closest to a submarine, the Lamprey does not actually protect its passengers from the rigors of the deep). Military models of the lamprey are used for aquatic insertions by specially equipped naval spec ops forces, like the UCAS Navy SEAL teams. The lamprey also includes a drone rack for a single seaworthy drone of medium or smaller size for exploring at deeper depths than the passengers can safely go.<br><br><b>Storage</b><li>Drone Rack for Single Medium Drone</li>"
+        },
+        "Vulkan Electronaut": {
+            "Name": "Vulkan Electronaut",
+            "Handl": "3",
+            "Speed": "3",
+            "Accel": "1",
+            "Bod": "12",
+            "Armor": "10",
+            "Pilot": "4",
+            "Sensor": "4",
+            "Seats": "2",
+            "Avail": "10",
+            "Cost": "108.000¥",
+            "S": "Core",
+            "Info": "This two-person mini-sub is the cheapest available in its class and is available in a wide selection of utility models. It is often used on patrol and short-range reconnaissance duties and resupply runs, but it can also be leveraged by shadowrunner teams looking for unexpected ways to approach nautical targets."
+        }
+    }
+}

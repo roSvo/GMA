@@ -8,7 +8,7 @@ function ShowInfo(ItemElemet)
     let x = document.getElementById(ItemElemet.toString());
     if(x.style.display === "none")
     {
-        x.style.display = "block";
+        x.style.display = "table-cell";
     }
     else
     {
@@ -32,11 +32,23 @@ function LoadJSON(Tag)
 
 function GetJsonData(Tag, ToBeAdded)
 {
-    fetch(Tag.toString() + ".json").then(data => 
+    console.log("HISTORY ARRAY : ", HistoryArray);
+    
+    var SubColumn = Tag;
+    if(HistoryArray.length > 0)
+    {
+        var SubColumn = HistoryArray[HistoryArray.length - 1] + '/' + Tag;
+    }
+
+    console.log("Tag : ", Tag);
+
+    fetch(SubColumn).then(data => 
         {
             return data.json();
         }).then(JSONdata => 
         {
+
+
             if(Array.isArray(JSONdata[Tag.toString()]))
             {
                 if(ToBeAdded == true)
@@ -83,6 +95,7 @@ function CreateTableElements(JSONArray)
     //but this will do for now.
 
     let DataLength = 0;
+    let CustomWidth = "";
 
     if(ItemKey.length > 0)
     {
@@ -90,17 +103,23 @@ function CreateTableElements(JSONArray)
 
         ValueKey = Object.keys(JSONArray[ItemKey[0]]);
         
-        ValueKey.forEach(ValueElement =>
-        {   
-            if(ValueElement == "Info")
+        //Decrease first and last value [name] & [info]
+        DataLength = ValueKey.length - 2;
+        CustomWidth = (100 / DataLength).toString() + "%";
+        console.log("Custom width : ", CustomWidth);
+        for(let i = 1; i < ValueKey.length; i++)
+        {
+            if(ValueKey[i] == "Info")
             {
-                return false;
+                continue;
             }
+
             let TableHeader = document.createElement("th");
-            TableHeader.innerHTML = ValueElement;
+            TableHeader.innerHTML = ValueKey[i];
+            TableHeader.setAttribute("width", CustomWidth);
             TableRow.appendChild(TableHeader);
-            DataLength++;
-        });
+        }
+
         Table.appendChild(TableRow);
     }
     ItemKey.forEach(ItemElement =>
@@ -109,31 +128,38 @@ function CreateTableElements(JSONArray)
         let Info = "";
 
         ValueKey = Object.keys(JSONArray[ItemElement]);   
+    
+        let NameRow = document.createElement("tr");
+        let NameData = document.createElement("td");
         
-        ValueKey.forEach(ValueElement =>
+        NameData.innerHTML = JSONArray[ItemElement][ValueKey[0]];
+        NameData.setAttribute("class", "name");
+        NameData.colSpan = (DataLength);
+        NameRow.appendChild(NameData);
+        Table.appendChild(NameRow);
+        
+        for(let i = 1; i < ValueKey.length; i++)
         {
-            if(ValueElement == "Info")
+            if(ValueKey[i] == "Info")
             {
-                Info = JSONArray[ItemElement][ValueElement];
-                return false;
-            }            
-            ////<span style='color: #ff0000;'>-3</span>
+                Info = JSONArray[ItemElement][ValueKey[i]];
+                continue;
+            }
             let TableData = document.createElement("td");
-            TableData.innerHTML = JSONArray[ItemElement][ValueElement];
-            TableData.setAttribute("width", (100 / DataLength).toString() + "%");
+            TableData.innerHTML = JSONArray[ItemElement][ValueKey[i]];
+            TableData.setAttribute("width", CustomWidth);
             TableRow.appendChild(TableData);
-        });
-
+        }
+        
         TableRow.addEventListener("click", function() { ShowInfo(ItemElement) } );
         Table.appendChild(TableRow);
 
-        TableInfo = document.createElement("td");
+        let TableInfo = document.createElement("td");
         TableInfo.setAttribute("id", ItemElement);
         TableInfo.setAttribute("class", "info");
-
+        TableInfo.colSpan = (DataLength);
         TableInfo.innerHTML = Info;
         TableInfo.setAttribute("style","display:none;");
-        //TableInfo.setAttribute("colspan", 7);
         Table.appendChild(TableInfo);
         
 

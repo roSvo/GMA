@@ -1,0 +1,185 @@
+{
+    
+    "Bioware": {
+        "Adrenaline Pump": {
+            "Name": "Adrenaline Pump (R 1–3)",
+            "Essence": "0.75 x Rating",
+            "Capacity": "[<span style='color: #ff0000;'>-</span>]",
+            "Avail": "(Rating x 6)F",
+            "Cost": "55.000¥ x Rating",
+            "S": "Core",
+            "Info": "This enhanced gland is implanted in the lower abdomen, connected to both supradrenal glands. When dormant, the pump is merely a reservoir for adrenaline. When activated, a small muscular sac contracts, sending a surge of concentrated adrenaline into the blood stream. Physical and emotional stress can force your pump to activate if you fail a Composure Test (p. 152); otherwise you can trigger it as a Free Action.<br>While the pump is active, you ignore injury modifiers and don’t fall unconscious, even if your Stun Condition Monitor is filled. You can’t rest, but the adrenaline pump’s Rating is added to your Strength, Agility, Reaction, and Willpower attributes. The pump works for Rating x 1D6 Combat Turns (the pump can’t be switched off early). When time’s up, you crash and take Stun damage equal to the number of Combat Turns the pump was active (use your natural Body + Willpower to resist the damage).After the effects end, your attribute values return to normal and you stop ignoring injury modifiers or unconsciousness from Stun damage. After use, the pump requires 1 hour to regenerate its supply. During that time, it cannot be activated.<br><br><b>Trigger Pump</b><li>Free Action</li><b>Active Benefits</b><li>Ignore Injury Modifiers<br>Can't Fall Unconscious<br>+Rating to STR, AGI, REA, WIL</li><b>Active Duration</b><li>Rating x 1D6 Combat Turns</li><b>After Duration</b><li>Duration amount of Stun Damage (Resist with Body + Willpower)</li><b>Recharge Rate</b><li>1 Hour</li>"
+        },
+        "Bone Density Augmentation": {
+            "Name": "Bone Density Augmentation (R 1–4)",
+            "Essence": "0.3 x Rating",
+            "Capacity": "[<span style='color: #ff0000;'>-</span>]",
+            "Avail": "Rating x 4",
+            "Cost": "5.000¥ x Rating",
+            "S": "Core",
+            "Info": "The molecular structure of your bones is altered to increase density and tensile strength. Ligaments are strengthened, and the increased bone density increases your weight a bit. Your Body attribute is increased by the bone density Rating for the purpose of damage resistance tests. You also deal Physical damage in unarmed combat, based on the Rating of the augmentation (see the Bone Density Augmentation table). Bone density augmentation is incompatible with other augmentations to the bones, including bone lacing cyberware.<br><br><b>Unarmed Damage</b><li>Rating 1 (STR)P<br>Rating 2 (STR +1)P<br>Rating 3 (STR +2)P<br>Rating 4 (STR +3)P</li>"
+        },
+        "Cat’s Eye": {
+            "Name": "Cat’s Eye",
+            "Essence": "0.1",
+            "Capacity": "[<span style='color: #ff0000;'>-</span>]",
+            "Avail": "4",
+            "Cost": "4.000¥ x Rating",
+            "S": "Core",
+            "Info": "These transgenic vat-grown implants are very literally cats’ eyes with a modified DNA profile and occipital connecting structures. The structure of cat’s eyes amplifies light and enhances night vision, providing lowlight vision. Cat’s eyes are slit and reflective, just like, well, a cat’s. This bioware is obviously not compatible with cyberware eye enhancements or replacements.<br><br><b>Vision</b><li>Low Light</li>"
+        },
+        "Enhanced Articulation": {
+            "Name": "Enhanced Articulation",
+            "Essence": "0.3",
+            "Capacity": "[<span style='color: #ff0000;'>-</span>]",
+            "Avail": "12",
+            "Cost": "24.000¥ x Rating",
+            "S": "Core",
+            "Info": "A number of procedures like joint-surface coating, re-lubrication, and tendon and ligament augmentation lead to more fluid muscle and joint action. Enhanced articulation provides you with a +1 dice pool modifier to your Escape Artist skill and a +1 increase to your Physical limit (cumulative with other limit modifiers).<br><br><b>Escape Artist</b><li>+1 to Dice Pool</li><b>Physical Limit</b><li>+1</li>"
+        },
+        "Muscle Augmentation": {
+            "Name": "Muscle Augmentation (R 1–4)",
+            "Essence": "0.2 x Rating",
+            "Capacity": "[<span style='color: #ff0000;'>-</span>]",
+            "Avail": "(Rating x 5)R",
+            "Cost": "31.000¥ x Rating",
+            "S": "Core",
+            "Info": "This biological weaving treatment enhances existing muscle tissue, rather than replacing it with vat-grown muscles. Specially grown muscle cables are woven into existing muscle fibers, enhancing muscle mass and brute strength while providing a bulkier look. Muscle augmentation adds its rating to your Strength. This bioware is incompatible with augmentations that increase Strength, including the muscle replacements cyberware.<br><br><b>Add Rating to Strength</b>"
+        },
+        "Muscle Toner": {
+            "Name": "Muscle Toner (R 1–4)",
+            "Essence": "0.2 x Rating",
+            "Capacity": "[<span style='color: #ff0000;'>-</span>]",
+            "Avail": "(Rating x 5)R",
+            "Cost": "32.000¥ x Rating",
+            "S": "Core",
+            "Info": "This treatment increases muscle fiber elasticity in existing muscle tension, resulting in increased muscle tension and flexibility while providing a smooth and ropy physique. Muscle toner adds its rating to your Agility. This bioware is incompatible with augmentations that increase Agility, including the muscle replacements cyberware.<br><br><b>Add Rating to Agility</b>"
+        },
+        "Orthoskin": {
+            "Name": "Orthoskin (R 1–4)",
+            "Essence": "0.25 x Rating",
+            "Capacity": "[<span style='color: #ff0000;'>-</span>]",
+            "Avail": "(Rating x 4)R",
+            "Cost": "6.000¥ x Rating",
+            "S": "Core",
+            "Info": "A web of biofibers in the skin provides the equivalent of personal armor while being virtually indistinguishable from natural skin. Orthoskin adds its Rating to your Armor Rating, and is cumulative with other Armor. Orthoskin cannot be combined with skin augmentations that give you Armor, including dermal plating.<br><br><b>Add Rating to Armor</b>"
+        },
+        "Pathogenic Defense": {
+            "Name": "Pathogenic Defense (R 1–6)",
+            "Essence": "0.1 x Rating",
+            "Capacity": "[<span style='color: #ff0000;'>-</span>]",
+            "Avail": "Rating x 2",
+            "Cost": "4.500¥ x Rating",
+            "S": "Core",
+            "Info": "This enhanced spleen can produce more effective and aggressive white blood cells for combating pathogens. Pathogenic defense adds its Rating to Disease Resistance Tests.<br><br><b>Add Rating to Disease Resistance</b>"
+        },
+        "Platelet Factories": {
+            "Name": "Platelet Factories",
+            "Essence": "0.2",
+            "Capacity": "[<span style='color: #ff0000;'>-</span>]",
+            "Avail": "12",
+            "Cost": "17.000¥",
+            "S": "Core",
+            "Info": "Platelet factories increase your body’s ability to handle Physical damage by accelerating the production of platelets within bone marrow and their concentration in the blood, which helps stop bleeding faster. Any time you would take 2 or more boxes of damage to your Physical Condition Monitor, reduce the damage by one box."
+        },
+        "Skin Pocket": {
+            "Name": "Skin Pocket",
+            "Essence": "0.1",
+            "Capacity": "[<span style='color: #ff0000;'>-</span>]",
+            "Avail": "4",
+            "Cost": "12.000¥ x Rating",
+            "S": "Core",
+            "Info": "This skin flap can be located anywhere on your body. A nerveless “sheath” of flesh concealed by the flap is perfect for hiding a small object, it’s the bioware version of a smuggling compartment. The skin pocket has a Concealability of –10. It takes a Complex Action to add or remove an item from a skin pocket.<br><br><b>Add/Remove Object</b><li>Complex Action</li><b>Concealability</b><li>10</li>"
+        },
+        "Suprathyroid Gland": {
+            "Name": "Suprathyroid Gland",
+            "Essence": "0.7",
+            "Capacity": "[<span style='color: #ff0000;'>-</span>]",
+            "Avail": "20R",
+            "Cost": "140.000¥",
+            "S": "Core",
+            "Info": "Placed on top of your existing thyroid gland, the suprathyroid gland supersedes the metabolic functions of your thyroid. The enhanced metabolism produces more energy, supercharging you. While you’re supercharged, you might want to supersize—to fuel your optimized metabolism, you’ll need to eat twice as much as normal. You get a +1 to your Agility, Body, Reaction, and Strength, along with a 25 percent boost in lifestyle costs. And you might get a bit hyperactive.<br><br><b>Pros</b><li>+1 to AGI, BOD, REA, STR</li><b>Cons</b><li>LifeStyle Cost + 25%</li>"
+        },
+        "Symbiotes": {
+            "Name": "Symbiotes (R 1–4)",
+            "Essence": "0.2 x Rating",
+            "Capacity": "[<span style='color: #ff0000;'>-</span>]",
+            "Avail": "Rating x 5",
+            "Cost": "3.500¥ x Rating",
+            "S": "Core",
+            "Info": "Tailored micro-organisms in your bloodstream greatly enhance your healing. Add the Rating of the symbiotes as a dice pool modifier on healing tests (Physical and Stun). However, the symbiotes have unusual dietary requirements that must be met to keep them alive. You need to pay (Rating x 200) nuyen per month for special symbiote food, although if you have a High Lifestyle or better it’s covered.<br><br><b>Pros</b><li>+Rating Dice pool to Healing Tests</li><b>Cons</b><li>-Rating x 200 Nuyen per Month (Unless High Lifestyle or Better)</li>"
+        },
+        "Synthacardium": {
+            "Name": "Synthacardium (R 1–3)",
+            "Essence": "0.1 x Rating",
+            "Capacity": "[<span style='color: #ff0000;'>-</span>]",
+            "Avail": "Rating x 4",
+            "Cost": "30.000¥ x Rating",
+            "S": "Core",
+            "Info": "Artificially hanced myocardium allows cardiovascular functions to be performed more efficiently, enabling the heart to keep the blood better oxygenated. The synthacardium adds its Rating as a dice pool bonus to your tests using skills in the Athletics skill group.<br><br><b>+Rating dice pool to Athletics Skill Tests</b>"
+        },
+        "Tailored Pheromones": {
+            "Name": "Tailored Pheromones (R 1–3)",
+            "Essence": "0.2 x Rating",
+            "Capacity": "[<span style='color: #ff0000;'>-</span>]",
+            "Avail": "(Rating x 4)R",
+            "Cost": "31.000¥ x Rating",
+            "S": "Core",
+            "Info": "These pheromones are specially tailored to subtly influence others and can be released at will. Tailored pheromones add their Rating as a dice pool modifier to your skill tests for skills in the Acting and Influence skill groups, but only when the person you’re using them on is within a comfortable conversation range—if they can’t smell you, the pheromones don’t work. Tailored pheromones also work on you to make you feel better about yourself; increase your Social limit by the Rating. Tailored pheromones have no effect on magical abilities and tests.<br><br><b>+Rating dice pool to Acting and Influence Skill Tests</b><br><b>+Rating to Social Limit</b>"
+        },
+        "Toxin Extractor": {
+            "Name": "Toxin Extractor (R 1–6)",
+            "Essence": "0.2 x Rating",
+            "Capacity": "[<span style='color: #ff0000;'>-</span>]",
+            "Avail": "Rating x 3",
+            "Cost": "4.800¥ x Rating",
+            "S": "Core",
+            "Info": "A specially cultivated cluster of cells in your liver improves its filtering capabilities. The toxin extractor adds its Rating as a dice pool modifier to all your Toxin Resistance Tests (Toxins, Drugs, and BTLs, p. 408).<br><br><b>+Rating dice pool to Toxin Resistance Tests</b>"
+        },
+        "Tracheal Filter": {
+            "Name": "Tracheal Filter (R 1–6)",
+            "Essence": "0.1 x Rating",
+            "Capacity": "[<span style='color: #ff0000;'>-</span>]",
+            "Avail": "Rating x 3",
+            "Cost": "4.500¥ x Rating",
+            "S": "Core",
+            "Info": "Implanted at the top of your trachea, this organ can absorb airborne impurities and keep them from reaching your lungs. The filter adds its Rating as a dice pool modifier to Toxin Resistance Tests versus inhalation vector toxins (Toxins, Drugs, and BTLs, p. 408).<br><br><b>+Rating dice pool to Inhalation Toxin Resistance</b>"
+        },
+        "Replacement Finger/Toe": {
+            "Name": "Replacement Finger/Toe",
+            "Essence": "-",
+            "Capacity": "[<span style='color: #ff0000;'>-</span>]",
+            "Avail": "2",
+            "Cost": "1.000¥",
+            "S": "SR5:CF",
+            "Info": ""
+        },
+        "Replacement Hand/Foot": {
+            "Name": "Replacement Hand/Foot",
+            "Essence": "0.1",
+            "Capacity": "[<span style='color: #ff0000;'>-</span>]",
+            "Avail": "4",
+            "Cost": "10.000¥",
+            "S": "SR5:CF",
+            "Info": ""
+        },
+        "Replacement Partial Arm/Leg": {
+            "Name": "Replacement Partial Arm/Leg",
+            "Essence": "0.2",
+            "Capacity": "[<span style='color: #ff0000;'>-</span>]",
+            "Avail": "6",
+            "Cost": "20.000¥",
+            "S": "SR5:CF",
+            "Info": ""
+        },
+        "Replacement Full Arm/Leg": {
+            "Name": "Replacement Full Arm/Leg",
+            "Essence": "0.4",
+            "Capacity": "[<span style='color: #ff0000;'>-</span>]",
+            "Avail": "8",
+            "Cost": "40.000¥",
+            "S": "SR5:CF",
+            "Info": ""
+        }
+    }
+}

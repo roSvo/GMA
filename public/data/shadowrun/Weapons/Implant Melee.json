@@ -1,0 +1,49 @@
+{
+
+    "Implant Melee": {
+        "Cyber Hand Blade": {
+            "Name": "Cyber Hand Blade",
+            "Acc": "-",
+            "Reach": "-",
+            "DV": "(STR+2)P",
+            "AP": "-2",
+            "Avail": "10F",
+            "Cost": "2.500¥",
+            "S": "Core",
+            "Info": "Hand razors are blades two to three centimeters long, made of chromed steel or carbon fiber. They either slide out from beneath your fingernails or replace them entirely."
+        },
+        "Cyber Hand Razors": {
+            "Name": "Cyber Hand Razors",
+            "Acc": "-",
+            "Reach": "-",
+            "DV": "(STR+1)P",
+            "AP": "-3",
+            "Avail": "8F",
+            "Cost": "1.250¥",
+            "S": "Core",
+            "Info": "Hand blades slip out the side of the hand opposite the thumb, parallel to the hand, and while they are universally thin and sharp, they come in a variety of shapes and styles."
+        },
+        "Cyber Shock Hand": {
+            "Name": "Cyber Shock Hand",
+            "Acc": "-",
+            "Reach": "-",
+            "DV": "9S(e)",
+            "AP": "-5",
+            "Avail": "8R",
+            "Cost": "5.000¥",
+            "S": "Core",
+            "Info": "The shock hand is like a shock glove built into the palm of your hand, perfect for inflicting a nasty shock to anything it comes into contact with. Shock hands deal Electricity damage and have ten charges in each hand; when plugged in they recharge at a rate of one charge per ten seconds.<br><br><b>Charges</b><li>10 Charges<br>Recharge One Charge per 10 Seconds</li>"
+        },
+        "Cyber Spurs": {
+            "Name": "Cyber Spurs",
+            "Acc": "-",
+            "Reach": "-",
+            "DV": "(STR+3)P",
+            "AP": "-2",
+            "Avail": "12F",
+            "Cost": "5.000¥",
+            "S": "Core",
+            "Info": "Spurs are one to three blades or spikes protruding from the back of your wrist or your knuckles, sticking out from your fist as much as thirty centimeters."
+        }   
+    }
+}

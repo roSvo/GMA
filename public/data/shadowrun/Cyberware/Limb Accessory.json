@@ -1,0 +1,50 @@
+{
+    
+    "Limb Accessory": {
+        "Cyberarm Gyromount": {
+            "Name": "Cyberarm Gyromount",
+            "Essence": "-",
+            "Capacity": "[<span style='color: #ff0000;'>8</span>]",
+            "Avail": "12F",
+            "Cost": "6.000¥",
+            "S": "Core",
+            "Info": "This accessory must be installed in a full or partial cyberarm. When activated, counterweights pop out of your wrist and a small gyro spins up to provide you with better balance and reduced recoil for improving firing capability. Meanwhile, small children stare at you. The effects are identical to a gyro stabilization system (p. 432), only with Rating 3 (this effect is not cumulative with a worn gyro stabilization system). Activating or deactivating the system is a Simple Action.<br><br><b>De/Activate</b><li>Simple Action</li><b>Recoil Compensation</b><li>3</li><b>Wireless</b><li>Activating or deactivating the system is a Free Action.</li>"
+        },
+        "Cyberarm Slide": {
+            "Name": "Cyberarm Slide",
+            "Essence": "-",
+            "Capacity": "[<span style='color: #ff0000;'>3</span>]",
+            "Avail": "12R",
+            "Cost": "3.000¥",
+            "S": "Core",
+            "Info": "An integral version of the hidden arm-slide, the cyberarm slide hides a hold-out, taser, or light pistol inside your cyberarm, concealing it from normal vision. As a Free Action, you can ready the weapon in the slide.<br><br><b>Ready Weapon</b><li>Free Action</li>"
+        },
+        "Cyber Holster": {
+            "Name": "Cyber Holster",
+            "Essence": "-",
+            "Capacity": "[<span style='color: #ff0000;'>5</span>]",
+            "Avail": "8R",
+            "Cost": "2.000¥",
+            "S": "Core",
+            "Info": "You can hold a taser or any pistol or smaller-sized weapon within the holster, completely enclosed until you activate it. Inserting or retrieving a weapon takes one Simple Action. A cyber holster can also be used as a smuggling compartment to store items no larger than a pistol (the gamemaster has final discretion).<br><br><b>Add/Remove Weapon</b><li>Simple Action</li><b>Size</b><li>Pistol or smaller</li><b>Wireless</b><li>Readying a weapon from the holster is a Free Action.</li>"
+        },
+        "Hydraulic Jacks": {
+            "Name": "Hydraulic Jacks (R 1-6)",
+            "Essence": "-",
+            "Capacity": "[<span style='color: #ff0000;'>Rating</span>]",
+            "Avail": "9",
+            "Cost": "2.500¥ x Rating",
+            "S": "Core",
+            "Info": "This implant requires you to have two cyberlegs with a hydraulic jack of identical Ratings in each leg. Each Rating point adds a +1 to your Physical limit for jumping and sprinting, adds twenty percent to your maximum jump distance, and reduces your falling distance by two meters for the purpose of calculating falling damage.<br><br><b>Physical Limit</b><li>+Rating for Jumping/Sprinting</li><b>Max Jump Distance</b><li>+20%</li><b>Falling Damage</b><li>-2 meters of Damage</li><b>Wireless</b><li>The jacks add a +1 dice pool bonus to tests involving jumping, sprinting, or lifting with your legs.</li>"
+        },
+        "Large Smuggling Compartment": {
+            "Name": "Large Smuggling Compartment",
+            "Essence": "-",
+            "Capacity": "[<span style='color: #ff0000;'>5</span>]",
+            "Avail": "6",
+            "Cost": "8.000¥",
+            "S": "Core",
+            "Info": "This is a larger version of the smuggling compartment (p. 455). It can hold something the size of a heavy pistol or a small SMG (gamemaster’s discretion—think breadbox size as a guide). Getting something out of or putting something into it takes a Complex Action.<br><br><b>Insert or Retrieve</b><li>Complex Action</li><b>Size</b><li>Heavy Pistol or Smaller</li><b>Wireless</b><li>Getting something out of or putting something into it takes a Simple Action.</li>"
+        }
+    }
+}

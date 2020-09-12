@@ -1,0 +1,95 @@
+{
+    
+    "Weapon": {
+        "Hold-Out Pistol": {
+            "Name": "Hold-Out Pistol",
+            "Essence": "0.1",
+            "Capacity": "[<span style='color: #ff0000;'>2</span>]",
+            "Avail": "8R",
+            "Cost": "2.000¥",
+            "S": "Core",
+            "Info": "Generally speaking, these are mounted in a cyberarm or directly into a natural arm, but you could install one in a leg or even your torso. Cyberguns are distinct from cyber holsters in that the gun itself can be controlled and fired directly, as an extension of your body. Depending on the size of the gun, cyberguns take up part of your forearm or replace your arm altogether, with the functional parts of the arm built around the gun. Smaller cyberguns fire through a hidden port in the palm or knuckles, while larger cyberguns fold back the user’s hand at the wrist.<br>For extra concealment, cyberguns are built from mostly non-metallic compounds, and any metallic parts are incorporated into the (cyber) arm’s structure. All cyberguns have internal magazines (m) and can be equipped with a hidden external ammo port. However, once you attach a clip to the side of your forearm or the back of your elbow, the cybergun becomes kind of obvious. Laser sights and silencers/sound suppressors are also available; other weapon accessories can’t be installed in cyberguns. All cyberguns are pre-equipped with smartgun systems (p. 433)."
+        },
+        "Light Pistol": {
+            "Name": "Light Pistol",
+            "Essence": "0.25",
+            "Capacity": "[<span style='color: #ff0000;'>4</span>]",
+            "Avail": "10R",
+            "Cost": "3.900¥",
+            "S": "Core",
+            "Info": "Generally speaking, these are mounted in a cyberarm or directly into a natural arm, but you could install one in a leg or even your torso. Cyberguns are distinct from cyber holsters in that the gun itself can be controlled and fired directly, as an extension of your body. Depending on the size of the gun, cyberguns take up part of your forearm or replace your arm altogether, with the functional parts of the arm built around the gun. Smaller cyberguns fire through a hidden port in the palm or knuckles, while larger cyberguns fold back the user’s hand at the wrist.<br>For extra concealment, cyberguns are built from mostly non-metallic compounds, and any metallic parts are incorporated into the (cyber) arm’s structure. All cyberguns have internal magazines (m) and can be equipped with a hidden external ammo port. However, once you attach a clip to the side of your forearm or the back of your elbow, the cybergun becomes kind of obvious. Laser sights and silencers/sound suppressors are also available; other weapon accessories can’t be installed in cyberguns. All cyberguns are pre-equipped with smartgun systems (p. 433)."
+        },
+        "Machine Pistol": {
+            "Name": "Machine Pistol",
+            "Essence": "0.5",
+            "Capacity": "[<span style='color: #ff0000;'>6</span>]",
+            "Avail": "12R",
+            "Cost": "3.500¥",
+            "S": "Core",
+            "Info": "Generally speaking, these are mounted in a cyberarm or directly into a natural arm, but you could install one in a leg or even your torso. Cyberguns are distinct from cyber holsters in that the gun itself can be controlled and fired directly, as an extension of your body. Depending on the size of the gun, cyberguns take up part of your forearm or replace your arm altogether, with the functional parts of the arm built around the gun. Smaller cyberguns fire through a hidden port in the palm or knuckles, while larger cyberguns fold back the user’s hand at the wrist.<br>For extra concealment, cyberguns are built from mostly non-metallic compounds, and any metallic parts are incorporated into the (cyber) arm’s structure. All cyberguns have internal magazines (m) and can be equipped with a hidden external ammo port. However, once you attach a clip to the side of your forearm or the back of your elbow, the cybergun becomes kind of obvious. Laser sights and silencers/sound suppressors are also available; other weapon accessories can’t be installed in cyberguns. All cyberguns are pre-equipped with smartgun systems (p. 433)."
+        },
+        "Heavy Pistol": {
+            "Name": "Heavy Pistol",
+            "Essence": "0.5",
+            "Capacity": "[<span style='color: #ff0000;'>6</span>]",
+            "Avail": "12R",
+            "Cost": "4.300¥",
+            "S": "Core",
+            "Info": "Generally speaking, these are mounted in a cyberarm or directly into a natural arm, but you could install one in a leg or even your torso. Cyberguns are distinct from cyber holsters in that the gun itself can be controlled and fired directly, as an extension of your body. Depending on the size of the gun, cyberguns take up part of your forearm or replace your arm altogether, with the functional parts of the arm built around the gun. Smaller cyberguns fire through a hidden port in the palm or knuckles, while larger cyberguns fold back the user’s hand at the wrist.<br>For extra concealment, cyberguns are built from mostly non-metallic compounds, and any metallic parts are incorporated into the (cyber) arm’s structure. All cyberguns have internal magazines (m) and can be equipped with a hidden external ammo port. However, once you attach a clip to the side of your forearm or the back of your elbow, the cybergun becomes kind of obvious. Laser sights and silencers/sound suppressors are also available; other weapon accessories can’t be installed in cyberguns. All cyberguns are pre-equipped with smartgun systems (p. 433)."
+        },
+        "Submachine Gun": {
+            "Name": "Submachine Gun",
+            "Essence": "1.0",
+            "Capacity": "[<span style='color: #ff0000;'>8</span>]",
+            "Avail": "12R",
+            "Cost": "4.800¥",
+            "S": "Core",
+            "Info": "Generally speaking, these are mounted in a cyberarm or directly into a natural arm, but you could install one in a leg or even your torso. Cyberguns are distinct from cyber holsters in that the gun itself can be controlled and fired directly, as an extension of your body. Depending on the size of the gun, cyberguns take up part of your forearm or replace your arm altogether, with the functional parts of the arm built around the gun. Smaller cyberguns fire through a hidden port in the palm or knuckles, while larger cyberguns fold back the user’s hand at the wrist.<br>For extra concealment, cyberguns are built from mostly non-metallic compounds, and any metallic parts are incorporated into the (cyber) arm’s structure. All cyberguns have internal magazines (m) and can be equipped with a hidden external ammo port. However, once you attach a clip to the side of your forearm or the back of your elbow, the cybergun becomes kind of obvious. Laser sights and silencers/sound suppressors are also available; other weapon accessories can’t be installed in cyberguns. All cyberguns are pre-equipped with smartgun systems (p. 433)."
+        },
+        "Shotgun": {
+            "Name": "Shotgun",
+            "Essence": "1.25",
+            "Capacity": "[<span style='color: #ff0000;'>10</span>]",
+            "Avail": "12R",
+            "Cost": "8.500¥",
+            "S": "Core",
+            "Info": "Generally speaking, these are mounted in a cyberarm or directly into a natural arm, but you could install one in a leg or even your torso. Cyberguns are distinct from cyber holsters in that the gun itself can be controlled and fired directly, as an extension of your body. Depending on the size of the gun, cyberguns take up part of your forearm or replace your arm altogether, with the functional parts of the arm built around the gun. Smaller cyberguns fire through a hidden port in the palm or knuckles, while larger cyberguns fold back the user’s hand at the wrist.<br>For extra concealment, cyberguns are built from mostly non-metallic compounds, and any metallic parts are incorporated into the (cyber) arm’s structure. All cyberguns have internal magazines (m) and can be equipped with a hidden external ammo port. However, once you attach a clip to the side of your forearm or the back of your elbow, the cybergun becomes kind of obvious. Laser sights and silencers/sound suppressors are also available; other weapon accessories can’t be installed in cyberguns. All cyberguns are pre-equipped with smartgun systems (p. 433)."
+        },
+        "Grenade Launcher": {
+            "Name": "Grenade Launcher",
+            "Essence": "1.5",
+            "Capacity": "[<span style='color: #ff0000;'>15</span>]",
+            "Avail": "20F",
+            "Cost": "30.000¥",
+            "S": "Core",
+            "Info": "Generally speaking, these are mounted in a cyberarm or directly into a natural arm, but you could install one in a leg or even your torso. Cyberguns are distinct from cyber holsters in that the gun itself can be controlled and fired directly, as an extension of your body. Depending on the size of the gun, cyberguns take up part of your forearm or replace your arm altogether, with the functional parts of the arm built around the gun. Smaller cyberguns fire through a hidden port in the palm or knuckles, while larger cyberguns fold back the user’s hand at the wrist.<br>For extra concealment, cyberguns are built from mostly non-metallic compounds, and any metallic parts are incorporated into the (cyber) arm’s structure. All cyberguns have internal magazines (m) and can be equipped with a hidden external ammo port. However, once you attach a clip to the side of your forearm or the back of your elbow, the cybergun becomes kind of obvious. Laser sights and silencers/sound suppressors are also available; other weapon accessories can’t be installed in cyberguns. All cyberguns are pre-equipped with smartgun systems (p. 433)."
+        },
+        "External Clip Port": {
+            "Name": "External Clip Port",
+            "Essence": "0.1",
+            "Capacity": "[<span style='color: #ff0000;'>1</span>]",
+            "Avail": "-",
+            "Cost": "+1.000¥",
+            "S": "Core",
+            "Info": "Generally speaking, these are mounted in a cyberarm or directly into a natural arm, but you could install one in a leg or even your torso. Cyberguns are distinct from cyber holsters in that the gun itself can be controlled and fired directly, as an extension of your body. Depending on the size of the gun, cyberguns take up part of your forearm or replace your arm altogether, with the functional parts of the arm built around the gun. Smaller cyberguns fire through a hidden port in the palm or knuckles, while larger cyberguns fold back the user’s hand at the wrist.<br>For extra concealment, cyberguns are built from mostly non-metallic compounds, and any metallic parts are incorporated into the (cyber) arm’s structure. All cyberguns have internal magazines (m) and can be equipped with a hidden external ammo port. However, once you attach a clip to the side of your forearm or the back of your elbow, the cybergun becomes kind of obvious. Laser sights and silencers/sound suppressors are also available; other weapon accessories can’t be installed in cyberguns. All cyberguns are pre-equipped with smartgun systems (p. 433)."
+        },
+        "Laser Sight": {
+            "Name": "Laser Sight",
+            "Essence": "-",
+            "Capacity": "[<span style='color: #ff0000;'>1</span>]",
+            "Avail": "-",
+            "Cost": "+1.000¥",
+            "S": "Core",
+            "Info": "Generally speaking, these are mounted in a cyberarm or directly into a natural arm, but you could install one in a leg or even your torso. Cyberguns are distinct from cyber holsters in that the gun itself can be controlled and fired directly, as an extension of your body. Depending on the size of the gun, cyberguns take up part of your forearm or replace your arm altogether, with the functional parts of the arm built around the gun. Smaller cyberguns fire through a hidden port in the palm or knuckles, while larger cyberguns fold back the user’s hand at the wrist.<br>For extra concealment, cyberguns are built from mostly non-metallic compounds, and any metallic parts are incorporated into the (cyber) arm’s structure. All cyberguns have internal magazines (m) and can be equipped with a hidden external ammo port. However, once you attach a clip to the side of your forearm or the back of your elbow, the cybergun becomes kind of obvious. Laser sights and silencers/sound suppressors are also available; other weapon accessories can’t be installed in cyberguns. All cyberguns are pre-equipped with smartgun systems (p. 433)."
+        },
+        "Silencer/Suppressor": {
+            "Name": "Silencer/Suppressor",
+            "Essence": "-",
+            "Capacity": "[<span style='color: #ff0000;'>2</span>]",
+            "Avail": "-",
+            "Cost": "+1.000¥",
+            "S": "Core",
+            "Info": "Generally speaking, these are mounted in a cyberarm or directly into a natural arm, but you could install one in a leg or even your torso. Cyberguns are distinct from cyber holsters in that the gun itself can be controlled and fired directly, as an extension of your body. Depending on the size of the gun, cyberguns take up part of your forearm or replace your arm altogether, with the functional parts of the arm built around the gun. Smaller cyberguns fire through a hidden port in the palm or knuckles, while larger cyberguns fold back the user’s hand at the wrist.<br>For extra concealment, cyberguns are built from mostly non-metallic compounds, and any metallic parts are incorporated into the (cyber) arm’s structure. All cyberguns have internal magazines (m) and can be equipped with a hidden external ammo port. However, once you attach a clip to the side of your forearm or the back of your elbow, the cybergun becomes kind of obvious. Laser sights and silencers/sound suppressors are also available; other weapon accessories can’t be installed in cyberguns. All cyberguns are pre-equipped with smartgun systems (p. 433)."
+        }
+    }
+}

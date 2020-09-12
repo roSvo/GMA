@@ -1,0 +1,50 @@
+{
+    
+    "Boats": {
+        "Samuvani Otter": {
+            "Name": "Samuvani Otter",
+            "Handl": "4",
+            "Speed": "3",
+            "Accel": "2",
+            "Bod": "12",
+            "Armor": "6",
+            "Pilot": "2",
+            "Sensor": "2",
+            "Seats": "8",
+            "Avail": "-",
+            "Cost": "21.000¥",
+            "S": "Core",
+            "Info": "This mid-size craft is mainly used for pleasure boating, fishing, light hauling, and utility work. A five-meter-long vessel with a fiberglass open hull, the Otter is a well-rounded, general-purpose boat that doesn’t stand out in any one area."
+        },
+        "Yongkang Gala Trinity": {
+            "Name": "Yongkang Gala Trinity",
+            "Handl": "5",
+            "Speed": "6",
+            "Accel": "3",
+            "Bod": "10",
+            "Armor": "6",
+            "Pilot": "1",
+            "Sensor": "1",
+            "Seats": "3",
+            "Avail": "8",
+            "Cost": "37.000¥",
+            "S": "Core",
+            "Info": "This small, fast-moving speedboat is known as a smuggler’s craft. It’s generally built on the spot using prepared components and a hull kit, assembled with its payload built right into the hull; then on arrival, the Trinity is taken apart around its cargo, with the profit of the haul compensating for the fact the boat was used only once."
+        },        
+        "Morgan Cutlass": {
+            "Name": "Morgan Cutlass",
+            "Handl": "5",
+            "Speed": "4",
+            "Accel": "2",
+            "Bod": "16",
+            "Armor": "10",
+            "Pilot": "3",
+            "Sensor": "5",
+            "Seats": "6",
+            "Avail": "14R",
+            "Cost": "96.000¥",
+            "S": "Core",
+            "Info": "This commonly seen patrol boat comes equipped with a pair of heavy, manually operated weapon mounts (usually outfitted with LMGs) and a high-quality sensor suite.<br><br><b>Weapons</b><li>2 Weapon Mounts</li>"
+        }
+    }
+}

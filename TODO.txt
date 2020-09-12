@@ -1,0 +1,4 @@
+
+- Change mouse cursor to finger pointer when hovering over clickables. (how to handle in mobile?)
+- Change naming on top of the item.
+- Create more sophisticated way to toggle info display.

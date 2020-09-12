@@ -1,0 +1,113 @@
+{
+    
+    "Body": {
+        "Bone Lacing (Plastic)": {
+            "Name": "Bone Lacing (Plastic)",
+            "Essence": "0.5",
+            "Capacity": "-",
+            "Avail": "8R",
+            "Cost": "8.000¥",
+            "S": "Core",
+            "Info": "Your bones are laced with lattice chains of reinforcing plastics or metals, improving their integrity and tensile strength (and adding to your body’s overall weight). Bone lacing comes in three types: plastic, aluminum, and titanium—you can only have one installed at a time. It gives you extra Body for resisting physical damage, a little Armor (cumulative with other Armor, without adding to Encumbrance), and changes your unarmed combat damage, all listed in the Bone Lacing table. Bone lacing is incompatible with other augmentations that add to or alter your bones (such as bone density augmentation).<br><br><b>Body Boost +1<br>Armor +1<br>Unarmed Damage (STR +1)P</b>"
+        },
+        "Bone Lacing (Aluminum)": {
+            "Name": "Bone Lacing (Aluminum)",
+            "Essence": "1",
+            "Capacity": "-",
+            "Avail": "12R",
+            "Cost": "18.000¥",
+            "S": "Core",
+            "Info": "Your bones are laced with lattice chains of reinforcing plastics or metals, improving their integrity and tensile strength (and adding to your body’s overall weight). Bone lacing comes in three types: plastic, aluminum, and titanium—you can only have one installed at a time. It gives you extra Body for resisting physical damage, a little Armor (cumulative with other Armor, without adding to Encumbrance), and changes your unarmed combat damage, all listed in the Bone Lacing table. Bone lacing is incompatible with other augmentations that add to or alter your bones (such as bone density augmentation).<br><br><b>Body Boost +2<br>Armor +2<br>Unarmed Damage (STR +2)P</b>"
+        },
+        "Bone Lacing (Titanium)": {
+            "Name": "Bone Lacing (Titanium)",
+            "Essence": "1.5",
+            "Capacity": "-",
+            "Avail": "16R",
+            "Cost": "30.000¥",
+            "S": "Core",
+            "Info": "Your bones are laced with lattice chains of reinforcing plastics or metals, improving their integrity and tensile strength (and adding to your body’s overall weight). Bone lacing comes in three types: plastic, aluminum, and titanium—you can only have one installed at a time. It gives you extra Body for resisting physical damage, a little Armor (cumulative with other Armor, without adding to Encumbrance), and changes your unarmed combat damage, all listed in the Bone Lacing table. Bone lacing is incompatible with other augmentations that add to or alter your bones (such as bone density augmentation).<br><br><b>Body Boost +3<br>Armor +3<br>Unarmed Damage (STR +3)P</b>"
+        },
+        "Dermal Plating": {
+            "Name": "Dermal Plating (R 1-6)",
+            "Essence": "0.5 x Rating",
+            "Capacity": "-",
+            "Avail": "(Rating x 4)R",
+            "Cost": "3.000¥ x Rating",
+            "S": "Core",
+            "Info": "Hard plastic and ceramic fiber plates are bonded to the user’s skin. The plates are clearly visible, and are even more obvious to the touch, but they can be cosmetically stylized for color and surface texture. Dermal plating gives you bonus Armor equal to its Rating (cumulative with other Armor, without adding to Encumbrance). Dermal plating cannot be combined with other augmentations to the skin that provide armor, including orthoskin."
+        },
+        "Fingertip Compartment": {
+            "Name": "Fingertip Compartment",
+            "Essence": "0.1",
+            "Capacity": "[<span style='color: #ff0000;'>1</span>]",
+            "Avail": "4",
+            "Cost": "3.000¥",
+            "S": "Core",
+            "Info": "This compartment is hidden in the hollowed out last joint of one finger, with a catch that allows the fingernail to be lifted up as an access panel, or the entire fingertip removed. A fingertip compartment allows the storage of micro-sized items, like a micro-drone, RFID tag, or datachip. Inserting or removing an object takes one Complex Action. Items held within are completely concealed, and the compartment itself has Concealability –10. One popular trick is to use a fingertip compartment to hold a monofilament whip (p. 422), with the fingertip acting as control weight. Extending a monofilament whip from a fingertip compartment takes a Simple Action, while spooling it back up requires one Complex Action. There’s no telling how many actions it will take for people to stop being impressed at what just came out of your finger. See Johnny Mneumonic<br><br><b>Open Compartment</b><li>Complex Action</li><b>Concealability</b><li>-10</li></b>Extend Monofilament Whip</b><li>Simple Action</li><b>Spool Monofilament Whip</b><li>Complex Action</li><b>Wireless</b><li>Inserting or removing an item in a fingertip compartment takes a Simple Action.</li>"
+        },
+        "Grapple Gun": {
+            "Name": "Grapple Gun",
+            "Essence": "0.5",
+            "Capacity": "[<span style='color: #ff0000;'>5</span>]",
+            "Avail": "8",
+            "Cost": "5.000¥",
+            "S": "Core",
+            "Info": "This is an implanted version of the grapple gun described on p. 449. It doesn’t store any rope inside it, but you can attach an external rope before you shoot the grapple."
+        },
+        "Internal Air Tank": {
+            "Name": "Internal Air Tank (R 1-3)",
+            "Essence": "0.25",
+            "Capacity": "[<span style='color: #ff0000;'>3</span>]",
+            "Avail": "Rating",
+            "Cost": "4.500¥ x Rating",
+            "S": "Core",
+            "Info": "The internal air tank replaces part of one lung with a pressurized internal air reserve that allows you to hold your breath for up to (Rating) hours. This allows extended underwater operations and complete protection from inhalation-vector toxin attacks as long as you’re holding your breath. Activating or de-activating the tank is a Simple Action. Refilling the air tank with pressurized air through an intake valve (located under your ribcage) takes five minutes, or you can refill it through six hours of normal breathing.<br><br><b>De/Activate Tank</b><li>Simple Action</li><b>Refill Tank</b><li>5 Minutes with Tank<br>6 Hours with Normal Breathing</li><b>Wireless</b><li>Activating or de-activating the tank is a Free Action. You’re always aware of the tank’s exact air level and purity.</li>"
+        },
+        "Muscle Replacement": {
+            "Name": "Muscle Replacement (R 1-4)",
+            "Essence": "1.0 x Rating",
+            "Capacity": "-",
+            "Avail": "(Rating x 5)R",
+            "Cost": "25.000¥ x Rating",
+            "S": "Core",
+            "Info": "Why take the time to exercise when you can just install a physique? Vat-grown synthetic muscles replace or augment your own, and calcium treatments and skeletal reinforcement contribute to your overall strength. It increases both your Strength and Agility attributes by its rating. It cannot be combined with other augmentations to the muscles, including muscle augmentation or muscle toner bioware."
+        },
+        "Reaction Enhancers": {
+            "Name": "Reaction Enhancers (R 1-3)",
+            "Essence": "0.3 x Rating",
+            "Capacity": "-",
+            "Avail": "(Rating x 5)R",
+            "Cost": "13.000¥ x Rating",
+            "S": "Core",
+            "Info": "By replacing specific, isolated vertebrae of your spinal column with segments of superconducting material, your reactions to events become quicker. Add the Rating of reaction enhancers to your Reaction attribute (and remember to adjust Initiative and Physical limit accordingly). Reaction enhancers are incompatible with all other enhancements to Reaction, including wired reflexes.<br><br><b>Wireless</b><li>Reaction enhancers are compatible with a wireless wired reflexes system, and the total bonus Reaction from the two augmentations can be above +4 if both systems have wireless activated.</li>"
+        },
+        "Skillwires": {
+            "Name": "Skillwires (R 1-6)",
+            "Essence": "0.1 x Rating",
+            "Capacity": "-",
+            "Avail": "(Rating  x 4)",
+            "Cost": "20.000¥ x Rating",
+            "S": "Core",
+            "Info": "Skillwires are a system of neuromuscular controllers that overlie the body’s natural nervous system; they are capable of aiding or completely overriding muscular movement, controlled by the “muscle memory” played through a skilljack (p. 452). This system allows you to use activesofts with a rating up to your skillwire’s rating, but only if that activesoft is running on your implanted skilljack. Skillwires are incompatible with reflex recorder bioware.<br><br><b>Wireless</b><li>With the skillwire’s memory cache expanded, all the skills you use with it receive +1 to the relevant inherent Limit (Physical, Mental, or Social).</li>"
+        },
+        "Smuggling Compartment": {
+            "Name": "Smuggling Compartment",
+            "Essence": "0.2",
+            "Capacity": "[<span style='color: #ff0000;'>2</span>]",
+            "Avail": "6",
+            "Cost": "7.500¥",
+            "S": "Core",
+            "Info": "For items that won’t fit in a fingertip but that you still can’t afford to have found, smuggling compartments can be placed in parts of the body that can be easily hollowed out/replaced. This includes ribs and the space between them, hip bones, shoulder blades, and so forth. These compartments can allow the storage of small and mini-sized items (nothing bigger than a light pistol typically; your gamemaster will let you know if something’s too big). The compartment has a Concealability of –10. Inserting or retrieving an object requires a Complex Action.<br><br><b>Insert/Retrieve Object</b><li>Complex Action</li><b>Concealability</b><li>-10</li><b>Storage Space</b><li>Small and Mini (Light Pistols and smaller)</li><b>Wireless</b><li>Inserting or retrieving an object takes a Simple Action.</li>"
+        },
+        "Wired Reflexes": {
+            "Name": "Wired Reflexes (R 1-3)",
+            "Essence": "2/3/5",
+            "Capacity": "-",
+            "Avail": "8R/12R/20R",
+            "Cost": "(39/149/217)k ¥",
+            "S": "Core",
+            "Info": "This highly invasive, painful, life-changing operation adds a multitude of neural boosters and adrenaline stimulators in strategic locations throughout your body work to catapult you into a whole new world where everything around you seems to move in slow motion. The system includes both manual and wireless triggers to turn the wired reflexes on and off; activating or deactivating the trigger manually requires a Complex Action, doing so wirelessly is a Simple Action. When activated, each rating point of wired reflexes gives you +1 Reaction (and accompanying bonus to Initiative) and +1D6 Initiative Die. Wired reflexes are incompatible with augmentations that affect Reaction or Initiative.<br><br><b>De/Activate</b><li>Complex Action</li><b>Enhancements</b><li>+Rating Reaction<br>+Rating D6 Initiative</li><b>Wireless</b><li>The system is compatible with wireless reaction enhancers, and the total Reaction bonus from both systems can be above +4 if both systems have wireless active.</li>"
+        }
+    }
+}

@@ -1,0 +1,205 @@
+{
+    
+    "Ammunitions": {
+        "APDS": {
+            "Name": "APDS",
+            "Acc Mod": "-",
+            "DV Mod": "-",
+            "AP Mod": "-4",
+            "Avail": "12F",
+            "Cost": "120¥",
+            "S": "Core",
+            "Info": "These are military-grade armor piercing rounds—their full name is armor piercing discarding sabot. They are designed to travel at high velocities and punch through personal body armor."
+        },
+        "Assault Cannon": {
+            "Name": "Assault Cannon",
+            "Acc Mod": "-",
+            "DV Mod": "-",
+            "AP Mod": "-",
+            "Avail": "12F",
+            "Cost": "400¥",
+            "S": "Core",
+            "Info": "These are for assault cannons only, and they’re the only thing assault cannons can load."
+        },
+        "Capsule Rounds": {
+            "Name": "Capsule Rounds",
+            "Acc Mod": "-",
+            "DV Mod": "-4",
+            "AP Mod": "+4",
+            "Avail": "2",
+            "Cost": "5¥",
+            "S": "Core",
+            "Info": "So once there were rounds designed for marking trees and cows and stuff, and some people thought it would be fun to fire them at each other. Then militaries figured out how to use them in training—and also realized things besides paint could be loaded in them. That led to our modern-day capsule rounds. They’re lighter than standard rounds and therefore lack much of a punch, but it’s not the bullet but the payload that really matters.<br><br><b>On Hit</b><li>Rounds carry a liquid that, upon impact, splashes the target. Damage and AP are for the damage of the shot itself. A successful hit, including a Grazing Hit, means the capsule ruptures and the target faces damage from the chemical.</li><b>Fill</b><li>The rounds listed are empty but can be filled with a chemical with a Logic + Armorer [Mental] (12, 1 minute) Extended Test for each round. A single dose of chemical fills 5 rounds and must be purchased separately.</li><b>Range</b><li>All use Light Pistol ranges, no matter what weapon fires them.</li>"
+        },
+        "Explosive Rounds": {
+            "Name": "Explosive Rounds",
+            "Acc Mod": "-",
+            "DV Mod": "+1",
+            "AP Mod": "-1",
+            "Avail": "9F",
+            "Cost": "80¥",
+            "S": "Core",
+            "Info": "hese slugs carry a shaped-charge explosive, designed to explode and fragment on impact. Explosive rounds misfire whenever you roll a critical glitch. When this happens, you must resist one “attack” with a Damage Value equal to the normal damage done by the weapon (and don’t forget the modifier for the explosive rounds). The attack misses its intended target, and the weapon firing the bullets is destroyed."
+        },
+        "EX-Explosive Rounds": {
+            "Name": "EX-Explosive Rounds",
+            "Acc Mod": "-",
+            "DV Mod": "+2",
+            "AP Mod": "-1",
+            "Avail": "14F",
+            "Cost": "120¥",
+            "S": "SR5:R&G",
+            "Info": "What is better than something blowing up? Something blowing up bigger of course. These little darlings pack a punch and always seem to get the job done. My hats off to the chummer who decided he needed a better boom in his life."
+        },
+        "Flare Rounds": {
+            "Name": "Flare Rounds",
+            "Acc Mod": "-",
+            "DV Mod": "-2/+2",
+            "AP Mod": "+2/-3",
+            "Avail": "6R",
+            "Cost": "20¥",
+            "S": "SR5:R&G",
+            "Info": "Originally designed just for shotguns, these rounds now come for your heavy pistol, SMG, and assault rifle as well. A convenient little signal to keep on hand in case of emergency.<br><br><b>Flare</b><li>Rounds are intended to be shot into the air and act as a signal or location marker. They ignite upon firing and explode into a shower of burning sparks at 60 meters.</li><b>On Hit</b><li>Targets struck by a flare round may catch fire (see p. 171, SR5). The first numbers listed are for a round impacting at less than 60 meters. The second is for a round impacting between 60 and 62 meters. These rounds are ineffective beyond 62 meters no matter what weapon they are loaded into.</li>"
+        },
+        "Flechette Rounds": {
+            "Name": "Flechette Rounds",
+            "Acc Mod": "-",
+            "DV Mod": "+2",
+            "AP Mod": "+5",
+            "Avail": "6R",
+            "Cost": "65¥",
+            "S": "Core",
+            "Info": "The payload of a flechette round is made up of tiny, tightly packed metal slivers. The round breaks up and shatters on impact, becoming a tumbling hail of shrapnel. Flechette rounds are devastating against unprotected targets, but not as effective against hardened armor."
+        },
+        "Frangible Rounds": {
+            "Name": "Frangible Rounds",
+            "Acc Mod": "-",
+            "DV Mod": "-1",
+            "AP Mod": "+4",
+            "Avail": "2R",
+            "Cost": "10¥",
+            "S": "SR5:R&G",
+            "Info": "Sometimes you want a bullet that can shoot through walls, other times you want something that will hurt the soft targets in range but leave the hardware alone. Frangible bullets can put some hurt on a metahuman target, but they break up when hitting something hard, meaning they won’t damage nearby metal-encased gear. Or armored-up trolls, so select it with caution.<br><br><b>Barriers</b><li>Rounds face double the Armor against all Barriers.</li>"
+        },
+        "Gel Rounds": {
+            "Name": "Gel Rounds",
+            "Acc Mod": "-",
+            "DV Mod": "+0S",
+            "AP Mod": "-1",
+            "Avail": "2R",
+            "Cost": "25¥",
+            "S": "Core",
+            "Info": "These less-lethal rounds use a hard, jelly-like substance that is a safer alternative to rubber bullets. They are often employed for riot control. Their usually semi-rigid slugs flatten on impact, disbursing their kinetic energy over a larger-than-normal area. Gel rounds inflict Stun damage (AP +1). Gel rounds reduce the target’s Physical limit by 2 when checking for knockdown (Knockdown, p. 194)."
+        },
+        "Hollow Points": {
+            "Name": "Hollow Points",
+            "Acc Mod": "-",
+            "DV Mod": "+1",
+            "AP Mod": "+2",
+            "Avail": "4F",
+            "Cost": "70¥",
+            "S": "Core",
+            "Info": "Hollow point or dum dum rounds have their tips indented, so they are designed to “mushroom” or expand on impact, becoming a hail of deadly fragments not unlike flechettes, although hollow points are a much older technology. Like flechettes, hollow points work better on unarmored targets and tend to flatten against armor."
+        },
+        "Injection Darts": {
+            "Name": "Injection Darts",
+            "Acc Mod": "-",
+            "DV Mod": "-",
+            "AP Mod": "-",
+            "Avail": "4R",
+            "Cost": "75¥",
+            "S": "Core",
+            "Info": "For use with dart guns of various types, like the Parashield pistol and rifle. Each injection dart carries a single dose of a drug or toxin (sold separately). The effect of the dart depends on the drug payload, but to successfully deliver that payload, the attack with the dart must get at least one net hit against an unarmored target or three net hits against a target with armor. This is an injection vector toxin attack."
+        },
+        "Regular Ammo": {
+            "Name": "Regular Ammo",
+            "Acc Mod": "-",
+            "DV Mod": "-",
+            "AP Mod": "-",
+            "Avail": "2R",
+            "Cost": "20¥",
+            "S": "Core",
+            "Info": "Also called ball or full metal jacket rounds, these solid slugs are useful for numerous applications (mainly killing things)."
+        },
+        "Stick-n-Shock": {
+            "Name": "Stick-n-Shock",
+            "Acc Mod": "-",
+            "DV Mod": "-2S(e)",
+            "AP Mod": "-5",
+            "Avail": "6R",
+            "Cost": "80¥",
+            "S": "Core",
+            "Info": "Stick-n-Shock rounds deal electrical Stun damage of equal to the damage of the base weapon –2. They have a flat AP of –5 that replaces the weapon’s AP instead of stacking with it."
+        },
+        "Tracer": {
+            "Name": "Tracer",
+            "Acc Mod": "+1",
+            "DV Mod": "-",
+            "AP Mod": "-",
+            "Avail": "6R",
+            "Cost": "60¥",
+            "S": "Core",
+            "Info": "Tracer ammo burns along the line of flight, making it easier for the shooter to home in on the target. This type of ammunition can only be used in Full Auto weapons and, being loaded as every third round in a clip, is an exception to the restriction of one type of ammunition per clip. They improve the Accuracy of your gun by 1 when you fire more than one round in an Action Phase (cumulative with a laser sight but not a smartgun)."
+        },
+        "Tracker Rounds": {
+            "Name": "Tracker Rounds",
+            "Acc Mod": "-",
+            "DV Mod": "-2",
+            "AP Mod": "-2",
+            "Avail": "8R",
+            "Cost": "150¥",
+            "S": "SR5:R&G",
+            "Info": "As if catching a bullet wasn’t bad enough, these babies make you worry about getting tracked like a wild animal afterwards.<br><br><b>On Hit</b><li>rounds include an RFID tag inside the bullet. If the target is damaged by the hit, the tracker round remains within the body of the target until it is removed. If all damage is resisted, the round is imbedded in the target’s armor. On a Grazing Hit, roll the attacking character’s Edge. A single hit means the tracker imbeds in the armor; no hits means the shooter will be tracking the movements of the nearby pavement.</li><b>Tags</b><li>Rounds contain either security or stealth tags (see p. 440, SR5).</li>"
+        },
+        "Taser Dart": {
+            "Name": "Taser Dart",
+            "Acc Mod": "-",
+            "DV Mod": "-",
+            "AP Mod": "-",
+            "Avail": "3",
+            "Cost": "50¥",
+            "S": "Core",
+            "Info": "These darts are designed to be loaded into taser weapons."
+        },
+        "Fuel Cannister": {
+            "Name": "Fuel Cannister",
+            "Acc Mod": "-",
+            "DV Mod": "-",
+            "AP Mod": "-",
+            "Avail": "16F",
+            "Cost": "40¥",
+            "S": "Core",
+            "Info": "-"
+        },
+        "AV Rounds": {
+            "Name": "AV Rounds",
+            "Acc Mod": "-",
+            "DV Mod": "-",
+            "AP Mod": "-1/-5",
+            "Avail": "14R",
+            "Cost": "175¥",
+            "S": "Core",
+            "Info": "These rounds are specially designed to puncture the thick armor plating of vehicles and drones, but have a lesser effect on personal armor. Against personal armor, the AP is -1. Against vehicles armor, the AP is -5"
+        },
+        "Gyrojet ammo": {
+            "Name": "Gyrojet ammo",
+            "Acc Mod": "-",
+            "DV Mod": "-2S(e)",
+            "AP Mod": "-5",
+            "Avail": "14R",
+            "Cost": "160¥",
+            "S": "Core",
+            "Info": "-"
+        },
+        "Gauss": {
+            "Name": "Gauss",
+            "Acc Mod": "-",
+            "DV Mod": "-",
+            "AP Mod": "-",
+            "Avail": "18F",
+            "Cost": "400¥",
+            "S": "Core",
+            "Info": "-"
+        }
+    }
+}

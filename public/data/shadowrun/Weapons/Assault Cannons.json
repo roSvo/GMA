@@ -1,0 +1,57 @@
+{
+
+    "Assault Cannons": {
+        "Ares Thunderstruck Gauss Rifle": {
+            "Name": "Ares Thunderstruck Gauss Rifle",
+            "Acc": "7(8)",
+            "DV": "15P",
+            "AP": "-8",
+            "Mode": "SA",
+            "RC": "(1)",
+            "Ammo": "10(c) + Energy",
+            "Avail": "24F",
+            "Cost": "26.000¥",
+            "S": "SR5:R&G",
+            "Info": "Ares has had there fair share of arms troubles over the past few years but this was not one of them. The Thunderstruck has been a massive market success, gaining even more brand recognition than the Panther XXL in the assault cannon category. It doesn’t pack quite the punch of a standard AC, but its lighter recoil load, quicker cycle time, and unmatched armor penetration have gone a long way to sway those consumers concerned about the heavier price tag.<br><br><b>Standard upgrades</b><li>Laser sight<br>Shock pad</li><b>Ammo</b><li>The Thunderstruck uses both ammunition and energy for each round fired. Power is supplied by peak-discharge battery packs and consumes 1 power unit per shot. The Thunderstruck can hold one power clip or draw its energy from an external source such as a satchel power pack, power backpack, or vehicle power if mounted.</li>"
+        },
+        "Krime Cannon": {
+            "Name": "Krime Cannon",
+            "Acc": "4",
+            "DV": "16P",
+            "AP": "-6",
+            "Mode": "SA",
+            "RC": "(1)",
+            "Ammo": "6(m)",
+            "Avail": "20F",
+            "Cost": "21.000¥",
+            "S": "Core",
+            "Info": "Krime may be a small-time manufacturer, but their assault cannon, simply called the Cannon, is a cheap heavy weapon big on attitude and firepower. It comes standard with modification for trolls, and so is the first weapon in the Sixth World to be intended for larger customers.<br><br><b>Modifiers</b><li>Modified for Trolls by Default</li>"
+        },
+        "Ogre Hammer SWS Assault Cannon": {
+            "Name": "Ogre Hammer SWS Assault Cannon",
+            "Acc": "6",
+            "DV": "16P",
+            "AP": "-4",
+            "Mode": "SA",
+            "RC": "-",
+            "Ammo": "6(c)",
+            "Avail": "20F",
+            "Cost": "32.000¥",
+            "S": "SR5:R&G",
+            "Info": "“Pounds like no other” is the sales slogan attached to this heavy hitter. The Ogre Hammer puts a whole lot of hurt downrange by improving the weapon’s recoil handling and cycle speed to allow slightly faster firing than other weapons in its class. It’s called man portable, but that’s a bit of a stretch.<br><br><b>Standard upgrades</b><li>Advanced safety<br>Integrated commlink (Device Rating 4)<br>Imaging scope (night vision, flare compensation, image link, magnification)</li>"
+        },
+        "Panther XXL": {
+            "Name": "Panther XXL",
+            "Acc": "5(7)",
+            "DV": "17P",
+            "AP": "-6",
+            "Mode": "SS",
+            "RC": "-",
+            "Ammo": "15(c)",
+            "Avail": "20F",
+            "Cost": "43.000¥",
+            "S": "Core",
+            "Info": "This huge fragging gun is an assault cannon that uses ammunition similar to the primary weapon in many small tanks. It comes with a built-in smartgun system.<br><br><b>Modifiers</b><li>SmartGun</li>"
+        }
+    }
+}

@@ -1,0 +1,68 @@
+{
+    
+    "Cultured Bioware": {
+        "Cerebral Booster": {
+            "Name": "Cerebral Booster (R 1-3)",
+            "Essence": "0.2 x Rating",
+            "Capacity": "[<span style='color: #ff0000;'>-</span>]",
+            "Avail": "Rating x 6",
+            "Cost": "31.500¥ x Rating",
+            "S": "Core",
+            "Info": "The convolutions and gyri of your cerebrum are augmented and amplified with additional nervous tissue, improving overall brain function. Your cerebral booster increases your Logic attribute by its Rating.<br><br><b>+Rating to Logic</b>"
+        },
+        "Damage Compensators": {
+            "Name": "Damage Compensators (R 1-12)",
+            "Essence": "0.1 x Rating",
+            "Capacity": "[<span style='color: #ff0000;'>-</span>]",
+            "Avail": "(Rating x 3)F",
+            "Cost": "2.000¥ x Rating",
+            "S": "Core",
+            "Info": "Damage compensators are essentially cut-offs stored in the nervous pathways that report pain from the body back to your brain. You ignore a number of damage boxes (your choice of Physical, Stun, or a combination of the two) equal to the compensator’s Rating before determining your injury modifiers.<br><br><b>Ignore Rating Boxes of Damage for Injury Modifiers</b>"
+        },
+        "Mnemonic Enhancer": {
+            "Name": "Mnemonic Enhancer (R 1-3)",
+            "Essence": "0.1 x Rating",
+            "Capacity": "[<span style='color: #ff0000;'>-</span>]",
+            "Avail": "Rating x 5",
+            "Cost": "9.000¥ x Rating",
+            "S": "Core",
+            "Info": "This highly concentrated growth of grey matter gets attached to the brain’s memory centers, improving both short-term and long-term memory. Add the enhancer’s Rating as a dice pool bonus to your Knowledge, Language, and memory-related tests as well as to your Mental limit.<br><br><b>+Rating dice pool for Knowledge, Language, and Memory-Related Tests</b><br><b>+Rating to Mental Limit</b>"
+        },
+        "Pain Editor": {
+            "Name": "Pain Editor",
+            "Essence": "0.3",
+            "Capacity": "[<span style='color: #ff0000;'>-</span>]",
+            "Avail": "18F",
+            "Cost": "48.000¥ x Rating",
+            "S": "Core",
+            "Info": "This cluster of specialized nervous tissue is designed to filter sensory stimuli. If the pain editor is active, this allows you to ignore all injury modifiers, and you even stay conscious when your Stun Condition Monitor is completely full. You feel no pain—you’re blissfully, dangerously, recklessly unaware of the extent of damage you’ve taken without either performing a self-examination (Observe In Detail action) or being informed by a biomonitor (p. 450). While active, the pain editor increases your Willpower by 1 and decreases your Intuition by 1. Additionally, all tactile Perception Tests you make receive a dice pool modifier of –4.<br><br><b>Pros</b><li>Ignore Injury Modifiers<br>Stay Conscious Regardless of Stun Damage<br>+1 to Willpower</li><b>Cons</b><li>Unaware of Damage without performing Observe In Detail on self or checking biomonitor<br>-1 to Intuition<br>-4 DP to tactile Perception Tests</li>"
+        },
+        "Reflex Recorder": {
+            "Name": "Reflex Recorder (Skill)",
+            "Essence": "0.1",
+            "Capacity": "[<span style='color: #ff0000;'>-</span>]",
+            "Avail": "10",
+            "Cost": "14.000¥ x Rating",
+            "S": "Core",
+            "Info": "The first step in this particular recipe is growing some extra neural material in a small cluster. When that’s fully cooked, you drop it in the skull and attach it to the nerves for motor reflexes. Then boom, you’ve got a metahuman with better muscle memory. The reflex recorder adds 1 to the Rating of a specific skill linked to a Physical attribute. Multiple recorders may be taken for multiple skills, but you can’t implant two reflex recorders for the same skill. Reflex recorder bioware is incompatible with skillwires cyberware.<br><br><b>+1 Rating to Specific Physical Skill</b>"
+        },
+        "Sleep Regulator": {
+            "Name": "Sleep Regulator",
+            "Essence": "0.1",
+            "Capacity": "[<span style='color: #ff0000;'>-</span>]",
+            "Avail": "6",
+            "Cost": "12.000¥ x Rating",
+            "S": "Core",
+            "Info": "The sleep regulator is a modification to the hypothalamus, allowing for longer periods of wakefulness, an incredibly useful advantage for anyone with any profession, not just shadowrunners. You need less sleep per day and the sleep you get is deep and restful (and harder to wake you up from). The sleep regulator lets you get by with three hours of sleep each night and stay awake for twice as long as normal before having to resist sleep deprivation fatigue (p. 172). Resting hours for healing purposes are not affected.<br><br><b>Require only 3 Hours of Sleep</b>"
+        },
+        "Synaptic Booster": {
+            "Name": "Synaptic Booster (R 1-3)",
+            "Essence": "0.5 x Rating",
+            "Capacity": "[<span style='color: #ff0000;'>-</span>]",
+            "Avail": "(Rating x 6)R",
+            "Cost": "95.000¥ x Rating",
+            "S": "Core",
+            "Info": "The nerve cells making up the spinal cord are both broadened and replicated with this bioware, allowing for more neural bandwidth. The result is a much faster reaction time. The booster confers a bonus of +1 Reaction (and accompanying adjustment to Initiative and Physical limit) and +1D6 Initiative Die per point of Rating. The synaptic booster cannot be combined with any other form of Reaction or Initiative enhancement.<br><br><b>+Rating D6 Initiative Die</b><br><b>+Rating to Reaction</b>"
+        }
+    }
+}

@@ -1,0 +1,167 @@
+{
+
+    "Modifications": {
+        "Chemical Protection": {
+            "Name": "Chemical Protection",
+            "Armor": "-",
+            "Capacity": "[<span style='color: #ff0000;'>Rating</span>]",
+            "Avail": "6",
+            "Cost": "250¥ x Rating",
+            "S": "Core",
+            "Info": "Water-resistant, non-porous, impermeable materials, and a coating of neutralizing agents protect the wearer against contact-vector chemical attacks (Toxins, Drugs and BTLs, p. 408). Add the rating of the Chemical Protection modification to tests made to resist contact-vector toxin attacks."
+        },
+        "Chemical Seal": {
+            "Name": "Chemical Seal",
+            "Armor": "-",
+            "Capacity": "[<span style='color: #ff0000;'>6</span>]",
+            "Avail": "12R",
+            "Cost": "3.500¥",
+            "S": "Core",
+            "Info": "Available only to full body armor that includes a helmet, the chemical seal is an airtight environmental control that takes a Complex Action to activate (if you’re already wearing the armor, natch). It provides complete protection against contact and inhalation vector chemicals, but can only be used for a total of an hour (the limit of the air supply) at a time.<br><br><b>Active Seall</b><li>Complex Action</li><b>Air Supply</b><li>1 hour</li><b>Wireless</b><li>Activating the chemical seal is a Free Action.</li>"
+        },        
+        "Fire Resistance": {
+            "Name": "Fire Resistance",
+            "Armor": "-",
+            "Capacity": "[<span style='color: #ff0000;'>Rating</span>]",
+            "Avail": "6",
+            "Cost": "250¥ x Rating",
+            "S": "Core",
+            "Info": "Fire-retardant, nonflammable materials protect the wearer against Fire damage. Add the full rating of the Fire Resistance modification to the Armor value when resisting Fire attacks or checking if the armor catches fire."
+        },
+        "Insulation": {
+            "Name": "Insulation",
+            "Armor": "-",
+            "Capacity": "[<span style='color: #ff0000;'>Rating</span>]",
+            "Avail": "6",
+            "Cost": "250¥ x Rating",
+            "S": "Core",
+            "Info": "Thermal fibers and heat-retentive materials protect the wearer against Cold damage. Add the full rating of the Insulation modification to the Armor value when resisting Cold attacks."
+        },
+        "Nonconductivity": {
+            "Name": "Nonconductivity",
+            "Armor": "-",
+            "Capacity": "[<span style='color: #ff0000;'>Rating</span>]",
+            "Avail": "6",
+            "Cost": "250¥ x Rating",
+            "S": "Core",
+            "Info": "Electrical insulation and non-conductive materials protect the wearer against Electricity damage. Add the full rating of this modification to the Armor value when resisting Electricity attacks."
+        },
+        "Shock Frills": {
+            "Name": "Shock Frills",
+            "Armor": "-",
+            "Capacity": "[<span style='color: #ff0000;'>2</span>]",
+            "Avail": "6R",
+            "Cost": "250¥",
+            "S": "Core",
+            "Info": "These strips of “fur” are electrically charged when activated, standing on end and inflicting Electricity damage to anyone that touches you. Use Unarmed Combat to attack with the frills. The frills hold 10 charges; when attached to a power point, they recharge one charge per 10 seconds.<br><br><b>Unarmed Combat</b><li>Attack with Frills</li><b>Activate Frills</b><li>Complex Action</li><b>Charges</b><li>10 Charges</li><b>Recharge Rate</b><li>One Charge Per 10 Seconds</li><b>Wireless</b><li>The shock frills can be activated or deactivated as a Free Action. They can also recharge by induction, recharging one charge per hour.</li>"
+        },
+        "Thermal Damping": {
+            "Name": "Thermal Damping",
+            "Armor": "-",
+            "Capacity": "[<span style='color: #ff0000;'>Rating</span>]",
+            "Avail": "10R",
+            "Cost": "500¥ x Rating",
+            "S": "Core",
+            "Info": "Designed to reduce your thermal signature, these inner layers capture or bleed heat, so the outer layers maintain a surface temperature equal to the surrounding air. Add the rating to your limit on any Sneaking test against thermographic vision or thermal sensors.<br><br><b>Wireless</b><li>The suit uses the extra information about your surroundings and also gives you its rating as a dice pool bonus to Sneaking tests against heat-based detection.</li>"
+        },
+        "Auto-Injector": {
+            "Name": "Auto-Injector",
+            "Armor": "-",
+            "Capacity": "[<span style='color: #ff0000;'>2</span>]",
+            "Avail": "4",
+            "Cost": "1.500¥ + Chemical",
+            "S": "SR5:R&G",
+            "Info": "An auto-injector is a small medical injection unit built into the armor and usually linked to the user’s biomonitor.<br><br><b>Special Rules</b><li>If one or more pre-programmed conditions are met (set by the character with a Simple Logic + Computer [Mental] (1) Test), or an instruction is received from the wearer, either manually or through the user’s PAN, the auto-injector dispenses a medication, drug, or chemical directly into the wearer’s bloodstream. Each auto-injector carries five doses that can hold one or more substances in any combination. Refilling the injector takes 1 minute per dose.</li><b>Wireless Bonus</b><li>Activating a drug injection is a Free Action.</li>"
+        },
+        "Fresnel Fabric": {
+            "Name": "Fresnel Fabric",
+            "Armor": "-",
+            "Capacity": "[<span style='color: #ff0000;'>2</span>]",
+            "Avail": "14R",
+            "Cost": "1.000¥ x Rating",
+            "S": "SR5:R&G",
+            "Info": "I’m not a big tech head, so I don’t know exactly how this stuff works, but it’s a neat addition for anyone looking to maintain lines of communication in difficult areas. According to my tech specialist, this material can focus and concentrate light or radio waves like the lens on a lighthouse, boosting the directional power of a signal.<br><br><b>Special Rules</b><li>Reduce the Noise penalty by the rating of the Fabric. The Noise reduction is directional and the wearer needs to align their body in the direction of the device they are trying to connect with.</li><b>Wireless Bonus</b><li>Reduce the Noise penalty by 1 more.</li>"
+        },
+        "Pulse Weave": {
+            "Name": "Pulse Weave",
+            "Armor": "-",
+            "Capacity": "[<span style='color: #ff0000;'>3</span>]",
+            "Avail": "+8R",
+            "Cost": "3.000¥ x Rating",
+            "S": "SR5:R&G",
+            "Info": "Talk about a flashy suit! This stuff transforms a suit into one large flashpak. Like a nightclub in motion.<br><br><b>Special Rules</b><li>Anyone facing the pulse weave suit receives a –4 dice pool modifier on tests to make direct physical attacks on the wearer (flare compensation reduces this modifier to –2). The pulse weave offers a number of charges equal to its rating; it needs fifteen minutes to recharge.</li><b>Wireless Bonus</b><li>Increase the Attack Test penalties by 1.</li>"
+        },
+        "Shock Weave": {
+            "Name": "Shock Weave",
+            "Armor": "-",
+            "Capacity": "[<span style='color: #ff0000;'>3</span>]",
+            "Avail": "8",
+            "Cost": "1.000¥ x Rating",
+            "S": "SR5:R&G",
+            "Info": "This is great at keeping gropey guys off you at Dante’s or giving a nasty surprise to the sec guard trying to take you down. Shock weave delivers a moderate shock to anyone making contact with the protected area.<br><br><b>Special Rules</b><li>Anyone entering a Grapple or Clinch with someone wearing active Shock Weave armor must resist 8S(e) damage. The wearer can also choose to take a Block Action when attacked and intentionally block with an active Shock Weave plate on their armor. This test needs to generate at least 2 hits (not 2 net hits) for the Shock Weave to be effective. A glitch means the character accidentally zaps themselves. This armor modification cannot be used offensively.</li><b>Wireless Bonus</b><li>The Block Test only needs to generate 1 hit.</li>"
+        },
+        "Radiation Shielding": {
+            "Name": "Radiation Shielding",
+            "Armor": "-",
+            "Capacity": "[<span style='color: #ff0000;'>Rating</span>]",
+            "Avail": "Rating x 2",
+            "Cost": "200¥ x Rating",
+            "S": "SR5:R&G",
+            "Info": "Do I need to express what this is for and who needs it? I think not. If you’re working in an area that’s pumping out the rads, you’ll need this worked into your gear.<br><br><b>Special Rules</b><li>Each point of Radiation shielding provides 1 extra die for resisting Radiation damage (see p. 152).</li>"
+        },
+        "Gel Packs": {
+            "Name": "Gel Packs",
+            "Armor": "+2",
+            "Capacity": "[<span style='color: #ff0000;'>-</span>]",
+            "Avail": "6",
+            "Cost": "1.500¥",
+            "S": "SR5:R&G",
+            "Info": "This stuff looks silly but can save your life. Gel packs look like a bunch of take-out soy sauce packets layered all over your clothes or armor. They come in a variety of colors and can even be custom ordered with different colors in each packet to make a pattern or just add a little flare. The gel hardens for an instant to absorb some of the force of impact but then gets all squishy again if it isn’t punctured. If the gel makes contact with air it turns dusty and brittle immediately.<br><br><b>Special Rules</b><li>Installed externally, gel packs require no Capacity and increase the Armor Rating of whatever they are added to by 2. Since gel packs solidify for a brief instant, they increase the possibility that the wearer will be knocked down by an attack. When comparing the Physical Limit of a character using armor with gel packs to the DV of an attack to determine knockdown (see Knockdown, p. 194, SR5), lower the character’s Physical Limit by 2.</li>"
+        },
+        "Response Interface Gear": {
+            "Name": "Response Interface Gear",
+            "Armor": "-",
+            "Capacity": "[<span style='color: #ff0000;'>4/2</span>]",
+            "Avail": "8",
+            "Cost": "2.500¥",
+            "S": "SR5:R&G",
+            "Info": "This stuff is kind of fun, especially for those logged in to access live broadcasts during Desert Wars engagements, urban brawl games, or combat biker matches. It’s a full sim-suite and monitoring system. As of July 1, it also carries the official Miracle Shooter line, which comes with the feedback software to give soft simulations of hits during Miracle Shooter matches.<br><br><b>Special Rules</b><li>It acts as a combination trode net, sim module, and sim rig that connects to the wearer’s PAN. It allows records of each soldier’s actions and situations to be passed up the chain of command, as well as accessing the user’s natural senses for use as sensor channels. This system takes up 4 Capacity slots in the armor and 2 Capacity slot in the helmet; a RIG must be installed in both armor and helmet to work, and it only operates while all the armor is worn.</li><b>Wireless Bonus</b><li>+1 Mental Limit on Perception Tests.</li>"
+        },
+        "Biofiber Pocket": {
+            "Name": "Biofiber Pocket",
+            "Armor": "-",
+            "Capacity": "[<span style='color: #ff0000;'>2</span>]",
+            "Avail": "10F",
+            "Cost": "700¥",
+            "S": "SR5:R&G",
+            "Info": "This pocket is lined with biofiber, a bioengineered form of dual-natured plant life, which blocks Astral Perception of objects contained within the pocket. It is the best way to hide small foci or alchemical preparations from detection by security mages. Active foci cannot be used if they are stored within the pocket. The biofiber is alive and requires a special nutrient solution costing 20¥ a month."
+        },
+        "Concealed Pockets": {
+            "Name": "Concealed Pockets",
+            "Armor": "-",
+            "Capacity": "[<span style='color: #ff0000;'>1</span>]",
+            "Avail": "4",
+            "Cost": "40¥",
+            "S": "SR5:HT",
+            "Info": "Adds a small secret pocket large enough to hold a holdout pistol, commlink, or other similarly sized object. It grants a –2 Concealability modifier to that object."
+        },
+        "Faraday Pocket": {
+            "Name": "Faraday Pocket",
+            "Armor": "-",
+            "Capacity": "[<span style='color: #ff0000;'>1</span>]",
+            "Avail": "7R",
+            "Cost": "50¥",
+            "S": "SR5:HT",
+            "Info": "The armor has a small pocket with a signal-blocking insert. No wireless signals can penetrate this pocket. Cutting off your wireless access to avoid tracking is as simple as dropping your commlink into this pocket."
+        },
+        "Gear Access": {
+            "Name": "Gear Access",
+            "Armor": "-",
+            "Capacity": "[<span style='color: #ff0000;'>4</span>]",
+            "Avail": "4",
+            "Cost": "150¥",
+            "S": "SR5:HT",
+            "Info": "This feature allows items to be retrieved from the piece of armor with more ease than usual. This means drawing or retrieving items that are set up on the armor takes one lower action. Complex becomes Simple, and Simple becomes Free. Free stays Free, but gamemasters can consider allowing an extra Free Action for the Action Phase. This modification negates any Social or positive dice pool bonus to any armor it is added to with the exceptions of tests to absorb damage (natch) and tests that specifically effect Intimidation or groups that would not consider being strapped with tactical gear to be out of place."
+        }
+    }
+}

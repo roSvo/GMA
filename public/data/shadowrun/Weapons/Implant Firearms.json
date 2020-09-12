@@ -1,0 +1,96 @@
+{
+
+    "Implant Firearms": {
+        "Cyber Hold-Out": {
+            "Name": "Cyber Hold-Out",
+            "Acc": "4(6)",
+            "DV": "6P",
+            "AP": "-",
+            "Mode": "SA",
+            "RC": "-",
+            "Ammo": "2(m)/6(c)",
+            "Avail": "8R",
+            "Cost": "2.000¥",
+            "S": "Core",
+            "Info": "-"
+        },
+        "Light Cyber Pistol": {
+            "Name": "Light Cyber Pistol",
+            "Acc": "6(8)",
+            "DV": "7P",
+            "AP": "-",
+            "Mode": "SA",
+            "RC": "-",
+            "Ammo": "10(m)/15(c)",
+            "Avail": "10R",
+            "Cost": "3.900¥",
+            "S": "Core",
+            "Info": "-"
+        },
+        "Cyber Machine Pistol": {
+            "Name": "Cyber Machine Pistol",
+            "Acc": "4(6)",
+            "DV": "6P",
+            "AP": "-",
+            "Mode": "SA/BF",
+            "RC": "1",
+            "Ammo": "18(m)/32(c)",
+            "Avail": "12R",
+            "Cost": "3.500¥",
+            "S": "Core",
+            "Info": "-"
+        },
+        "Heavy Cyber Pistol": {
+            "Name": "Heavy Cyber Pistol",
+            "Acc": "4(6)",
+            "DV": "7P",
+            "AP": "-1",
+            "Mode": "SA",
+            "RC": "-",
+            "Ammo": "8(m)/12(c)",
+            "Avail": "12R",
+            "Cost": "4.300¥",
+            "S": "Core",
+            "Info": "-"
+        },
+        "Cyber Submachine Gun": {
+            "Name": "Cyber Submachine Gun",
+            "Acc": "4(6)",
+            "DV": "7P",
+            "AP": "-",
+            "Mode": "SA/BF",
+            "RC": "2",
+            "Ammo": "18(m)/32(c)",
+            "Avail": "12R",
+            "Cost": "4.800¥",
+            "S": "Core",
+            "Info": "-"
+        },
+        "Cyber Shotgun": {
+            "Name": "Cyber Shotgun",
+            "Acc": "4(6)",
+            "DV": "10P",
+            "AP": "-1",
+            "Mode": "SS",
+            "RC": "-",
+            "Ammo": "4(m)/10(c)",
+            "Avail": "12R",
+            "Cost": "8.500¥",
+            "S": "Core",
+            "Info": "-"
+        },        
+        "Cyber Microgrenade Launcher": {
+            "Name": "Cyber Microgrenade Launcher",
+            "Acc": "4(6)",
+            "DV": "Grenade",
+            "AP": "Grenade",
+            "Mode": "SS",
+            "RC": "-",
+            "Ammo": "2(m)/6(c)",
+            "Avail": "20F",
+            "Cost": "30.000¥",
+            "S": "Core",
+            "Info": "-"
+        }
+    }
+}

@@ -1,0 +1,70 @@
+{
+
+    "Launchers": {
+        "Ares Antioch-2": {
+            "Name": "Ares Antioch-2",
+            "Acc": "4(6)",
+            "DV": "Grenade",
+            "AP": "-",
+            "Mode": "SS",
+            "RC": "-",
+            "Ammo": "8(m)",
+            "Avail": "8F",
+            "Cost": "3.200¥",
+            "S": "Core",
+            "Info": "The Antioch–2 features a classic grenade launcher design combined with an integral smartlink system. It is one of the more affordable grenade launchers on the market.<br><br><b>Modifiers</b><li>Integrated Smartlink</li><b>Wireless</b><li>You can use the wireless link trigger for your grenades, even if you don’t have DNI (Direct Neural Interface sidebar, p. 222).</li>"
+        },
+        "ArmTech MGL-12": {
+            "Name": "ArmTech MGL-12",
+            "Acc": "4",
+            "DV": "Grenade",
+            "AP": "-",
+            "Mode": "SA",
+            "RC": "-",
+            "Ammo": "42(c)",
+            "Avail": "10F",
+            "Cost": "5.000¥",
+            "S": "Core",
+            "Info": "This bullpup-configuration grenade launcher is popular, since it can fire in semi-auto mode and carries substantially more minigrenades than its competitors.<br><br><b>Wireless</b><li>You can use the wireless link trigger for your grenades, even if you don’t have DNI (Direct Neural Interface sidebar, p. 222).</li>"
+        },
+        "Aztechnology Striker": {
+            "Name": "Aztechnology Striker",
+            "Acc": "5",
+            "DV": "Missile",
+            "AP": "-",
+            "Mode": "SS",
+            "RC": "-",
+            "Ammo": "1(ml)",
+            "Avail": "10F",
+            "Cost": "1.200¥",
+            "S": "Core",
+            "Info": "The Striker is an extremely light disposable launcher—perfect when you want to deliver a punch and make a quick, unencumbered getaway.<br><br><b>Wireless</b><li>You can use the wireless link trigger for your missiles, even if you don’t have DNI (Direct Neural Interface sidebar, p. 222).</li>"
+        },
+        "Onotari Arms Ballista MML": {
+            "Name": "Onotari Arms Ballista MML",
+            "Acc": "Missile",
+            "DV": "Missile",
+            "AP": "Missile",
+            "Mode": "SS",
+            "RC": "-",
+            "Ammo": "4(m)",
+            "Avail": "19F",
+            "Cost": "7.500¥",
+            "S": "SR5:R&G",
+            "Info": "Leave it to Saeder-Krupp to design a system great for taking dragons out of the sky. The Ballista saw a lot of action recently during the Dragon Wars, and mercenary units have picked up quite a bit of the overstock that was produced in expectation of a longer conflict. The system is a backpack and launcher set up that holds four extra missiles that will automatically reload after each shot. The setup comes with a handheld laser designator for independent targeting but the missiles can respond to other designators and their own internal systems.<br><br><b>Area Targetting</b><li>The Ballista can attack with both direct and indirect missile fire. A handheld laser target designator is linked to the backpack unit with a fiber-optic cable securing the system from hacking.</li><b>Wireless</b><li>The Ballista can also accept orders wirelessly from other target designators linked to the user’s PAN (see PANs and WANs, p. 233, SR5).</li><b>Reload</b><li>The magazine is hard to replace and requires 3 Complex Actions if done by a second person. The wearer would need to remove the backpack (Complex Action), replace the magazine (3 Complex Actions), and then put the backpack back on (2 Complex Actions) in order to change it themselves.</li>"
+        },
+        "Onotari Interceptor": {
+            "Name": "Onotari Interceptor",
+            "Acc": "4(6)",
+            "DV": "Missile",
+            "AP": "-",
+            "Mode": "SS",
+            "RC": "-",
+            "Ammo": "2(ml)",
+            "Avail": "18F",
+            "Cost": "14.000¥",
+            "S": "Core",
+            "Info": "This Saeder-Krupp-developed military missile launcher is designed to fire rockets or guided missiles, of any type. It has two separate barrels and firing chambers, and can load up to two missiles at once, which need not be of the same type. Due to backblast issues, it is not capable of “giving ‘em both barrels.” It features an internal smartgun system.<br><br><b>Modifiers</b><li>Smart Gun</li><b>Wireless</b><li>You can use the wireless link trigger for your missiles, even if you don’t have DNI (Direct Neural Interface sidebar, p. 222).</li>"
+        }   
+    }
+}

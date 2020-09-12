@@ -1,0 +1,85 @@
+{
+    
+    "Grenades": {
+        "Flash-Bang": {
+            "Name": "Flash-Bang",
+            "DV": "10S",
+            "AP": "-4",
+            "Blast": "10m Radius",
+            "Avail": "6R",
+            "Cost": "100¥",
+            "S": "Core",
+            "Info": "Upon detonation, these “concussion” or “stun” grenades explode to create a bright, loud, shocking blast distributed equally over a radius of 10 meters."
+        },
+        "Flash-Pak": {
+            "Name": "Flash-Pak",
+            "DV": "Special",
+            "AP": "-",
+            "Blast": "Special",
+            "Avail": "4",
+            "Cost": "125¥",
+            "S": "Core",
+            "Info": "Not a grenade per se, this is an electronic unit the size of a pack of cigarettes containing four quartz-halogen micro-flashes designed to fire in random strobing sequence to blind opponents. Anyone looking in the direction of a flash-pak receives a –4 dice pool penalty on attack tests due to the strobing (flare compensation goggles, glasses, etc. reduce this modifier to –2, while flare compensation in cybereyes or as a retinal modification reduces this modifier to –1). The flash-pak has 10 charges; when activated it uses one charge per Combat Turn. When plugged in, it recharges one charge every 10 seconds.<br><br><b>Charges</b><li>10</li><b>Discharge Rate</b><li>1 Charge Per Combat Turn</li><b>Recharge Rate</b><li>1 Charge Per 10 Seconds</li><b>Wireless</b><li>The strobe sequence can avoid directing strong flashes at the subscribed character; they suffer only half glare penalties from the flash-pak, rounded down. It can recharge by induction, regaining one charge per hour.</li>"
+        },
+        "Fragmentation": {
+            "Name": "Fragmentation",
+            "DV": "18P(f)",
+            "AP": "+5",
+            "Blast": "-1/m",
+            "Avail": "11F",
+            "Cost": "100¥",
+            "S": "Core",
+            "Info": "These classic killing devices are designed to spread a cloud of deadly shrapnel over a large area, seriously injuring soft targets."
+        },
+        "High Explosive": {
+            "Name": "High Explosive",
+            "DV": "16P",
+            "AP": "-2",
+            "Blast": "-2/m",
+            "Avail": "11F",
+            "Cost": "100¥",
+            "S": "Core",
+            "Info": "These grenades are designed to deliver a large blast and concentrated hurt."
+        },
+        "Gas": {
+            "Name": "Gas",
+            "DV": "as Chemical",
+            "AP": "-",
+            "Blast": "10m Radius",
+            "Avail": "+2 As Chemical",
+            "Cost": "40¥ + Chemical",
+            "S": "Core",
+            "Info": "Instead of exploding, the gas grenade releases a cloud of gas over an area with a radius of 10 meters. This is usually riot control/CS gas, but many other chemical or toxin payloads can be chosen (Toxins, Drugs, and BTLs, p. 408). The cloud lasts for approximately 4 Combat Turns (less in windy areas, longer in confined areas with poor ventilation, at the gamemaster’s discretion).<br><br><b>Duration</b><li>4 Combat Turns</li>"
+        },
+        "Smoke": {
+            "Name": "Smoke",
+            "DV": "-",
+            "AP": "-",
+            "Blast": "10m Radius",
+            "Avail": "4R",
+            "Cost": "40¥",
+            "S": "Core",
+            "Info": "Similar to the gas grenade, a smoke grenade releases a cloud of smoke over an area with a diameter of 10 meters. The cloud obscures vision, applying visibility modifiers for smoke to relevant tests (p. 174). The cloud lasts for approximately 4 Combat Turns (less in windy areas, longer in confined areas with poor ventilation, at the gamemaster’s discretion).<br><br><b>Duration</b><li>4 Combat turns</li>"
+        },
+        "Thermal Smoke": {
+            "Name": "Thermal Smoke",
+            "DV": "-",
+            "AP": "-",
+            "Blast": "10m Radius",
+            "Avail": "6R",
+            "Cost": "60¥",
+            "S": "Core",
+            "Info": "Identical to a smoke grenade, except that the smoke contains hot particles designed to obscure thermographic vision. Apply the visibility modifiers for thermal smoke (p. 174). The cloud lasts for approximately 4 Combat Turns (less in windy areas, longer in confined areas with poor ventilation, at the GM’s discretion).<br><br><b>Duration</b><li>4 Combat turns</li>"
+        },
+        "Paint Grenade": {
+            "Name": "Paint Grenade",
+            "DV": "-",
+            "AP": "-",
+            "Blast": "-2/m",
+            "Avail": "8R",
+            "Cost": "100¥",
+            "S": "SR5:R&G",
+            "Info": "A low-tech way of defeating pesky invisibility spells, marking something in a hurry, or just slotting someone off. Available in a variety of colors, the paint grenade has the same blast radius as the standard high-explosive grenade but none of the nasty death-aftereffects. Subjects within the blast radius are covered with a splatter of paint. Radioactive tracking dye can also be added for an additional 50 nuyen."
+        }
+    }
+}

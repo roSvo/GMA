@@ -1,0 +1,50 @@
+{
+
+    "Environmental": {
+        "Ghillie Suit": {
+            "Name": "Ghillie Suit",
+            "Armor": "4",
+            "Capacity": "<span style='color: #00ff00;'>4</span>",
+            "Avail": "6",
+            "Cost": "600¥",
+            "S": "SR5:R&G",
+            "Info": "On the shelf it just looks like a colored netting, but out in the field these suits are the height of simpletech camouflage. They come in styles for all major environments and have even released an urban blight style that helps the wearer hide out in trash filled alleys and the rubble of crumbling buildings. Great for runners and the homeless alike.<br><br><b>Features</b><li>Restrictive</li><b>Special Rules</b><li>When hiding in a location for which the suit is customized, a ghillie suit provides a –6 dice pool modifier to Perception Tests to spot the camouflaged character as long as he remains immobile; if the character is moving, reduce the modifier to –2.</li><b>Wireless Bonus</b><li>Um … you draw in curious Hackers?</li>"
+        },
+        "Ares Armored Survivalist": {
+            "Name": "Ares Armored Survivalist",
+            "Armor": "8",
+            "Capacity": "<span style='color: #00ff00;'>6</span>",
+            "Avail": "10",
+            "Cost": "1.500¥",
+            "S": "SR5:R&G",
+            "Info": "Designed to protect from rain and raining lead, this suit is designed for hunters who think they might become the hunted. Originally built off designs for Ares’ various security firms that work in hostile environments, these suits come with a wide array of options, but they leave fashion to the shops in Paris.<br><br><b>Features</b><li>Custom Protection (4)<br>Decrease Social Limit by 1</li><b>Wireless Bonus</b><li>+1 on all Survival Tests in appropriate Custom Protection terrain.</li>"
+        },        
+        "Drysuit": {
+            "Name": "Drysuit",
+            "Armor": "-",
+            "Capacity": "<span style='color: #00ff00;'>4</span>",
+            "Avail": "6",
+            "Cost": "2.500¥",
+            "S": "SR5:R&G",
+            "Info": "Drysuits enclose the diver in a sheath of air, sandwiched between an outer layer keeping out the water and an inner layer snug against the skin. Because drysuits work even more effectively in heat insulation than wetsuits, divers use them for dives in Arctic waters or for dives greater than 200 meters that would last extended periods of time.<br><br><b>Features</b><li>Drysuits feature a Chemical Seal (with the hood up and face mask attached), Custom Protection (Insulation 4)</li><b>Wireless Bonus</b><li>Transmits environmental information.</li>"
+        },
+        "Evo HEL Suit": {
+            "Name": "Evo HEL Suit",
+            "Armor": "8",
+            "Capacity": "<span style='color: #00ff00;'>5</span>",
+            "Avail": "10",
+            "Cost": "3.000¥",
+            "S": "SR5:R&G",
+            "Info": "The HEL (Hostile Environment Living) is the everyday dress of space-station inhabitants and astronauts. The thin, tight-fitting, puncture- and-tear-resistant suit covers the whole body except the face, which can be protected by a hood and self-attaching breath and eye mask with an internal five-minute supply of highly compressed air that is usually carried within one of the suit’s many pouches. The suit is made of some of the most advanced clothing materials available, offering limited vacuum protection, as well as protection from hot or cold environments and chemicals. Due to its many useful traits and high comfort, the suit has become increasingly popular with people working in uncomfortable earthbound surroundings as well (at least those for whom the suit’s high price is no obstacle).<b>Features</b><li>Custom Protection (Insulation 4<br>Fire Resistance 2<br>Radiation Shield 3<br>Chemical Protection 2)<br>Custom Fit<br>Gas Mask</li><b>Wireless Bonus</b><li>Records and transmits environmental information.</li>"
+        },
+        "MCT EE Suit": {
+            "Name": "MCT EE Suit",
+            "Armor": "6",
+            "Capacity": "<span style='color: #00ff00;'>5</span>",
+            "Avail": "10",
+            "Cost": "2.500¥",
+            "S": "SR5:R&G",
+            "Info": "While Evo has focused on spacesuit design due to their extraterrestrial intentions, Mitsuhama has been designing ways to protect themselves from the messes they keep leaving all over the planet. This is one such effort—it’s a full-body, extreme-environment suit from Mitsuhama and it’s worn by those who deal directly with hazardous materials/environments, especially chemical and biological agents or radiation.<br><br><b>Features</b><li>Custom Protection (Chemical Seal, Fire Resistance 4, Radiation Shielding 6).</li><b>Wireless Bonus</b><li>Record and transmits environmental information</li>"
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    
+    "Missiles": {
+        "Anti-vehicle": {
+            "Name": "Anti-vehicle",
+            "DV": "24P",
+            "AP": "-4/-10",
+            "Blast": "-4/m",
+            "Avail": "18F",
+            "Cost": "2.800¥",
+            "S": "Core",
+            "Info": "AV rockets/missiles contain a shapedcharge warhead designed to burn or punch its way through a vehicle or barrier. Though the impact causes a blast, it is limited compared to that of a High-Explosive projectile. AV attacks have an AP of –10 against vehicles and barriers, –4 against other targets."
+        },
+        "Fragmentation": {
+            "Name": "Fragmentation",
+            "DV": "23P(f)",
+            "AP": "+5",
+            "Blast": "-1/m",
+            "Avail": "12F",
+            "Cost": "2.000¥",
+            "S": "Core",
+            "Info": "Used principally against people, the warhead discharges high-speed metal or plastic-metal fragments designed to tear into unprotected flesh. These rockets/missiles are very effective against unprotected individuals, but fairly ineffective against barriers, structures, and vehicles."
+        },
+        "High-explosive": {
+            "Name": "High-explosive",
+            "DV": "21P",
+            "AP": "-2",
+            "Blast": "-2/m",
+            "Avail": "18F",
+            "Cost": "2.100¥",
+            "S": "Core",
+            "Info": "HE rockets/missiles are designed to do heavy damage to a large area. Their blast pattern is similar to that of a grenade, but much larger. They are not particularly effective against hardened targets, such as vehicles or protected military structures. HE weapons use the standard grenade rules for determining the blast and its effects."
+        }
+    }
+}

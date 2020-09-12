@@ -1,0 +1,65 @@
+{
+    
+    "Bikes": {
+        "Dodge Scoot": {
+            "Name": "Dodge Scoot",
+            "Handl": "4/3",
+            "Speed": "3",
+            "Accel": "1",
+            "Bod": "4",
+            "Armor": "4",
+            "Pilot": "1",
+            "Sensor": "1",
+            "Seats": "1",
+            "Avail": "-",
+            "Cost": "3.000¥",
+            "S": "Core",
+            "Info": "This is an electric-powered scooter with a top speed of don’t make me laugh. It’s compact, fuel-efficient, and super-affordable, but no self-respecting shadowrunners would be caught dead on one."
+        },
+        "Harley-Davidson Scorpion": {
+            "Name": "Harley-Davidson Scorpion",
+            "Handl": "4/3",
+            "Speed": "4",
+            "Accel": "2",
+            "Bod": "8",
+            "Armor": "9",
+            "Pilot": "1",
+            "Sensor": "2",
+            "Seats": "1",
+            "Avail": "-",
+            "Cost": "12.000¥",
+            "S": "Core",
+            "Info": "This bike is a classic, heavy-bodied, heavily chromed road hog, armored and styled for intimidation. Very popular with a certain type of go-ganger, and with big, tough orks and trolls who don’t worry about little things like “embodying a cliche.” This bike is even tough enough to be used in the combat biking circuit."
+        },        
+        "Yamaha Growler": {
+            "Name": "Yamaha Growler",
+            "Handl": "4/5",
+            "Speed": "3/4",
+            "Accel": "1",
+            "Bod": "5",
+            "Armor": "5",
+            "Pilot": "1",
+            "Sensor": "1",
+            "Seats": "1",
+            "Avail": "-",
+            "Cost": "5.000¥",
+            "S": "Core",
+            "Info": "This is a durable off-road bike used in motocross and other extreme sports events, usually seen in photos and footage with both the bike and its rider covered in dust. It’s popular with thrill seekers, wilderness buffs, and light-freight drug smugglers."
+        },        
+        "Suzuki Mirage": {
+            "Name": "Suzuki Mirage",
+            "Handl": "5/3",
+            "Speed": "6",
+            "Accel": "3",
+            "Bod": "5",
+            "Armor": "6",
+            "Pilot": "1",
+            "Sensor": "2",
+            "Seats": "1",
+            "Avail": "-",
+            "Cost": "8.500¥",
+            "S": "Core",
+            "Info": "This Japanese racing bike is a fast, sleek speed machine, popular with the other type of go-ganger—it’s worth mentioning that both the Scorpion and the Mirage are popular with the Cutters, but the Ancients show a notable preference for the Mirage and its cousins and competitors. Like the Scorpion, the Mirage also sees some use in the combat bike circuit."
+        }
+    }
+}

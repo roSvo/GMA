@@ -1,0 +1,84 @@
+[33mcommit 473b93f41eff06aa8e6ad78b1acd5e203c56bb61[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: unknown <jusa.sorvo@gmail.com>
+Date:   Sat Sep 12 10:27:37 2020 +0300
+
+    Backup plan, decided to go with span and div instead of table. If everything goes to south, revert from this branch.
+
+[33mcommit 857748c823d46b0b61f8ff3484bca406b4d4fa3f[m
+Author: unknown <jusa.sorvo@gmail.com>
+Date:   Sat Aug 15 10:15:36 2020 +0300
+
+    Somewhat working website, ugly ass hell though
+
+[33mcommit b0e3df6c126fd47ab58c3e06a2ef1dd1eedf02a1[m
+Author: unknown <jusa.sorvo@gmail.com>
+Date:   Wed Jul 22 19:47:35 2020 +0300
+
+    Everything should now work, although it's not beautiful.
+
+[33mcommit e42a18dc795a62d26c797798a33daf9e12c67c82[m
+Author: Jusa Sorvo <jusa.sorvo@raute.com>
+Date:   Sat Jul 18 16:42:07 2020 +0300
+
+    Back to multiple json files..
+
+[33mcommit 1f2c9fd2d9cbf73d088647856507980a2a4c6186[m
+Author: Jusa Sorvo <jusa.sorvo@raute.com>
+Date:   Fri Jul 17 12:11:02 2020 +0300
+
+    There shold be everything I need to do the magic
+
+[33mcommit 69afebcbc1c8cd7e522fe579ffdb21e66a56e6e0[m
+Author: unknown <jusa.sorvo@gmail.com>
+Date:   Wed Jul 8 19:51:16 2020 +0300
+
+    Now everyting should be in order
+
+[33mcommit f167a8ca1eb81ae33afcabfbac5c84fdf05b2bc6[m
+Merge: ad20c01 6299fb1
+Author: unknown <jusa.sorvo@gmail.com>
+Date:   Wed Jul 8 19:48:55 2020 +0300
+
+    Hopefully this works
+
+[33mcommit ad20c017b31b63bad27e841cf2ee71491c44243a[m
+Author: unknown <jusa.sorvo@gmail.com>
+Date:   Wed Jul 8 19:21:30 2020 +0300
+
+    Initial commit vol2, server seems to be working as I wanted (for now).
+
+[33mcommit 6299fb1a4e2a231c11d60bcc118e9906359ba457[m
+Author: Aino Honkanen <aino.honkanen@hotmail.com>
+Date:   Sun Feb 23 20:36:54 2020 +0200
+
+    Basic forward backward shold now work with key values. Next add data.
+
+[33mcommit b9deb6d0e03be51f8484c3f916b4bb651e3d159d[m
+Author: unknown <jusa.sorvo@gmail.com>
+Date:   Mon Feb 17 21:52:01 2020 +0200
+
+    should work now
+
+[33mcommit 60e7bac4574461fb254d0f64f36cb7be68c1d335[m
+Author: unknown <jusa.sorvo@gmail.com>
+Date:   Sun Feb 16 13:23:02 2020 +0200
+
+    Forward - backwards works now. Next create more sophisticated json files.
+
+[33mcommit 6beea75a17da9979da077837a2683f9ec1c70b82[m
+Author: unknown <jusa.sorvo@gmail.com>
+Date:   Thu Feb 6 19:35:44 2020 +0200
+
+    Router & Very simple webpages
+
+[33mcommit b5ff5c99e0c3be2dcdbea4b882042a9409ec4f77[m
+Author: unknown <jusa.sorvo@gmail.com>
+Date:   Sat Jan 11 11:40:01 2020 +0200
+
+    Initial commit
+
+[33mcommit 6aff59a2a47c6ab1d7c2a497dd9e4f8476cac7a9[m
+Author: roSvo <jusa.sorvo@gmail.com>
+Date:   Sat Jan 11 11:36:37 2020 +0200
+
+    Initial commit

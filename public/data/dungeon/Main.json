@@ -1,0 +1,9 @@
+{
+    "Main" :
+    [
+        "Guide",
+        "Stats",
+        "Skills",
+        "Equipment"
+    ]
+}

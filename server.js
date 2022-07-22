@@ -69,10 +69,10 @@ const requestResponseHandler = (IncomingMessage, ServerResponse) =>
       sendResponse('public/images/ShadowsBackground.jpg', 'text/jpg', ServerResponse);
       break;
     }
-    case 'Shadowrunshadowrun.js':
+    case 'ShadowrunListItems.js':
     {
       //Send public javaScript file
-      sendResponse('public/js/shadowrun.js', 'text/javascript', ServerResponse);
+      sendResponse('public/js/ListItems.js', 'text/javascript', ServerResponse);
       break;
     }
     case 'ShadowrunMain':
@@ -91,7 +91,6 @@ const requestResponseHandler = (IncomingMessage, ServerResponse) =>
     }
     case 'ShadowrunGuide':
     {
-
       //TODO, NOT RequestDirectory + RequestFile should work dynamically
       //'Back' case
       if(RequestFile == 'Guide')
@@ -106,70 +105,95 @@ const requestResponseHandler = (IncomingMessage, ServerResponse) =>
       }
     }
     case 'ShadowrunStats':
+    {
+      //TODO, NOT RequestDirectory + RequestFile should work dynamically
+      //'Back' case
+      if(RequestFile == 'Stats')
       {
-  
-        //TODO, NOT RequestDirectory + RequestFile should work dynamically
-        //'Back' case
-        if(RequestFile == 'Stats')
-        {
-          sendResponse('/public/data/Shadowrun/Main/Stats.json', 'application/json', ServerResponse)
-          break;
-        } 
-        else
-        {
-          sendResponse('/public/data/' + prefix + '/' + RequestDirectory + "/"  + RequestFile + '.json', 'application/json', ServerResponse);
-          break;
-        }
+        sendResponse('/public/data/Shadowrun/Main/Stats.json', 'application/json', ServerResponse)
+        break;
+      } 
+      else
+      {
+        sendResponse('/public/data/' + prefix + '/' + RequestDirectory + "/"  + RequestFile + '.json', 'application/json', ServerResponse);
+        break;
       }
-      case 'ShadowrunSkills':
-        {
-    
-          //TODO, NOT RequestDirectory + RequestFile should work dynamically
-          //'Back' case
-          if(RequestFile == 'Skills')
-          {
-            sendResponse('/public/data/Shadowrun/Main/Skills.json', 'application/json', ServerResponse)
-            break;
-          } 
-          else
-          {
-            sendResponse('/public/data/' + prefix + '/' + RequestDirectory + "/"  + RequestFile + '.json', 'application/json', ServerResponse);
-            break;
-          }
-        }
-        case 'ShadowrunEquipment':
-          {
-      
-            //TODO, NOT RequestDirectory + RequestFile should work dynamically
-            //'Back' case
-            if(RequestFile == 'Equipment')
-            {
-              sendResponse('/public/data/Shadowrun/Main/Equipment.json', 'application/json', ServerResponse)
-              break;
-            } 
-            else
-            {
-              sendResponse('/public/data/' + prefix + '/' + RequestDirectory + "/"  + RequestFile + '.json', 'application/json', ServerResponse);
-              break;
-            }
-          }
+    }
+    case 'ShadowrunSkills':
+    {
+      //TODO, NOT RequestDirectory + RequestFile should work dynamically
+      //'Back' case
+      if(RequestFile == 'Skills')
+      {
+        sendResponse('/public/data/Shadowrun/Main/Skills.json', 'application/json', ServerResponse)
+        break;
+      } 
+      else
+      {
+        sendResponse('/public/data/' + prefix + '/' + RequestDirectory + "/"  + RequestFile + '.json', 'application/json', ServerResponse);
+        break;
+      }
+    }
+    case 'ShadowrunEquipment':
+    {
+      //TODO, NOT RequestDirectory + RequestFile should work dynamically
+      //'Back' case
+      if(RequestFile == 'Equipment')
+      {
+        sendResponse('/public/data/Shadowrun/Main/Equipment.json', 'application/json', ServerResponse)
+        break;
+      } 
+      else
+      {
+        sendResponse('/public/data/' + prefix + '/' + RequestDirectory + "/"  + RequestFile + '.json', 'application/json', ServerResponse);
+        break;
+      }
+    }
     //------------------------------------------------------------------------------------
     
     
     //DUNGEON AND DRAGONS PAGE
     //------------------------------------------------------------------------------------
-    case '/dungeon':
+    case 'dungeon':
     {
       //Send html
+      prefix = "Dungeon";
       sendResponse('public/html/dungeon.html', 'text/html', ServerResponse);
       break;
     }
-    case '/dungeon.css':
+    case 'Dungeondungeon.css':
     {
       //Send css
       sendResponse('public/css/dungeon.css', 'text/css', ServerResponse);
       break;
     }
+    case 'DungeondungeonBackground.jpg':
+    {
+      //Send background image
+      sendResponse('public/images/DungeonBackgound.jpg', 'text/jpg', ServerResponse);
+      break;
+    }
+    case 'DungeonListItems.js':
+    {
+      //Send public javaScript file
+      sendResponse('public/js/ListItems.js', 'text/javascript', ServerResponse);
+      break;
+    }
+    case 'DungeonMain':
+      {
+        //'Back' case
+        if(RequestFile == null || RequestFile == 'Main')
+        {
+          sendResponse('/public/data/dungeon/Main.json', 'application/json', ServerResponse);
+          break;
+        }
+        else
+        {
+          sendResponse('/public/data/' + prefix + '/' + RequestDirectory + "/" + RequestFile + '.json', 'application/json', ServerResponse);
+          break;
+        }
+      }
+    
 
     default:
     {
